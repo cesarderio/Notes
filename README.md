@@ -43,7 +43,7 @@ Welcome to the "Notes" repository, a comprehensive collection of tutorials and g
   - [Security](#security)
   - [SysAdmin](#sysadmin)
   - [Virtualbox](#virtualbox)
-  - [Virtual Machine Troublshooting](#virtual machine troubleshooting)
+  - [Troubleshooting](#troubleshooting)
   - [Wireshark](#wireshark)
   - [Others](#others)
 - [Contributing](#contributing)
@@ -217,13 +217,13 @@ Each tutorial in the repository is a standalone document. Simply open the `.md` 
 
 - [System Administration Tutorial](/SysAdmin.md): Essential skills and knowledge for effective system administration.
 
+### Troubleshooting
+
+- [Virtual Machine Troubleshooting Guide](/Trblsht.md): Solve common issues encountered in virtual machine environments.
+
 ### Virtualbox
 
 - [Virtualbox Tutorial](/Virtualbox.md): Learn how to set up and manage virtual machines using VirtualBox.
-
-### Virtual Machine Troubleshooting
-
-- [Virtual Machine Troubleshooting Guide](/VM_Trblsht.md): Solve common issues encountered in virtual machine environments.
 
 ### Wireshark
 
