@@ -11,21 +11,21 @@ Welcome to the "Notes" repository, a comprehensive collection of tutorials and g
 - [Tutorials](#tutorials)
   - [Aircrack-ng](#aircrack-ng)
   - [Ansible](#ansible)
-  - [API_Development](#api development)
+  - [APIs](#apis)
   - [Automation](#automation)
   - [Burpsuite](#burpsuite)
   - [CasaOS](#casaos)
   - [Chef](#chef)
-  - [Chron_Jobs](#chron jobs)
-  - [CI/CD](#ci cd)
-  - [Cloud_Services](#cloud services)
+  - [Chron](#chron)
+  - [CICD](#cicd)
+  - [Clouds](#clouds)
   - [DevOps](#devops)
   - [Git](#git)
   - [Gnome](#gnome)
   - [Grafana](#grafana)
   - [Kali](#kali)
   - [Containers](#containers)
-  - [Linux_Commands](#linux commands)
+  - [Linux](#linux)
   - [Medusa](#medusa)
   - [Metasploit](#metasploit)
   - [MySQL](#mysql)
@@ -40,10 +40,10 @@ Welcome to the "Notes" repository, a comprehensive collection of tutorials and g
   - [Proxmox](#proxmox)
   - [Puppet](#puppet)
   - [Python](#python)
-  - [Security_Practices_&_Tools](#security practices & tools)
-  - [System_Administration](#system administration)
+  - [Security](#security)
+  - [SysAdmin](#sysadmin)
   - [Virtualbox](#virtualbox)
-  - [Virtual_Machine_Troublshooting](#virtual machine troubleshooting)
+  - [Virtual Machine Troublshooting](#virtual machine troubleshooting)
   - [Wireshark](#wireshark)
   - [Others](#others)
 - [Contributing](#contributing)
@@ -93,9 +93,9 @@ Each tutorial in the repository is a standalone document. Simply open the `.md` 
 
 - [Ansible Setup Tutorial](/Ansible.md): Learn how to automate IT tasks and manage configurations efficiently with Ansible.
 
-### API Development
+### APIs
 
-- [API Development Setup Tutorial](/API_Dev.md): A comprehensive guide to developing, testing, and deploying APIs.
+- [API Development Setup Tutorial](/APIs.md): A comprehensive guide to developing, testing, and deploying APIs.
 
 ### Automation
 
@@ -113,15 +113,15 @@ Each tutorial in the repository is a standalone document. Simply open the `.md` 
 
 - [Chef Setup Tutorial](/Chef.md): Learn how to manage your infrastructure with Chef's configuration management tools.
 
-### Chron Jobs
+### Chron
 
-- [Chron Jobs Setup Tutorial](/ChronJs.md): A guide to scheduling and managing tasks automatically using cron jobs.
+- [Chron Jobs Setup Tutorial](/Chron.md): A guide to scheduling and managing tasks automatically using cron jobs.
 
 ### CI/CD
 
-- [CI/CD Setup Tutorial](/CI_CD.md): Get started with Continuous Integration and Continuous Deployment for efficient software development workflows.
+- [CI/CD Setup Tutorial](/CICD.md): Get started with Continuous Integration and Continuous Deployment for efficient software development workflows.
 
-### Cloud Services
+### Clouds
 
 - [Cloud Services Setup Tutorial](/Clouds.md): Navigate through various cloud service platforms and their utilization.
 
@@ -209,11 +209,11 @@ Each tutorial in the repository is a standalone document. Simply open the `.md` 
 
 - [Python Programming Tutorial](/Python.md): Dive into Python programming for various applications.
 
-### Security Best Practices & Tools
+### Security
 
 - [Security Practices & Tools Tutorial](/Security.md): A comprehensive guide on best practices and tools in cybersecurity.
 
-### System Administration
+### SysAdmin
 
 - [System Administration Tutorial](/SysAdmin.md): Essential skills and knowledge for effective system administration.
 
