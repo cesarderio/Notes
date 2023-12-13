@@ -45,6 +45,7 @@ Welcome to the "Notes" repository, a comprehensive collection of tutorials and g
   - [Virtualbox](#virtualbox)
   - [Troubleshooting](#troubleshooting)
   - [Wireshark](#wireshark)
+  - [Zip](#zip)
   - [Others](#others)
 - [Contributing](#contributing)
 
@@ -137,6 +138,10 @@ Each tutorial in the repository is a standalone document. Simply open the `.md` 
 
 - [Git Tutorial](/Git.md): A comprehensive guide to using Git for version control in your projects.
 
+### Github
+
+- [GitHub Tutorial](/GitHub.md): A comprehensive guide to using GitHub for source code management, collaboration, and version control.
+
 ### Gnome
 
 - [Gnome Setup Tutorial](/Gnome.md): Get to know Gnome, a popular desktop environment for Linux systems.
@@ -149,7 +154,7 @@ Each tutorial in the repository is a standalone document. Simply open the `.md` 
 
 - [Kali Linux Tutorial](/Kali.md): Explore the use of Kali Linux, a powerful distribution for security testing and ethical hacking.
 
-### Linux Commands
+### Linux
 
 - [Linux Commands Tutorial](/Linux_Cmds.md): Familiarize yourself with essential Linux commands for system management.
 
@@ -228,6 +233,10 @@ Each tutorial in the repository is a standalone document. Simply open the `.md` 
 ### Wireshark
 
 - [Wireshark Tutorial](/Wireshark.md): Master network protocol analysis with Wireshark.
+
+### Zip
+
+- [ZIP Tutorial](/Zipfiles.md): Managing zip files and folders in different formats and environments.
 
 ### Others
 
