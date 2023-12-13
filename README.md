@@ -21,6 +21,7 @@ Welcome to the "Notes" repository, a comprehensive collection of tutorials and g
   - [Clouds](#clouds)
   - [DevOps](#devops)
   - [Git](#git)
+  - [Github](#github)
   - [Gnome](#gnome)
   - [Grafana](#grafana)
   - [Kali](#kali)
@@ -43,6 +44,7 @@ Welcome to the "Notes" repository, a comprehensive collection of tutorials and g
   - [Security](#security)
   - [SysAdmin](#sysadmin)
   - [Virtualbox](#virtualbox)
+  - [Terraform](#terraform)
   - [Troubleshooting](#troubleshooting)
   - [Wireshark](#wireshark)
   - [Zip](#zip)
@@ -221,6 +223,10 @@ Each tutorial in the repository is a standalone document. Simply open the `.md` 
 ### SysAdmin
 
 - [System Administration Tutorial](/SysAdmin.md): Essential skills and knowledge for effective system administration.
+
+### Terraform
+
+- [Terraform Tutorial](/Terraform.md): Infrastructure as Code tool for building, changing, and versioning infrastructure efficiently.
 
 ### Troubleshooting
 
