@@ -22,6 +22,7 @@ Welcome to the "Notes" repository, a comprehensive collection of tutorials and g
   - [DevOps](#devops)
   - [Git](#git)
   - [Github](#github)
+  - [GithubAuth](#githubauth)
   - [Gnome](#gnome)
   - [Grafana](#grafana)
   - [Kali](#kali)
@@ -143,6 +144,10 @@ Each tutorial in the repository is a standalone document. Simply open the `.md` 
 ### Github
 
 - [GitHub Tutorial](./Tutorials/GitHub.md): A comprehensive guide to using GitHub for source code management, collaboration, and version control.
+
+### GitHub Authentication
+
+- [GitHub Authentication Tutorial](./Tutorials/GitHubAuthentication.md): A detailed tutorial on managing GitHub authentication methods, including using personal access tokens and SSH keys and Git credential helper.
 
 ### Gnome
 
