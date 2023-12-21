@@ -143,11 +143,11 @@ Each tutorial in the repository is a standalone document. Simply open the `.md` 
 
 ### Github
 
-- [GitHub Tutorial](./Tutorials/GitHub.md): A comprehensive guide to using GitHub for source code management, collaboration, and version control.
+- [GitHub Tutorial](./Tutorials/Github.md): A comprehensive guide to using GitHub for source code management, collaboration, and version control.
 
 ### GithubAuth
 
-- [GitHub Authentication Tutorial](./Tutorials/GithubAuth.md): A detailed tutorial on managing GitHub authentication methods, including using personal access tokens and SSH keys and Git credential helper.
+- [GitHub Authentication Tutorial](./Tutorials/Github_Auth.md): A detailed tutorial on managing GitHub authentication methods, including using personal access tokens and SSH keys and Git credential helper.
 
 ### Gnome
 
