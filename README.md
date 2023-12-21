@@ -90,159 +90,159 @@ Each tutorial in the repository is a standalone document. Simply open the `.md` 
 
 ### Aircrack-ng
 
-- [Aircrack-ng Setup Tutorial](/Aircrack-ng.md): Explore the use of Aircrack-ng, a powerful tool for Wi-Fi network security assessment and penetration testing.
+- [Aircrack-ng Setup Tutorial](./Tutorials/Aircrack-ng.md): Explore the use of Aircrack-ng, a powerful tool for Wi-Fi network security assessment and penetration testing.
 
 ### Ansible
 
-- [Ansible Setup Tutorial](/Ansible.md): Learn how to automate IT tasks and manage configurations efficiently with Ansible.
+- [Ansible Setup Tutorial](./Tutorials/Ansible.md): Learn how to automate IT tasks and manage configurations efficiently with Ansible.
 
 ### APIs
 
-- [API Development Setup Tutorial](/APIs.md): A comprehensive guide to developing, testing, and deploying APIs.
+- [API Development Setup Tutorial](./Tutorials/APIs.md): A comprehensive guide to developing, testing, and deploying APIs.
 
 ### Automation
 
-- [Automation Setup Tutorial](/Automation.md): Dive into automation techniques for various IT and software development processes.
+- [Automation Setup Tutorial](./Tutorials/Automation.md): Dive into automation techniques for various IT and software development processes.
 
 ### Burpsuite
 
-- [Burpsuite Setup Tutorial](/Burpsuite.md): Master web application security testing using Burpsuite.
+- [Burpsuite Setup Tutorial](./Tutorials/Burpsuite.md): Master web application security testing using Burpsuite.
 
 ### CasaOS
 
-- [CasaOS Setup Tutorial](/CasaOS.md): Steps to install and configure CasaOS, a user-friendly home cloud system.
+- [CasaOS Setup Tutorial](./Tutorials/CasaOS.md): Steps to install and configure CasaOS, a user-friendly home cloud system.
 
 ### Chef
 
-- [Chef Setup Tutorial](/Chef.md): Learn how to manage your infrastructure with Chef's configuration management tools.
+- [Chef Setup Tutorial](./Tutorials/Chef.md): Learn how to manage your infrastructure with Chef's configuration management tools.
 
 ### Chron
 
-- [Chron Jobs Setup Tutorial](/Chron.md): A guide to scheduling and managing tasks automatically using cron jobs.
+- [Chron Jobs Setup Tutorial](./Tutorials/Chron.md): A guide to scheduling and managing tasks automatically using cron jobs.
 
 ### CI/CD
 
-- [CI/CD Setup Tutorial](/CICD.md): Get started with Continuous Integration and Continuous Deployment for efficient software development workflows.
+- [CI/CD Setup Tutorial](./Tutorials/CICD.md): Get started with Continuous Integration and Continuous Deployment for efficient software development workflows.
 
 ### Clouds
 
-- [Cloud Services Setup Tutorial](/Clouds.md): Navigate through various cloud service platforms and their utilization.
+- [Cloud Services Setup Tutorial](./Tutorials/Clouds.md): Navigate through various cloud service platforms and their utilization.
 
 ### Containers
 
-- [Docker & Kubernetes](/Dokube.md): Understand containerization concepts with Docker and Kubernetes.
+- [Docker & Kubernetes](./Tutorials/Dokube.md): Understand containerization concepts with Docker and Kubernetes.
 
 ### DevOps
 
-- [DevOps Practices Tutorial](/DevOps.md): Learn about DevOps principles and practices for improving collaboration and productivity.
+- [DevOps Practices Tutorial](./Tutorials/DevOps.md): Learn about DevOps principles and practices for improving collaboration and productivity.
 
 ### Git
 
-- [Git Tutorial](/Git.md): A comprehensive guide to using Git for version control in your projects.
+- [Git Tutorial](./Tutorials/Git.md): A comprehensive guide to using Git for version control in your projects.
 
 ### Github
 
-- [GitHub Tutorial](/GitHub.md): A comprehensive guide to using GitHub for source code management, collaboration, and version control.
+- [GitHub Tutorial](./Tutorials/GitHub.md): A comprehensive guide to using GitHub for source code management, collaboration, and version control.
 
 ### Gnome
 
-- [Gnome Setup Tutorial](/Gnome.md): Get to know Gnome, a popular desktop environment for Linux systems.
+- [Gnome Setup Tutorial](./Tutorials/Gnome.md): Get to know Gnome, a popular desktop environment for Linux systems.
 
 ### Grafana
 
-- [Grafana Setup Tutorial](/Grafana.md): Learn to set up and use Grafana for data visualization and monitoring.
+- [Grafana Setup Tutorial](./Tutorials/Grafana.md): Learn to set up and use Grafana for data visualization and monitoring.
 
 ### Kali
 
-- [Kali Linux Tutorial](/Kali.md): Explore the use of Kali Linux, a powerful distribution for security testing and ethical hacking.
+- [Kali Linux Tutorial](./Tutorials/Kali.md): Explore the use of Kali Linux, a powerful distribution for security testing and ethical hacking.
 
 ### Linux
 
-- [Linux Commands Tutorial](/Linux_Cmds.md): Familiarize yourself with essential Linux commands for system management.
+- [Linux Commands Tutorial](./Tutorials/Linux_Cmds.md): Familiarize yourself with essential Linux commands for system management.
 
 ### Medusa
 
-- [Medusa Password Cracker](/Medusa.md): Learn how to use Medusa for brute-force password cracking, specifically tailored for Kali Linux.
+- [Medusa Password Cracker](./Tutorials/Medusa.md): Learn how to use Medusa for brute-force password cracking, specifically tailored for Kali Linux.
 
 ### Metasploit
 
-- [Metasploit Tutorial](/Metasploit.md): Delve into the capabilities of the Metasploit framework for security testing.
+- [Metasploit Tutorial](./Tutorials/Metasploit.md): Delve into the capabilities of the Metasploit framework for security testing.
 
 ### MySQL
 
-- [MySQL Tutorial](/MySQL.md): A guide to using MySQL, a popular relational database management system.
+- [MySQL Tutorial](./Tutorials/MySQL.md): A guide to using MySQL, a popular relational database management system.
 
 ### Network
 
-- [Network Tutorial](/Networks.md): Learn about various network concepts and practices.
+- [Network Tutorial](./Tutorials/Networks.md): Learn about various network concepts and practices.
 
 ### Nmap
 
-- [Nmap Tutorial](/Nmap.md): Discover the functionalities of Nmap for network discovery and security auditing.
+- [Nmap Tutorial](./Tutorials/Nmap.md): Discover the functionalities of Nmap for network discovery and security auditing.
 
 ### NoSQL
 
-- [NoSQL Tutorial](/NoSQL.md): Dive into the world of NoSQL databases and their applications.
+- [NoSQL Tutorial](./Tutorials/NoSQL.md): Dive into the world of NoSQL databases and their applications.
 
 ### OpenWRT
 
-- [OpenWRT Setup in VirtualBox](/openWRT.md): Instructions for setting up OpenWRT as a router and network manager in a VirtualBox VM.
+- [OpenWRT Setup in VirtualBox](./Tutorials/openWRT.md): Instructions for setting up OpenWRT as a router and network manager in a VirtualBox VM.
 
 ### OPNsense
 
-- [OPNsense Setup in VirtualBox](/OPNsense.md): Guide to installing and configuring OPNsense firewall and routing platform in VirtualBox.
+- [OPNsense Setup in VirtualBox](./Tutorials/OPNsense.md): Guide to installing and configuring OPNsense firewall and routing platform in VirtualBox.
 
 ### pfSense
 
-- [pfSense Setup in VirtualBox](/pfSense.md): Learn to set up pfSense, an open-source firewall/router software distribution, in VirtualBox.
+- [pfSense Setup in VirtualBox](./Tutorials/pfSense.md): Learn to set up pfSense, an open-source firewall/router software distribution, in VirtualBox.
 
 ### Portainer
 
-- [Portainer Setup Tutorial](/PortainerTutorial.md): Understand how to manage Docker environments using Portainer.
+- [Portainer Setup Tutorial](./Tutorials/PortainerTutorial.md): Understand how to manage Docker environments using Portainer.
 
 ### PostgreSQL
 
-- [PostgreSQL Tutorial](/PostgreSQL.md): A guide to using PostgreSQL, an advanced open-source database system.
+- [PostgreSQL Tutorial](./Tutorials/PostgreSQL.md): A guide to using PostgreSQL, an advanced open-source database system.
 
 ### Proxmox
 
-- [Proxmox Setup Tutorial](/Proxmox.md): Learn the fundamentals of setting up and using Proxmox for virtualization management.
+- [Proxmox Setup Tutorial](./Tutorials/Proxmox.md): Learn the fundamentals of setting up and using Proxmox for virtualization management.
 
 ### Puppet
 
-- [Puppet Setup Tutorial](/Puppet.md): Discover how to automate your IT infrastructure with Puppet.
+- [Puppet Setup Tutorial](./Tutorials/Puppet.md): Discover how to automate your IT infrastructure with Puppet.
 
 ### Python
 
-- [Python Programming Tutorial](/Python.md): Dive into Python programming for various applications.
+- [Python Programming Tutorial](./Tutorials/Python.md): Dive into Python programming for various applications.
 
 ### Security
 
-- [Security Practices & Tools Tutorial](/Security.md): A comprehensive guide on best practices and tools in cybersecurity.
+- [Security Practices & Tools Tutorial](./Tutorials/Security.md): A comprehensive guide on best practices and tools in cybersecurity.
 
 ### SysAdmin
 
-- [System Administration Tutorial](/SysAdmin.md): Essential skills and knowledge for effective system administration.
+- [System Administration Tutorial](./Tutorials/SysAdmin.md): Essential skills and knowledge for effective system administration.
 
 ### Terraform
 
-- [Terraform Tutorial](/Terraform.md): Infrastructure as Code tool for building, changing, and versioning infrastructure efficiently.
+- [Terraform Tutorial](./Tutorials/Terraform.md): Infrastructure as Code tool for building, changing, and versioning infrastructure efficiently.
 
 ### Troubleshooting
 
-- [Virtual Machine Troubleshooting Guide](/Trblsht.md): Solve common issues encountered in virtual machine environments.
+- [Virtual Machine Troubleshooting Guide](./Tutorials/Trblsht.md): Solve common issues encountered in virtual machine environments.
 
 ### Virtualbox
 
-- [Virtualbox Tutorial](/Virtualbox.md): Learn how to set up and manage virtual machines using VirtualBox.
+- [Virtualbox Tutorial](./Tutorials/Virtualbox.md): Learn how to set up and manage virtual machines using VirtualBox.
 
 ### Wireshark
 
-- [Wireshark Tutorial](/Wireshark.md): Master network protocol analysis with Wireshark.
+- [Wireshark Tutorial](./Tutorials/Wireshark.md): Master network protocol analysis with Wireshark.
 
 ### Zip
 
-- [ZIP Tutorial](/Zipfiles.md): Managing zip files and folders in different formats and environments.
+- [ZIP Tutorial](./Tutorials/Zipfiles.md): Managing zip files and folders in different formats and environments.
 
 ### Others
 
