@@ -18,6 +18,7 @@ Welcome to the "Notes" repository, a comprehensive collection of tutorials and g
   - [Chef](#chef)
   - [Chron](#chron)
   - [CICD](#cicd)
+  - [Clonezilla](#clonezilla)
   - [Clouds](#clouds)
   - [DevOps](#devops)
   - [Git](#git)
@@ -125,6 +126,10 @@ Each tutorial in the repository is a standalone document. Simply open the `.md` 
 
 - [CI/CD Setup Tutorial](./Tutorials/CICD.md): Get started with Continuous Integration and Continuous Deployment for efficient software development workflows.
 
+### Clonezilla
+
+- [Clonezilla Tutorial](./Tutorials/Clonezilla.md): An in-depth guide on using Clonezilla for disk imaging and cloning.
+
 ### Clouds
 
 - [Cloud Services Setup Tutorial](./Tutorials/Clouds.md): Navigate through various cloud service platforms and their utilization.
@@ -231,7 +236,7 @@ Each tutorial in the repository is a standalone document. Simply open the `.md` 
 
 ### Terraform
 
-- [Terraform Tutorial](https://github.com/cesarderio/Notes/blob/main/Tutorials/Terraform.md): Infrastructure as Code tool for building, changing, and versioning infrastructure efficiently.
+- [Terraform Tutorial](./Tutorials/Terraform.md): Infrastructure as Code tool for building, changing, and versioning infrastructure efficiently.
 
 ### Troubleshooting
 
