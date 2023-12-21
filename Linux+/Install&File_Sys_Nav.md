@@ -1,5 +1,7 @@
 # Installation & File System Navigation
 
+<br>
+
 ## Linux Overview:
 
 - **Linux based on Unix**: Linux is a Unix-like operating system, sharing similar concepts and design philosophy.
@@ -50,6 +52,8 @@
 - **Started with `startx` command**: This command initiates the graphical interface.
 - **Remote X forwarding**: Allows GUI applications to be run on a remote server but displayed locally.
 
+<br>
+
 ## Linux Distributions:
 
 - **Distros are variants of the Linux OS**: These are different versions of Linux, each with unique characteristics and designed for various purposes.
@@ -77,7 +81,7 @@ Specialized Distros:
 - **Apertis**: Developed for vehicle infotainment systems.
 - **Raspbian**: Customized for Raspberry Pi devices.
 
-----------------------------------------------------------------------------------
+<br>
 
 ## BIOS, UEFI, and the Linux Startup Process:
 
@@ -131,6 +135,7 @@ Scripts:
 - Ensures that only trusted software with a valid digital signature is loaded during the boot process.
 - Can be disabled for older OS versions or dual-boot configurations.
 
+<br>
 
 ## Linux Installation Sources:
 
@@ -172,9 +177,7 @@ Specific Installation Methods for Distros:
 - **Communication with PXE Server**: After network configuration, the device communicates with the PXE server.
 - **Completing Linux Installation via PXE**: The installation can be manual or scripted, with the option to apply a specific Linux OS image.
 
-Your notes on "Installing a Linux Server," "Installing a Linux Desktop," and "Deploying a Cloud-Based Linux Server" are brief and appear to be outlines or placeholders for more detailed information. I'll expand on these sections while preserving the structure of your notes, providing more detail and context:
-
----
+<br>
 
 ## Installing a Linux Server
 
@@ -196,6 +199,7 @@ Your notes on "Installing a Linux Server," "Installing a Linux Desktop," and "De
 - **Access and Management**: Once deployed, cloud-based Linux servers are typically managed remotely via SSH. Additional tools like Ansible, Puppet, or Chef can be used for configuration management.
 - **Scalability and Maintenance**: One of the advantages of cloud-based servers is the ease of scaling resources as per demand. Regular updates and security patches are essential for maintaining server health and security.
 
+<br>
 
 ## Managing Linux Hardware
 
@@ -235,6 +239,7 @@ Your notes on "Installing a Linux Server," "Installing a Linux Desktop," and "De
    - Provides BIOS or UEFI information.
    - The command `sudo dmidecode` accesses this information and displays it in a readable format.
 
+<br>
 
 ## Using Linux File System Navigation Commands
 
@@ -302,6 +307,7 @@ Your notes on "Installing a Linux Server," "Installing a Linux Desktop," and "De
 - **rm -f**:
    - Forces the removal of files or directories without prompting for confirmation.
 
+<br>
 
 ## Navigating the Linux File System
 
@@ -342,6 +348,8 @@ Your notes on "Installing a Linux Server," "Installing a Linux Desktop," and "De
       - `du -h`: Shows the disk usage in a human-readable format.
       - `du -sh * | sort -hr`: Summarizes disk usage of each item in the current directory and sorts them in human-readable format, largest first.
 
+<br>
+
 ## Searching the Linux File System
 
 - **find**: 
@@ -365,6 +373,8 @@ Your notes on "Installing a Linux Server," "Installing a Linux Desktop," and "De
    - `ls /var/lib/plocate`: Lists the contents of the directory where the `locate` database files are stored.
    - `sudo updatedb`: Updates the `locate` database to reflect the current state of the file system.
    - `locate mysql`: Searches for all files related to 'mysql'.
+
+<br>
 
 ## Filtering Data with Linux Commands
 
