@@ -145,9 +145,9 @@ Each tutorial in the repository is a standalone document. Simply open the `.md` 
 
 - [GitHub Tutorial](./Tutorials/GitHub.md): A comprehensive guide to using GitHub for source code management, collaboration, and version control.
 
-### GitHub Authentication
+### GithubAuth
 
-- [GitHub Authentication Tutorial](./Tutorials/GitHubAuthentication.md): A detailed tutorial on managing GitHub authentication methods, including using personal access tokens and SSH keys and Git credential helper.
+- [GitHub Authentication Tutorial](./Tutorials/GithubAuth.md): A detailed tutorial on managing GitHub authentication methods, including using personal access tokens and SSH keys and Git credential helper.
 
 ### Gnome
 
@@ -227,11 +227,11 @@ Each tutorial in the repository is a standalone document. Simply open the `.md` 
 
 ### SysAdmin
 
-- [System Administration Tutorial](./Tutorials/SysAdmin.md): Essential skills and knowledge for effective system administration.
+- [System Administration Tutorial](./Tutorials/SysAd.md): Essential skills and knowledge for effective system administration.
 
 ### Terraform
 
-- [Terraform Tutorial](./Tutorials/Terraform.md): Infrastructure as Code tool for building, changing, and versioning infrastructure efficiently.
+- [Terraform Tutorial](https://github.com/cesarderio/Notes/blob/main/Tutorials/Terraform.md): Infrastructure as Code tool for building, changing, and versioning infrastructure efficiently.
 
 ### Troubleshooting
 
