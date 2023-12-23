@@ -13,7 +13,7 @@ Welcome to my collection of notes for the CompTIA Linux+ Certification. This rep
 
 * [Storage](./Storage&File_Systems/Storage.md)
 * [Mount](./Storage&File_Systems/Mount.md)
-* [Disk Management](/notes/05-shells-scripting-and-data-management.md)
+* [Disk Management](./Storage&File_Systems/Disk_Management.md)
 * [Linux Volume Management](./Storage&File_Systems/LVM.md)
 
 ### File Systems & Permissions Management
