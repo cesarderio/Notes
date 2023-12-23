@@ -15,10 +15,10 @@ Welcome to my collection of notes for the CompTIA Linux+ Certification. This rep
 
 * [Storage Concepts](./Storage&File_Systems/Storage_Concepts.md)
 * [Storage Management](./Storage&File_Systems/Storage_Management.md)
-* [Mounting](./Storage&File_Systems/Mount.md)
+* [Mounting File Systems](./Storage&File_Systems/Mount.md)
 * [Linux File System Hard and Soft (Symbolic) Links](./Storage&File_Systems/Links.md)
 * [Disk Management](./Storage&File_Systems/Disk_Management.md)
-* [RAID](./Storage&File_Systems/RAID.md)
+* [RAID Disk Management](./Storage&File_Systems/RAID.md)
 * [Linux Volume Management](./Storage&File_Systems/LVM.md)
 * [Network Storage](./Storage&File_Systems/Network_Storage.md)
 

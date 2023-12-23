@@ -20,7 +20,9 @@ Welcome to the "Notes" repository, a comprehensive collection of tutorials and g
   - [CICD](#cicd)
   - [Clonezilla](#clonezilla)
   - [Clouds](#clouds)
+  - [Containers](#containers)
   - [DevOps](#devops)
+  - [Formatting](#formatting)
   - [Git](#git)
   - [Github](#github)
   - [GithubAuth](#githubauth)
@@ -141,6 +143,10 @@ Each tutorial in the repository is a standalone document. Simply open the `.md` 
 ### DevOps
 
 - [DevOps Practices Tutorial](./Tutorials/DevOps.md): Learn about DevOps principles and practices for improving collaboration and productivity.
+
+### Formatting
+
+- [Formatting Tutorial](./Tutorials/Formatting.md): A step-by-step tutorial on how to format a 2.5" SSD with the EXT4 file system using the GNOME Disks utility in Ubuntu Linux.
 
 ### Git
 
