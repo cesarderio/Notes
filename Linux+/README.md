@@ -6,15 +6,21 @@ Welcome to my collection of notes for the CompTIA Linux+ Certification. This rep
 
 ### Installing and Navigating Linux:
 
-* [Installation & Basics of Linux](./Installation&FSys_Navigation/Installation.md)
+* [Overview of Linux](./Installation&FSys_Navigation/Overview.md)
+* [Boot & Startup Processes](./Installation&FSys_Navigation/Startup.md)
+* [Installation of Linux](./Installation&FSys_Navigation/Installation.md)
 * [File System Navigation](./Installation&FSys_Navigation/File_Sys_Nav.md)
 
 ### Storage & Disk Management
 
-* [Storage](./Storage&File_Systems/Storage.md)
-* [Mount](./Storage&File_Systems/Mount.md)
+* [Storage Concepts](./Storage&File_Systems/Storage_Concepts.md)
+* [Storage Management](./Storage&File_Systems/Storage_Management.md)
+* [Mounting](./Storage&File_Systems/Mount.md)
+* [Linux File System Hard and Soft (Symbolic) Links](./Storage&File_Systems/Links.md)
 * [Disk Management](./Storage&File_Systems/Disk_Management.md)
+* [RAID](./Storage&File_Systems/RAID.md)
 * [Linux Volume Management](./Storage&File_Systems/LVM.md)
+* [Network Storage](./Storage&File_Systems/Network_Storage.md)
 
 ### File Systems & Permissions Management
 
