@@ -16,16 +16,22 @@
     - ***Daemons***: These are "Background running programs", similar to services in Windows, performing tasks in the background.
     - ***Command line shells and GUI***: Interfaces for interacting with the system, including both command line interfaces like Bash and graphical interfaces.
 
+<br>
+
 ### Kernel:
 
 - **Heart of the Linux OS**: The kernel manages and mediates interactions between hardware and software.
 - **View kernel version details with `uname -a`**: This command displays detailed information about the kernel.
 - **The kernel starts the "/sbin/init" process first**: This is the initial process started by the kernel, crucial for the boot process.
 
+<br>
+
 ### Library Files:
 
 - **Found under "/var/lib"**: This directory commonly contains library files.
 - **In Linux, the color blue usually means it is a directory/subdirectory**: A visual cue in many command-line interfaces to distinguish directories.
+
+<br>
 
 ### Configuration Files:
 
@@ -36,15 +42,21 @@
 - **Some daemons allow you to "reload" them**: This can apply changes without needing a full restart.
 - **Installed packages may have more than one config file**: Indicating multiple configuration aspects.
 
+<br>
+
 ### Daemons:
 
 - **Background running processes not tied to a user terminal**: They perform various tasks silently in the background.
 - **Usually started by the system or service manager**: Similar to how Windows services operate.
 - **Can be controlled with the "service" command**: For example, `service sshd status; service sshd start/stop` manages the SSH daemon.
 
+<br>
+
 ### Command Line Shells:
 
 - **Include Bash, Korn, C, zsh**: Different shells for user preference in scripting and command-line interaction.
+
+<br>
 
 ### GUI:
 
@@ -85,13 +97,19 @@ Specialized Distros:
 
 ## BIOS, UEFI, and the Linux Startup Process:
 
+<br>
+
 ### BIOS - Basic Input/Output System:
 - BIOS is firmware on a chip on the motherboard, providing the first layer of interaction between the hardware and the OS.
 - It initializes hardware components during the boot process.
 
+<br>
+
 ### UEFI - Unified Extensible Firmware Interface:
 - UEFI is the modern successor to BIOS.
 - Offers features like secure boot, Trusted Platform Module (TPM) support, GUI-based configuration options, and support for larger disk sizes.
+
+<br>
 
 ### Linux Run Levels:
 - **0**: Power off
@@ -109,8 +127,12 @@ Scripts:
 - **S** (Start script): Scripts that start services.
 - **K** (Kill script): Scripts that stop services.
 
+<br>
+
 ### DRACUT Utility:
 - A tool that can be used to customize the Linux startup process, especially the initial ramdisk (initrd).
+
+<br>
 
 ### Linux Startup Process:
 - **Initializes BIOS or UEFI**: Checks system integrity and loads the Master Boot Record (MBR).
@@ -122,6 +144,8 @@ Scripts:
 - **initrd**: Initializes a RAM disk used during the boot process.
 - **Launch runlevel-configured programs**: Based on the target run level.
 
+<br>
+
 ### TPM - Trusted Platform Module:
 - A dedicated microcontroller designed for secure hardware cryptographic processing.
 - Commonly built into server motherboards or available as an add-on.
@@ -129,6 +153,8 @@ Scripts:
 - Encryption tied to the TPM chip ensures that encrypted data is bound to the specific hardware.
 - Removing an encrypted storage device prevents decryption or access when used on different hardware.
 - The OS disk must be decrypted with the TPM before the OS boot continues.
+
+<br>
 
 ### UEFI and Secure Boot:
 - Secure Boot is a feature of UEFI firmware.
@@ -139,10 +165,14 @@ Scripts:
 
 ## Linux Installation Sources:
 
+<br>
+
 ### Manual Installations:
 - **ISO DVD Image**: Installing Linux from an ISO image burned to a DVD.
 - **Installation Files from Local or Network Storage**: Using local or networked media to install Linux.
 - **Preboot Execution Environment (PXE) Boot**: Network-based installation method that loads installation files from a server.
+
+<br>
 
 ### Automated Installations:
 - **Pre-installed Virtual Machine**: Linux pre-installed on a virtual machine image.
@@ -155,6 +185,8 @@ Specific Installation Methods for Distros:
 - **Ubuntu**: Utilizing an *autoinstall config file* for automated installations.
 - **Red Hat Enterprise Linux (RHEL)**: Employing a *Kickstart automation file* for streamlined installation processes.
 
+<br>
+
 ### Linux Installation Details:
 - **Language and Keyboard Layout**: Setting up preferred language and keyboard configurations.
 - **Installation Type (Full/Minimal)**: Choosing between a full installation or a minimal setup.
@@ -166,9 +198,13 @@ Specific Installation Methods for Distros:
 - **Updates**: Configuring settings for receiving system updates.
 - **HWE Kernel**: Installing the Hardware Enablement (HWE) kernel for improved hardware support, especially important for third-party drivers and software.
 
+<br>
+
 ### Local Linux Installation:
 - **With or Without Scripted Files, Additional Software Packages, and Device Drivers**: Options for a customized installation.
 - **Installation from Hard Disk, USB-Attached Storage**: Using local storage media for installation, which can include automated installation files.
+
+<br>
 
 ### PXE - Preboot Execution Environment Boot Installation:
 - **Enable PXE in BIOS**: Necessary step to allow network boot.
@@ -186,11 +222,15 @@ Specific Installation Methods for Distros:
 - **Installation Process**: The installation process typically involves setting up network configurations, disk partitioning, and selecting packages relevant to the server's intended role.
 - **Post-Installation Configuration**: After installation, server-specific configurations like setting up network services, firewalls, and user accounts are crucial.
 
+<br>
+
 ## Installing a Linux Desktop
 
 - **Selecting a Distribution**: Desktop distributions are designed for ease of use and typically come with a graphical user interface. Popular choices include Ubuntu, Fedora, and Linux Mint.
 - **Installation Steps**: The process usually includes creating a bootable USB drive, partitioning the hard drive, and going through a guided setup.
 - **Post-Installation**: Users can customize their desktop environment, install additional software, and configure system settings for personal use.
+
+<br>
 
 ## Deploying a Cloud-Based Linux Server
 

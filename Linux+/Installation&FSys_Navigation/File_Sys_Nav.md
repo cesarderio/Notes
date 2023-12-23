@@ -179,6 +179,8 @@
 
 ## Filtering Data with Linux Commands
 
+<br>
+
 ### grep:
 - **grep**: A powerful tool used for searching text data sets for lines that match a given pattern.
 - **Examples**:
@@ -186,11 +188,15 @@
   - `grep -i london < cities.txt`: Directs the content of `cities.txt` into `grep` to search for 'london', ignoring case.
   - `grep -i london *`: Searches for 'london' in all files in the current directory, ignoring case.
 
+<br>
+
 ### sed:
 - **sed**: A stream editor used for performing basic text transformations on an input stream (a file or input from a pipeline).
 - **Examples**:
   - `sed 's/London/Liverpool/' customers.txt`: Replaces the first instance of 'London' with 'Liverpool' in each line of `customers.txt`, but only in the command line output.
   - `sed 's/London/Liverpool/' customers.txt > new_customers.txt`: Performs the same substitution and writes the output to `new_customers.txt`.
+
+<br>
 
 ### awk:
 - **awk**: A powerful programming language designed for text processing and typically used for data extraction and reporting.
