@@ -1,6 +1,6 @@
-## Containerization and Virtualization
+# Containerization and Virtualization
 
-### Docker Commands
+## Docker Commands
 
 Docker is a popular tool for containerization, allowing you to package applications into containers—standardized executable components combining application source code with the operating system (OS) libraries and dependencies required to run that code in any environment.
 
@@ -22,7 +22,7 @@ Docker is a popular tool for containerization, allowing you to package applicati
 
 - **`docker exec -it [container_id] [command]`**: Executes a command inside a running container, e.g., accessing the shell.
 
-### Kubernetes Commands
+## Kubernetes Commands
 
 Kubernetes is an orchestration system for Docker containers, automating their deployment, scaling, and operations.
 
