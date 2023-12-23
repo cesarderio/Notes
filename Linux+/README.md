@@ -6,7 +6,7 @@ Welcome to my collection of notes for the CompTIA Linux+ Certification. This rep
 
 ### Installing and Navigating Linux:
 
-* [Installating Linux](./Installation&FSys_Navigation/Installation.md)
+* [Installation & Basics of Linux](./Installation&FSys_Navigation/Installation.md)
 * [File System Navigation](./Installation&FSys_Navigation/File_Sys_Nav.md)
 
 ### Storage & Disk Management
