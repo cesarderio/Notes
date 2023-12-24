@@ -24,8 +24,8 @@ Welcome to my collection of notes for the CompTIA Linux+ Certification. This rep
 
 ### File Systems & Permissions Management
 
-* [Standard Linux File System Permissions](./Perms_Mans/1Standard_Perms.md)
-* [Managing Standard Linux File System Permissions](./Perms_Mans/2Man_Perms.md)
+* [Managing Standard Linux File System Permissions](./Perms_Mans/1Standard_Perms.md)
+<!-- * [Managing Standard Linux File System Permissions](./Perms_Mans/2Man_Perms.md) -->
 * [Extended ACL File System Permissions](./Perms_Mans/3ACL.md)
 * [Managing Extended ACL Linux File System Permissions](./Perms_Mans/4ACL_Man.md)
 * [Linux File Compression and Archiving Tools](./Perms_Mans/5Compression.md)
