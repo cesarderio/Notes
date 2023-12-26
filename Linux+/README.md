@@ -2,7 +2,11 @@
 
 Welcome to my collection of notes for the CompTIA Linux+ Certification. This repository is organized to facilitate easy access to various topics covered in the certification process. Feel free to explore and use these notes as a resource for your study.
 
+<br>
+
 ## Table of Contents
+
+<br>
 
 ### Installing and Navigating Linux:
 
@@ -10,6 +14,8 @@ Welcome to my collection of notes for the CompTIA Linux+ Certification. This rep
 * [Boot & Startup Processes](./Installation&FSys_Navigation/Startup.md)
 * [Installation of Linux](./Installation&FSys_Navigation/Installation.md)
 * [File System Navigation](./Installation&FSys_Navigation/File_Sys_Nav.md)
+
+<br>
 
 ### Storage & Disk Management
 
@@ -22,6 +28,8 @@ Welcome to my collection of notes for the CompTIA Linux+ Certification. This rep
 * [Linux Volume Management](./Storage&File_Systems/LVM.md)
 * [Network Storage](./Storage&File_Systems/Network_Storage.md)
 
+<br>
+
 ### File Systems & Permissions Management
 
 * [Managing Standard Linux File System Permissions](./Perms_Mans/1Standard_Perms.md)
@@ -30,7 +38,36 @@ Welcome to my collection of notes for the CompTIA Linux+ Certification. This rep
 * [Linux File Compression and Archiving Tools](./Perms_Mans/5Compression.md)
 * [Managing Linux Compression and Archiving](./Perms_Mans/6Comp_Man.md)
 
-> Disclaimer: These notes are intended for educational purposes and are not affiliated with CompTIA.
+<br>
+
+### Network Connectivity
+
+* [IP Addressing](./Network_Connectivity/IP_Addressing.md)
+* [Network Commands](./Network_Connectivity/Network_Commands.md)
+* [Network Interfaces](./Network_Connectivity/Network_Interfaces.md.md)
+* [Network Routing](./Network_Connectivity/Network_Routing.md)
+* [Configuring Routing in Linux](./Network_Connectivity/Config_Routing.md)
+* [Configuring Routing in the Cloud](./Network_Connectivity/Config_Cloud_Routing)
+* [tcdump](./Network_Connectivity/tcpdump.md)
+* [Wireshark](./Network_Connectivity/Wireshark.md)
+* [Snychronization with rsync](./Network_Connectivity/SynchWith_rsync.md)
+
+<br>
+
+### Daemons & Proceesses
+
+* [Processes & Daemons](./5_Daemons&Processes/1Processes&Daemons.md)
+* [Managing Linux Startup & Shutdown](./5_Daemons&Processes/2Startup&Shutdown.md)
+* [Managin Processes & Daemons](./5_Daemons&Processes/3Managing_Procs&Daemons.md)
+* [Configure Linux Jobs](./5_Daemons&Processes/4Configure_Jobs.md)
+* [Configure Daemon Startup Scripts](./5_Daemons&Processes/5Config_DaemonSS.md)
+* [Scheduling Chron Jobs](./5_Daemons&Processes/6Chron_Scheduling.md)
+* [Managing Chron Jobs](./5_Daemons&Processes/7Chron_Managing.md)
+* [Linux Logging Facilities](./5_Daemons&Processes/8Logs_Facilities.md)
+* [Viewing Logs](./5_Daemons&Processes/9Logs_Viewing.md)
+* [Managing Log Rotation](./5_Daemons&Processes/10Logs_Rotate_Manage.md)
+* [Configure Log Forwarding with rsyslog](./5_Daemons&Processes/11ForwardingWith_rsyslog.md)
+
+# > Disclaimer: These notes are intended for educational purposes and are not affiliated with CompTIA.
 
 
-<!-- * [Managing Standard Linux File System Permissions](./Perms_Mans/2Man_Perms.md) -->
