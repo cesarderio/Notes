@@ -54,7 +54,7 @@ Welcome to my collection of notes for the CompTIA Linux+ Certification. This rep
 
 <br>
 
-### Daemons & Proceesses
+### Daemons & Processes
 
 * [Processes & Daemons](./5_Daemons&Processes/1Processes&Daemons.md)
 * [Managing Linux Startup & Shutdown](./5_Daemons&Processes/2Startup&Shutdown.md)
