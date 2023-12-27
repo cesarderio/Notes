@@ -76,15 +76,13 @@ Welcome to my collection of notes for the CompTIA Linux+ Certification. This rep
 * [DHCP](./6_Network_Services/1_DHCP.md)
 * [Deploying a DHCP Server](./6_Network_Services/2_Deploying_DHCP.md)
 * [Managing DHCP Clients](./6_Network_Services/3_Managing_DHCP.md)
-* [DNS](./6_Network_Services/4_DNS.md)
+* [Domain Name System](./6_Network_Services/4_DNS.md)
 * [Deploying DNS](./6_Network_Services/5_Deploy_DNS.md)
 * [Configuring DNS](./6_Network_Services/6_Configure_DNS.md)
-* [NTP](./6_Network_Services/7_NTP.md)
+* [Network Time Protocol](./6_Network_Services/7_NTP.md)
 * [Configure NTS](./6_Network_Services/8_Configure_NTS.md)
 * [Configure SSH](./6_Network_Services/9_Configure_SSH.md)
 * [SCP & SFTP](./6_Network_Services/10_SCP&SFTP.md)
 * [Deploying an Apache Web Server](./6_Network_Services/11_Apache_Server.md)
 
-# > Disclaimer: These notes are intended for educational purposes and are not affiliated with CompTIA.
-
-
+## > Disclaimer: These notes are intended for educational purposes and are not affiliated with CompTIA.
