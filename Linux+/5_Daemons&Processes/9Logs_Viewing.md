@@ -1,9 +1,13 @@
 # Viewing and Monitoring Linux Logs
 
+<br>
+
 ## Overview of Linux Log Management
 
 - **Log File Location**: Linux logs are typically stored in `/var/log`.
 - **Importance**: Essential for system monitoring, troubleshooting, and security analysis.
+
+<br>
 
 ## Exploring Log Files
 
@@ -17,6 +21,8 @@
 2. **Apache2 Logs**:
    - Located in `/var/log/apache2`.
    - Includes `access.log` and `error.log` for web server activity.
+
+<br>
 
 ## Key Commands for Log Analysis
 
@@ -37,11 +43,15 @@
   - `lastlog`: Shows the most recent login activity for each user.
   - `journalctl`: Systemd journal logs, providing detailed system information.
 
+<br>
+
 ## Log File Rotation
 
 - **Purpose**: Prevents logs from consuming excessive disk space.
 - **Logrotate Tool**: Manages log file rotation and archiving.
 - **Configuration**: Defined in `/etc/logrotate.conf` and `/etc/logrotate.d/`.
+
+<br>
 
 ## Summary
 
