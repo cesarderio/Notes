@@ -1,9 +1,13 @@
 # Managing Cron Task Scheduling in Linux
 
+<br>
+
 ## Understanding Cron in Linux
 
 - **Cron**: A system service used for scheduling recurring tasks at specific intervals.
 - **Crontab Files**: Configuration files where scheduled tasks (cron jobs) are defined.
+
+<br>
 
 ## System-wide Crontab Configuration
 
@@ -26,6 +30,8 @@
 4. **Output Redirection**:
    - Redirect command output to a file using `>` or `>>` for appending.
 
+<br>
+
 ## User Crontab Configuration
 
 1. **Editing User Crontab**:
@@ -44,6 +50,8 @@
 5. **Scheduling Example**:
    - A job to append text to a file at a specific time: `56 7 * * * echo "User Crontab Test" >> /home/cblackwell/usercrontest.txt`
 
+<br>
+
 ## Managing Cron Jobs
 
 - **Removing Cron Jobs**:
@@ -51,6 +59,8 @@
 - **Service Management**:
   - Check the status of the cron service with `sudo service cron status`.
   - Cron is typically enabled by default in Linux distributions.
+
+<br>
 
 ## Summary
 

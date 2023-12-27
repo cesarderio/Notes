@@ -1,9 +1,13 @@
 # Configuring Linux Processes and Jobs
 
+<br>
+
 ## Understanding Linux Processes and Jobs
 
 - **Foreground Processes**: Commands like `ls` run as processes in the foreground, temporarily occupying the terminal.
 - **Background Jobs**: Processes that run in the background without tying up the terminal. Useful for tasks that take a long time to complete or need to run continuously.
+
+<br>
 
 ## Commands for Managing Jobs
 
@@ -26,6 +30,8 @@
 5. **Terminating Jobs**:
    - Usage: Use `kill %job_number` to terminate a specific background job.
 
+<br>
+
 ## Advanced Job Management
 
 - **Using `nohup`**:
@@ -36,10 +42,14 @@
 - **Monitoring Background Jobs**:
    - With Terminal Closed: Background jobs started with `nohup` can be identified using `ps axu | grep [command]` after logging back in.
 
+<br>
+
 ## Understanding `pstree`
 
 - **Usage**: Displays a tree of processes, showing parent-child relationships.
 - **Example**: `pstree -p` includes PIDs in the process tree, useful for understanding the hierarchy of processes.
+
+<br>
 
 ## Summary
 

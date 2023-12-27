@@ -1,10 +1,14 @@
 # Configuring Linux Log Rotation
 
+<br>
+
 ## Overview of Log Rotation in Linux
 
 - **Purpose**: Manage log file sizes and disk space usage.
 - **Location**: Log files are generally stored in `/var/log`.
 - **Configuration**: Controlled by files in `/etc/logrotate.d` and the global configuration file `/etc/logrotate.conf`.
+
+<br>
 
 ## Steps to Configure Log Rotation
 
@@ -34,6 +38,8 @@
    - Daily rotation with a limit of 14 past logs.
    - Compressed older logs.
    - Special scripts to execute before and after rotation.
+
+<br>
 
 ## Summary
 

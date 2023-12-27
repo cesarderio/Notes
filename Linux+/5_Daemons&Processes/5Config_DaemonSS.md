@@ -1,9 +1,13 @@
 # Configuring Linux Daemon Startup Scripts
 
+<br>
+
 ## Overview of Linux Daemons
 
 - **Daemons**: Background programs that run continuously, providing various services like web servers or scheduled tasks.
 - **Startup Scripts**: Control the automatic startup of these daemons in different runlevels.
+
+<br>
 
 ## Managing Apache Web Server Daemon
 
@@ -31,11 +35,15 @@
    - Use `sudo update-rc.d apache2 disable` to prevent Apache from starting in a specific runlevel.
    - Verify changes by checking the presence of start (`S`) or kill (`K`) scripts in the runlevel directory.
 
+<br>
+
 ## Understanding Runlevels
 
 - **Runlevel Concept**: Defines different states of the system, each with specific services and daemons active.
 - **Checking Current Runlevel**: Use the `runlevel` command.
 - **Switching Runlevels**: Change runlevels with `sudo init [runlevel_number]` (e.g., `sudo init 5` for GUI mode).
+
+<br>
 
 ## Summary
 

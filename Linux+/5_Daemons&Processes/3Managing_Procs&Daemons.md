@@ -1,9 +1,13 @@
 # Managing Linux Processes and Daemons
 
+<br>
+
 ## Overview of Linux Processes and Daemons
 
 - **Processes**: Programs or commands executed in Linux. Each process has a unique Process ID (PID).
 - **Daemons**: Background services or processes that run continuously, like web servers (Apache) or SSH daemons.
+
+<br>
 
 ## Common Commands for Process Management
 
@@ -25,6 +29,8 @@
    - Usage: Shows processes in a tree-like structure.
    - Example: `pstree` displays the hierarchy of processes. `pstree -p` includes PIDs in the tree.
 
+<br>
+
 ## Managing Process Lifecycle
 
 - **Killing Processes**:
@@ -36,6 +42,8 @@
   - Filtering Process List: Use `ps` piped with `grep` to filter processes by criteria (e.g., `ps axu | grep apache`).
   - Identifying Resource Hogs: Utilize `top` to monitor processes consuming excessive resources.
 
+<br>
+
 ## Daemon Management
 
 - **Startup Scripts**: Located in `/etc/init.d`, define how to start, stop, and manage services.
@@ -43,16 +51,22 @@
   - Found in `/etc/rc[runlevel].d`.
   - Scripts starting with 'S' enable daemons, and 'K' scripts disable them in the specified runlevel.
 
+<br>
+
 ## Managing Services with systemctl
 
 - **Enabling/Disabling Services**: Control whether services start at boot.
   - Example: `sudo systemctl enable apache2` to start Apache at boot, `sudo systemctl disable apache2` to prevent it from starting.
+
+<br>
 
 ## Managing Runlevels
 
 - **Changing Runlevels**: `sudo init [runlevel]` changes the current runlevel.
 - **Default Runlevel**: Set the default runlevel using `sudo systemctl set-default [target]`.
   - Example: `multi-user.target` for runlevel 3, `graphical.target` for runlevel 5.
+
+<br>
 
 ## Summary
 
