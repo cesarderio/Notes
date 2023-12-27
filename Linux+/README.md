@@ -85,4 +85,89 @@ Welcome to my collection of notes for the CompTIA Linux+ Certification. This rep
 * [SCP & SFTP](./6_Network_Services/10_SCP&SFTP.md)
 * [Deploying an Apache Web Server](./6_Network_Services/11_Apache_Server.md)
 
+<br>
+
+### Software Management
+
+* [Software Management](./7_Software_Management/1_Software_Management.md)
+* [Configuring the Linux Kernel](./7_Software_Management/2_Config_Linux_Kernel.md)
+* [Yum](./7_Software_Management/3_Yum.md)
+* [Pacman](./7_Software_Management/4_Pacman.md)
+* [Apt](./7_Software_Management/5_Apt.md)
+* [Building from Source](./7_Software_Management/6_Source_Build.md)
+
+<br>
+
+### Shells, Variables and Configuration Files
+
+* [Configuration Files](./8_Shells&Variables/1_Configuration_Files.md)
+* [Managing Configuration Files](./8_Shells&Variables/2_Managing_Config_Files.md)
+* [Linux Shells](./8_Shells&Variables/3_Linux_Shells.md)
+* [Managing Shells](./8_Shells&Variables/4_Managing_Shells.md)
+* [Environment Variables](./8_Shells&Variables/5_Env_Variables.md)
+* [Ansible](./8_Shells&Variables/6_Ansible.md)
+
+<br>
+
+### Security Threats & Cyptography
+
+* [Common Linux Security Threats](./9_Threats&Cryptography/1_Security_Threats.md)
+* [CIA Security Triad](./9_Threats&Cryptography/2_CIA_Triad.md)
+* [Cryptography](./9_Threats&Cryptography/3_Cryptography.md)
+* [Managing Encryption](./9_Threats&Cryptography/4_Managing_Encryption.md)
+* [Integrity](./9_Threats&Cryptography/5_Integrity.md)
+* [Generating File System Hashes](./9_Threats&Cryptography/6_Hashes.md)
+* [Public Key Infrastructure](./9_Threats&Cryptography/7_PKI.md)
+* [PKI Certificate Lifecycle](./9_Threats&Cryptography/8_Certificate_Lifecycle.md)
+* [Deploying a Private Certificate Authority](./9_Threats&Cryptography/9_Private_CA.md)
+* [Acquiring PKI Certificates](./9_Threats&Cryptography/10_PKI_Certificates.md)
+* [SSL & TLS](./9_Threats&Cryptography/11_SSL&TLS.md)
+* [Enabling HTTPS Binding](./9_Threats&Cryptography/12_HTTPS_Binding.md)
+
+<!-- <br> -->
+
+<!-- ### Authentication & Authorization -->
+
+<!-- <br> -->
+
+<!-- ### Firewalls & Monitoring -->
+
+<!-- <br> -->
+
+<!-- ### Securing Linux -->
+
+<!-- <br> -->
+
+<!-- ### Managing SELinux -->
+
+<!-- <br> -->
+
+<!-- ### Bash Scripting -->
+
+<!-- <br> -->
+
+<!-- ### Application Containers -->
+
+<!-- <br> -->
+
+<!-- ### Infrastructure as Code -->
+
+<!-- <br> -->
+
+<!-- ### Performance Troublshooting -->
+
+<!-- <br> -->
+
+<!-- ### Network & Storage Troublshooting -->
+
+<!-- <br> -->
+
+<!-- ### Permissions Issues & Restoring Linux OS -->
+
+<!-- <br> -->
+
+<!-- ### Systemd for Troublshooting -->
+
+<br>
+
 ## > Disclaimer: These notes are intended for educational purposes and are not affiliated with CompTIA.
