@@ -160,6 +160,24 @@ Each tutorial in the repository is a standalone document. Simply open the `.md` 
 
 <br>
 
+### Docker
+
+- [Docker Tutorial](./Tutorials/Docker.md): This Docker tutorial walks through the what, why and how of Docker and how to get started with containers.
+
+<br>
+
+### Docker Backup
+
+- [Docker Backup](./Tutorials/Docker_Backup.md): This tutorial covers the steps to backup Docker images, volumes, and container configurations.
+
+<br>
+
+### Docker Restore
+
+- [Docker Restore](./Tutorials/Docker_Restore.md): This tutorial will guide you through restoring Docker images, volumes, and redeploying containers using docker-compose.
+
+<br>
+
 ### Formatting
 
 - [Formatting Tutorial](./Tutorials/Formatting.md): A step-by-step tutorial on how to format a 2.5" SSD with the EXT4 file system using the GNOME Disks utility in Ubuntu Linux.
@@ -199,6 +217,12 @@ Each tutorial in the repository is a standalone document. Simply open the `.md` 
 ### Kali
 
 - [Kali Linux Tutorial](./Tutorials/Kali.md): Explore the use of Kali Linux, a powerful distribution for security testing and ethical hacking.
+
+<br>
+
+### Kubernetes
+
+- [Kubernetes Tutorial](./Tutorials/Kubernetes.md): Build an understanding of Kubernetes, containerization and deployment of applications and services using Kubernetes.
 
 <br>
 
