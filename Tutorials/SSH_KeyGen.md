@@ -7,9 +7,11 @@ In this guide, you'll learn how to generate an SSH key and add it to your GitHub
 Open your terminal and follow these steps:
 
 1. Generate a new SSH key pair by running the following command:
+
    ```bash
    ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
    ```
+
    Replace `"your_email@example.com"` with your GitHub-associated email address.
 
 2. Press Enter to accept the default file location (`/home/your_username/.ssh/id_rsa`) or provide a custom one if desired.

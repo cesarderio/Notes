@@ -81,24 +81,6 @@ Each tutorial in the repository is a standalone document. Simply open the `.md` 
 ### APIs
 
 - [API Development Setup Tutorial](./Tutorials/APIs.md): A comprehensive guide to developing, testing, and deploying APIs.
-
-<br>
-
-### Aircrack-ng
-
-- [Aircrack-ng Setup Tutorial](./Tutorials/Aircrack-ng.md): Explore the use of Aircrack-ng, a powerful tool for Wi-Fi network security assessment and penetration testing.
-
-<br>
-
-### Ansible
-
-- [Ansible Setup Tutorial](./Tutorials/Ansible.md): Learn how to automate IT tasks and manage configurations efficiently with Ansible.
-
-<br>
-
-### APIs
-
-- [API Development Setup Tutorial](./Tutorials/APIs.md): A comprehensive guide to developing, testing, and deploying APIs.
 <br>
 
 ### Automation
@@ -157,6 +139,12 @@ Each tutorial in the repository is a standalone document. Simply open the `.md` 
 ### DevOps
 
 - [DevOps Practices Tutorial](./Tutorials/DevOps.md): Learn about DevOps principles and practices for improving collaboration and productivity.
+
+<br>
+
+### Disk Image Backup
+
+- [Disk Image Backup](./Tutorials/Disk_Image_Backup.md): This tutorial will guide you through using the `dd` command to create a full disk image backup and how to restore from a backup.
 
 <br>
 
@@ -250,7 +238,7 @@ Each tutorial in the repository is a standalone document. Simply open the `.md` 
 
 <br>
 
-### Network
+### Networks
 
 - [Network Tutorial](./Tutorials/Networks.md): Learn about various network concepts and practices.
 
@@ -313,13 +301,30 @@ Each tutorial in the repository is a standalone document. Simply open the `.md` 
 ### Python
 
 - [Python Programming Tutorial](./Tutorials/Python.md): Dive into Python programming for various applications.
+
+<br>
+
+
+
+<!-- <br> -->
+
+### SambaShare
+
+- [SambaShare Tutorial](./Tutorials/SambaShare.md): Learn how to configure and deploy shared directories.
+
 <br>
 
 ### Security
 
-- [Security Practices & Tools Tutorial](./Tutorials/Security.md): A comprehensive guide on best practices and tools in cybersecurity.
+- [Security Practices & Tools Tutorial](./Tutorials/Sec_Tools.md): A comprehensive guide on best practices and tools in cybersecurity.
 
 <br>
+
+<!-- [SSH Key Generation](./Tutorials/SSH_KeyGen.md) -->
+
+<!-- - [SSH Key Generation Tutorial](./Tutorials/SSH_KeyGen.md): A guide to generating SSH keys and configuration with github. -->
+
+<!-- <br> -->
 
 ### SysAdmin
 
@@ -353,7 +358,7 @@ Each tutorial in the repository is a standalone document. Simply open the `.md` 
 
 ### Zip
 
-- [ZIP Tutorial](./Tutorials/Zipfiles.md): Managing zip files and folders in different formats and environments.
+- [ZIP & Compression files Tutorial](./Tutorials/Zipfiles.md): Managing zip files and folders in different formats and environments.
 
 <br>
 
