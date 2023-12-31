@@ -2,12 +2,18 @@
 
 This tutorial guides you through the installation and basic setup of CasaOS, a lightweight, Docker-based home cloud system. CasaOS provides an intuitive interface for managing Docker applications and personal data at home.
 
+<br>
+
 ## Prerequisites
 
 - A computer or Raspberry Pi to run CasaOS.
 - Docker installed on your system. If not installed, refer to the [Docker installation guide](https://docs.docker.com/get-docker/).
 
+<br>
+
 ## Installation
+
+<br>
 
 ### Step 1: Install CasaOS
 
@@ -19,6 +25,8 @@ curl -fsSL https://get.casaos.io -o get-casaos.sh && sh get-casaos.sh
 
 This script will install CasaOS and necessary dependencies on your system.
 
+<br>
+
 ### Step 2: Access CasaOS
 
 Once installed, CasaOS can be accessed via a web browser:
@@ -29,9 +37,13 @@ http://<YOUR-SERVER-IP>:80
 
 Replace `<YOUR-SERVER-IP>` with the IP address of the system where CasaOS is installed.
 
+<br>
+
 ## Initial Setup
 
 After accessing CasaOS through your browser, you will land on the dashboard. CasaOS offers a straightforward interface to manage your home cloud.
+
+<br>
 
 ### Configuring CasaOS
 
@@ -39,6 +51,8 @@ After accessing CasaOS through your browser, you will land on the dashboard. Cas
 - **App Store**: Install and manage Docker-based applications easily.
 - **File Management**: Organize and manage your files stored in CasaOS.
 - **Settings**: Configure system settings, network, and other preferences.
+
+<br>
 
 ### Adding Applications
 
@@ -48,12 +62,16 @@ To add applications via the App Store:
 2. Browse or search for applications.
 3. Click on an application and follow the prompts to install it.
 
+<br>
+
 ### File Management
 
 CasaOS simplifies file storage and sharing:
 
 1. Access the "Files" section from the dashboard.
 2. You can upload, download, and manage your files here.
+
+<br>
 
 ## Conclusion
 
