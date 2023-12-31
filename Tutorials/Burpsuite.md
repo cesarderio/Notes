@@ -1,23 +1,37 @@
 # Burp Suite Tutorial for Beginners
 
+<br>
+
 ## Introduction
 
 Burp Suite is a powerful tool for performing security testing of web applications. It's designed to be used by security testers to help discover vulnerabilities and issues.
 
+<br>
+
 ## What is Burp Suite?
+
+<br>
 
 ### Overview
 
 Burp Suite, developed by PortSwigger, is a set of tools bundled into a single suite made for web application security auditing. Burp Suite offers a variety of tools for performing network security checks.
 
+<br>
+
 ## Getting Started with Burp Suite
+
+<br>
 
 ### Installation
 
 - **Download**: Visit [PortSwigger's official website](https://portswigger.net/burp/communitydownload) to download Burp Suite Community Edition.
 - **Installation**: Follow the installation instructions for your operating system.
 
+<br>
+
 ### Basic Concepts
+
+<br>
 
 #### The Burp Suite Interface
 
@@ -27,12 +41,18 @@ Burp Suite, developed by PortSwigger, is a set of tools bundled into a single su
 - **Intruder**: Automated attack on applications.
 - **Scanner** (Only in Professional Edition): Automated vulnerability scanner.
 
+<br>
+
 #### Configuring Your Browser
 
 - Configure your browser to route traffic through Burp Suite's proxy listener.
 - For most browsers, this involves setting the HTTP proxy to `127.0.0.1` (localhost) with the port set to `8080` (default).
 
+<br>
+
 ### Using Burp Suite
+
+<br>
 
 #### Intercepting Requests and Responses
 
@@ -40,22 +60,32 @@ Burp Suite, developed by PortSwigger, is a set of tools bundled into a single su
 - **Browser Setup**: Make sure your browser is configured to use Burp's proxy.
 - **Intercepting Traffic**: Browse the web application. Burp Suite will capture requests and responses between your browser and the web server.
 
+<br>
+
 #### Analyzing and Modifying Requests
 
 - You can view, modify, and send individual HTTP/HTTPS requests and responses using the "Repeater" tool.
 - This is useful for testing how changes in the requests impact the responses from the server.
 
+<br>
+
 ## Advanced Burp Suite Features
+
+<br>
 
 #### Using Burp Intruder
 
 - Burp Intruder can perform automated attacks against web applications.
 - It's commonly used for tasks like parameter fuzzing, brute force attacks, and session enumeration.
 
+<br>
+
 #### Conducting a Vulnerability Scan
 
 - **Note**: This feature is available in the Professional Edition.
 - Automated scanning can be performed to identify vulnerabilities in web applications.
+
+<br>
 
 ## Best Practices and Tips
 
@@ -63,9 +93,13 @@ Burp Suite, developed by PortSwigger, is a set of tools bundled into a single su
 - **Stay Updated**: Keep Burp Suite updated to benefit from the latest features and security updates.
 - **Learn Web Technologies**: Understanding HTML, JavaScript, and server-side technologies is crucial for effective use of Burp Suite.
 
+<br>
+
 ## Conclusion
 
 Burp Suite is an essential tool for web application security testing. It combines a variety of tools for comprehensive security audits.
+
+<br>
 
 ## Further Learning
 

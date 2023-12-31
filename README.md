@@ -125,8 +125,6 @@ Each tutorial in the repository is a standalone document. Simply open the `.md` 
 
 ## Containers
 
-<br>
-
 ### Docker
 
 - [Docker Tutorial](./Tutorials/Docker.md): This Docker tutorial walks through the what, why and how of Docker and how to get started with containers.
@@ -205,8 +203,6 @@ Each tutorial in the repository is a standalone document. Simply open the `.md` 
 
 ## Routers & Firewalls
 
-<br>
-
 ### OpenWRT
 
 - [OpenWRT Setup in VirtualBox](./Tutorials/openWRT.md): Instructions for setting up OpenWRT as a router and network manager in a VirtualBox VM.
@@ -234,8 +230,6 @@ Each tutorial in the repository is a standalone document. Simply open the `.md` 
 
 <br> -->
 
-<br>
-
 ### Proxmox
 
 - [Proxmox Setup Tutorial](./Tutorials/Proxmox.md): Learn the fundamentals of setting up and using Proxmox for virtualization management.
@@ -257,8 +251,6 @@ Each tutorial in the repository is a standalone document. Simply open the `.md` 
 
 
 ## Configuration and Automation Tools
-
-<br>
 
 ### Ansible
 
@@ -293,8 +285,6 @@ Each tutorial in the repository is a standalone document. Simply open the `.md` 
 
 ## Database and Data Management
 
-<br>
-
 ### MySQL
 
 - [MySQL Tutorial](./Tutorials/MySQL.md): A guide to using MySQL, a popular relational database management system.
@@ -321,8 +311,6 @@ Each tutorial in the repository is a standalone document. Simply open the `.md` 
 <br>
 
 ## System Administration and Networking
-
-<br>
 
 ### Clouds
 

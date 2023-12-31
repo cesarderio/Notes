@@ -1,29 +1,45 @@
 # CI/CD Pipelines Tutorial
 
+<br>
+
 ## Introduction
 
 CI/CD, short for Continuous Integration and Continuous Deployment, is a method to frequently deliver apps to customers by introducing automation into the stages of app development. This tutorial explores CI/CD concepts and how to implement them using tools like Jenkins, GitLab CI, and CircleCI.
 
+<br>
+
 ## Understanding CI/CD
+
+<br>
 
 ### Continuous Integration (CI)
 
 CI is the practice of automating the integration of code changes from multiple contributors into a single software project. It involves automatically building and testing code changes.
 
+<br>
+
 ### Continuous Deployment (CD)
 
 CD extends CI by automatically deploying all code changes to a testing or production environment after the build stage.
 
+<br>
+
 ## CI/CD Tools
+
+<br>
 
 ### Jenkins
 
 Jenkins is an open-source automation server that enables developers to build, test, and deploy their applications.
 
+<br>
+
 #### Setting Up Jenkins
 
 1. **Installation**: Download Jenkins from [Jenkins.io](https://www.jenkins.io/download/) and follow the installation instructions.
 2. **Creating a Pipeline**: Use the Jenkinsfile to define your pipeline script.
+
+<br>
 
 #### Jenkins Pipeline Script
 
@@ -52,9 +68,13 @@ pipeline {
 }
 ```
 
+<br>
+
 ### GitLab CI
 
 GitLab CI is the part of GitLab for application lifecycle and software development.
+
+<br>
 
 #### Configuring GitLab CI
 
@@ -82,9 +102,13 @@ deploy_job:
     - echo "Deploying the app"
 ```
 
+<br>
+
 ### CircleCI
 
 CircleCI is a cloud-based CI/CD tool that automates the integration and deployment process.
+
+<br>
 
 #### Setting Up CircleCI
 
@@ -124,6 +148,8 @@ workflows:
       - deploy
 ```
 
+<br>
+
 ## Best Practices in CI/CD
 
 - **Keep the Build Fast**: Optimize build times to ensure quick feedback.
@@ -131,9 +157,13 @@ workflows:
 - **Version Control**: Use version control systems for all production artifacts.
 - **Monitor and Log**: Implement monitoring and logging to catch issues early.
 
+<br>
+
 ## Conclusion
 
 CI/CD is an essential practice for modern software development, enabling teams to deliver code changes more frequently and reliably. Jenkins, GitLab CI, and CircleCI are powerful tools to create CI/CD pipelines.
+
+<br>
 
 ## Further Learning
 

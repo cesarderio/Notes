@@ -2,7 +2,9 @@
 
 Cron jobs are scheduled tasks that are automated to run at specified intervals. They are typically used for system maintenance or administration, automating repetitive tasks, and scheduling jobs that need to run at specific times.
 
-### Step 1: Accessing the Crontab
+<br>
+
+## Step 1: Accessing the Crontab
 
 1. **Open the Crontab:**
    - To edit the crontab for the current user, use:
@@ -17,11 +19,13 @@ Cron jobs are scheduled tasks that are automated to run at specified intervals. 
      sudo crontab -u username -e
      ```
 
+<br>
+
 ### Step 2: Crontab Syntax
 
 The general syntax of a cron job is:
 
-```
+```bash
 * * * * * command to execute
 ```
 
@@ -30,6 +34,8 @@ The general syntax of a cron job is:
 - **Day of the month (1 - 31)**
 - **Month (1 - 12)**
 - **Day of the week (0 - 6) (Sunday = 0 or 7)**
+
+<br>
 
 ### Step 3: Writing a Cron Job
 
@@ -51,6 +57,8 @@ The general syntax of a cron job is:
   0 1 * * 0 /path/to/backup.sh
   ```
 
+<br>
+
 ### Step 4: Setting Environment Variables
 
 - Cron jobs run in a limited environment, so you may need to set environment variables, especially `PATH`, at the top of your crontab file:
@@ -58,6 +66,8 @@ The general syntax of a cron job is:
   ```bash
   PATH=/usr/bin:/bin:/usr/sbin:/sbin
   ```
+
+<br>
 
 ### Step 5: Managing Crontab Entries
 
@@ -73,6 +83,8 @@ The general syntax of a cron job is:
   crontab -r
   ```
 
+<br>
+
 ### Step 6: Logging and Output
 
 - **Redirecting Output:** You can redirect the output of your cron jobs to a file for logging:
@@ -83,12 +95,16 @@ The general syntax of a cron job is:
 
   `>` redirects standard output, and `2>&1` redirects both standard output and standard error.
 
+<br>
+
 ### Step 7: Common Issues and Tips
 
 - **Permissions:** Ensure your script or command has the necessary permissions to execute.
 - **Environment:** Remember that cron jobs do not run in the same environment as your interactive shell.
 - **Path:** Use absolute paths for scripts, commands, and files in cron jobs.
 - **Debugging:** Check syslog or cron logs for troubleshooting (`/var/log/cron` on many systems).
+
+<br>
 
 ### Step 8: Advanced Usage
 
