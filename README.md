@@ -58,7 +58,7 @@ Each tutorial in the repository is a standalone document. Simply open the `.md` 
 
 <br>
 
-## Tutorials
+# ***Tutorials***
 
 <details>
 
