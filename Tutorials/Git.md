@@ -2,7 +2,7 @@
 
 Learn the fundamentals of Git, a powerful version control system used for tracking changes, collaborating with others, and managing code repositories effectively.
 
----
+<!-- --- -->
 <br>
 
 ### **Table of Contents**
@@ -21,14 +21,14 @@ Learn the fundamentals of Git, a powerful version control system used for tracki
 - [Resources](#resources)
 - [Author](#author)
 
----
+
 <br>
 
 ## **Overview**
 
 Git is an open-source version control system designed to handle everything from small to very large projects with speed and efficiency. It is essential for collaborative software development and personal project management.
 
----
+
 <br>
 
 ## **Objectives**
@@ -39,7 +39,7 @@ By the end of this tutorial, you will:
 - Be able to initialize, clone, commit, branch, and merge repositories.
 - Learn how to work with remote repositories using Git.
 
----
+
 <br>
 
 ## **Prerequisites**
@@ -50,7 +50,7 @@ To follow this tutorial, you should:
 - Basic familiarity with the command line.
 - A GitHub or similar account for remote repository management (optional but recommended).
 
----
+
 <br>
 
 ## **Steps**
@@ -62,7 +62,7 @@ To follow this tutorial, you should:
 | `git init`            | Initializes a new Git repository in the current directory.                                    | `git init`                                    |
 | `git clone [url]`     | Clones an existing Git repository from the specified URL.                                     | `git clone https://github.com/user/repo.git`  |
 
----
+
 
 ### **Staging and Committing**
 
@@ -72,7 +72,7 @@ To follow this tutorial, you should:
 | `git commit -m "[message]"` | Records changes with a commit message describing the updates.                                    | `git commit -m "Fixed bug in data processing"`|
 | `git status`                | Displays the state of the working directory and staging area.                                    | `git status`                                   |
 
----
+
 
 ### **Branching and Merging**
 
@@ -82,7 +82,7 @@ To follow this tutorial, you should:
 | `git checkout [branch]`    | Switches to the specified branch and updates the working directory.                                | `git checkout main`   |
 | `git merge [branch]`       | Merges the specified branch into the current branch.                                               | `git merge feature`   |
 
----
+
 
 ### **Viewing Changes and Logs**
 
@@ -91,7 +91,7 @@ To follow this tutorial, you should:
 | `git log`        | Shows the commit history.                                | `git log`      |
 | `git diff`       | Displays file differences not yet staged.                | `git diff`     |
 
----
+
 
 ### **Remote Repository Commands**
 
@@ -102,7 +102,7 @@ To follow this tutorial, you should:
 | `git reset [file]`           | Removes a file from the staging area without altering its contents in the working directory.   | `git reset file.txt`              |
 | `git revert [commit]`        | Creates a new commit that undoes the changes introduced in a specific commit.                 | `git revert a1b2c3d`              |
 
----
+
 <br>
 
 ## **Examples**
@@ -133,7 +133,7 @@ Here’s an example of a common workflow:
    git push origin main
    ```
 
----
+
 <br>
 
 ## **Notes**
@@ -142,7 +142,7 @@ Here’s an example of a common workflow:
 - **Warning**: Be cautious with `git reset` and `git revert`, as they can alter the repository state significantly.
 - Use `git status` often to stay aware of changes in your working directory.
 
----
+
 <br>
 
 ## **Resources**
@@ -151,7 +151,7 @@ Here’s an example of a common workflow:
 - [Git Cheat Sheet](https://education.github.com/git-cheat-sheet-education.pdf)
 - [GitHub Tutorials](https://docs.github.com/en/get-started)
 
----
+
 <br>
 
 ## **Contribution**
@@ -184,7 +184,7 @@ Your contributions can make these scripts even better:
 
 Contributions are welcome! Feel free to open issues, suggest enhancements, or submit pull requests to improve the script.
 
----
+
 
 <br>
 
@@ -192,13 +192,13 @@ Contributions are welcome! Feel free to open issues, suggest enhancements, or su
 
 - **Raphael Chookagian** | [GitHub Profile](https://github.com/cesar-group)
 
----
+
 
 ## **Date of Latest Revision**
 
 - 12/09/2024
 
----
+
 
 ## **License**
 
@@ -206,7 +206,7 @@ Contributions are welcome! Feel free to open issues, suggest enhancements, or su
 
 - This project is licensed under the MIT License. See the LICENSE file for details.
 
----
+
 
 <!-- ## Basic Git Commands
 
