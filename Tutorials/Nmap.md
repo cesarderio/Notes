@@ -1,5 +1,28 @@
 # Nmap Tutorial for Beginners
 
+## Table of Contents
+
+- [Introduction](#introduction)
+- [What is Nmap?](#what-is-nmap)
+  - [Overview](#overview)
+- [Getting Started with Nmap](#getting-started-with-nmap)
+  - [Installation](#installation)
+  - [Basic Nmap Commands](#basic-nmap-commands)
+    - [Scanning a Single Host](#scanning-a-single-host)
+    - [Scanning Multiple Hosts](#scanning-multiple-hosts)
+    - [Scanning a Network](#scanning-a-network)
+    - [Port Scanning](#port-scanning)
+    - [Scan Types](#scan-types)
+  - [Advanced Scanning Techniques](#advanced-scanning-techniques)
+    - [OS Detection](#os-detection)
+    - [Service Version Detection](#service-version-detection)
+    - [Aggressive Scan](#aggressive-scan)
+    - [Using Nmap Scripting Engine (NSE)](#using-nmap-scripting-engine-nse)
+- [Best Practices and Tips](#best-practices-and-tips)
+- [Conclusion](#conclusion)
+- [Further Learning](#further-learning)
+- [Contribution](#contribution)
+
 ## Introduction
 
 Nmap (Network Mapper) is an open-source tool for network exploration and security auditing. It was designed to rapidly scan large networks, although it works fine against single hosts.
@@ -78,3 +101,49 @@ Nmap is an incredibly powerful tool for network administrators and security prof
 
 - **Official Nmap Documentation**: Dive deeper into Nmap's capabilities by reading the official [Nmap documentation](https://nmap.org/docs.html).
 - **Online Courses and Tutorials**: Look for online resources and tutorials to get hands-on experience with Nmap.
+
+<br>
+
+## **Contribution**
+
+Your contributions are highly encouraged to enhance this guide:
+
+- Fork the repository.
+- Create a new branch:
+
+    ```bash
+    git checkout -b my-awesome-feature
+    ```
+
+- Make your valuable changes.
+- Commit your changes:
+
+    ```bash
+    git commit -am 'Added some amazing features'
+    ```
+
+- Push to the branch:
+
+    ```bash
+    git push origin my-awesome-feature
+    ```
+
+- Create a new Pull Request targeting the `Notes` directory.
+
+Contributions are welcome! Feel free to open issues, suggest enhancements, or submit pull requests to improve this guide.
+
+<br>
+
+## **Author**
+
+- **Raphael Chookagian** | [GitHub Profile](https://github.com/cesar-group)
+
+## **Date of Latest Revision**
+
+- 12/10/2024
+
+## **License**
+
+- This guide is provided as-is without any warranties. Users are advised to review and understand the guide before executing any commands.
+
+- This project is licensed under the MIT License. See the LICENSE file for details.
