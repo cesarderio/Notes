@@ -70,6 +70,7 @@ Follow these steps to install Aircrack-ng:
   brew install aircrack-ng
   ```
 
+<br>
 
 ### **Basic Concepts**
 
@@ -82,6 +83,7 @@ Follow these steps to install Aircrack-ng:
 
 - Ensure your network adapter supports **packet injection** and **monitor mode**.
 
+<br>
 
 ### **Capturing Packets**
 
@@ -103,6 +105,7 @@ Follow these steps to install Aircrack-ng:
    airodump-ng --bssid [target BSSID] -c [channel] --write [output file] wlan0
    ```
 
+<br>
 
 ### **Cracking WEP**
 
