@@ -151,6 +151,8 @@ Chef is an automation platform that uses code to manage server configurations, m
   - **Recipes**: Describe how to configure parts of a server.
   - **Cookbooks**: Collections of recipes and related configuration files.
 
+<br>
+
 **Example Recipe**:
 A basic recipe to install Apache:
 
