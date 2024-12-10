@@ -15,14 +15,13 @@ Learn the basics of Ansible, an open-source automation platform for configuratio
   - [Inventory File](#inventory-file)
   - [Basic Commands](#basic-commands)
 - [Playbooks](#playbooks)
-  - [Introduction to Playbooks](#introduction-to-playbooks)
   - [Creating Your First Playbook](#creating-your-first-playbook)
 - [Modules](#modules)
 - [Roles](#roles)
   - [Creating a Simple Role](#creating-a-simple-role)
 - [Best Practices and Tips](#best-practices-and-tips)
 - [Resources](#resources)
-- [Author](#author)
+- [Contribution](#contribution)
 
 <br>
 

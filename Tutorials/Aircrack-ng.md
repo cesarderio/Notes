@@ -20,7 +20,7 @@ Learn how to use Aircrack-ng, a powerful suite for WiFi security analysis, to un
   - [Creating a Wordlist](#creating-a-wordlist)
 - [Best Practices and Tips](#best-practices-and-tips)
 - [Resources](#resources)
-- [Author](#author)
+- [Contribution](#contribution)
 
 <br>
 
