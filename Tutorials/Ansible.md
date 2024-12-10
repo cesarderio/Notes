@@ -121,8 +121,6 @@ dbserver.example.com
 
 ## **Playbooks**
 
-### **Introduction to Playbooks**
-
 Playbooks are YAML files where you define the desired state of your managed nodes. They consist of one or more *plays*, each containing tasks.
 
 <br>
@@ -132,7 +130,7 @@ Playbooks are YAML files where you define the desired state of your managed node
 1. Create a file named `webserver.yml`:
 
    ```yaml
-   ---
+
    - name: Ensure Apache is installed and running
      hosts: webservers
      become: yes
@@ -244,133 +242,3 @@ Contributions are welcome! Feel free to open issues, suggest enhancements, or su
 - This script is provided as-is without any warranties. Users are advised to review and understand the script before executing it.
 
 - This project is licensed under the MIT License. See the LICENSE file for details.
-
-<!-- # Ansible for Beginners: A Comprehensive Guide
-
-<br>
-
-## What is Ansible?
-
-Ansible is an open-source automation platform. It's used to automate tasks such as configuration management, application deployment, and orchestration of complex workflows. Its main goals are simplicity and ease-of-use.
-
-<br>
-
-## Basic Management
-
-<br>
-
-### Installation
-
-To install Ansible:
-
-1. **For Ubuntu/Debian**: Use `sudo apt install ansible`.
-2. **For RedHat/CentOS**: Use `sudo yum install ansible`.
-3. **For macOS**: Use `brew install ansible`.
-4. **Windows**: Windows is not directly supported, but it can be run from within the Windows Subsystem for Linux (WSL).
-
-<br>
-
-### Ansible Configuration
-
-Ansible configurations can be done in the `/etc/ansible/ansible.cfg` file, although defaults are generally good for starters.
-
-<br>
-
-### Inventory File
-
-The inventory file (default location is `/etc/ansible/hosts`) is where you list the nodes or servers you want Ansible to manage.
-
-Example:
-
-```bash
-[webservers]
-server1.example.com
-server2.example.com
-
-[dbservers]
-dbserver.example.com
-```
-
-<br>
-
-### Basic Commands
-
-- **Ping**: To check connectivity to your nodes: `ansible all -m ping -i your_inventory_file`.
-- **Ad-hoc Commands**: Execute single tasks with Ansible commands. Example: `ansible all -a "/bin/echo hello" -i your_inventory_file`.
-
-<br>
-
-## Ansible Playbooks
-
-<br>
-
-### Introduction to Playbooks
-
-Playbooks are YAML files where you define the desired states of your managed nodes. They can include one or multiple plays.
-
-<br>
-
-### Creating Your First Playbook
-
-Create a file named `webserver.yml`:
-
-```yaml
----
-- name: Ensure Apache is installed and running
-  hosts: webservers
-  become: yes
-  tasks:
-    - name: Install Apache
-      apt:
-        name: apache2
-        state: present
-
-    - name: Start Apache
-      service:
-        name: apache2
-        state: started
-```
-
-To run this playbook, use `ansible-playbook webserver.yml -i your_inventory_file`.
-
-<br>
-
-## Ansible Modules
-
-Modules are discrete units of code that get executed in the target machine. Examples include system modules (like `user` and `service`) and packaging modules (like `apt` and `yum`).
-
-<br>
-
-## Ansible Roles
-
-Roles are a way to group multiple tasks together into one container to do automated tasks for the server. They provide a framework for fully independent or interdependent collections of files, tasks, templates, variables, and modules.
-
-<br>
-
-### Creating a Simple Role
-
-1. **Create Role Structure**: Use `ansible-galaxy init your_role_name` to create a skeleton role.
-2. **Add Tasks**: Edit the `tasks/main.yml` file to add tasks.
-3. **Add Templates/Files**: If needed, add templates or files in the respective directories.
-
-<br>
-
-## Best Practices and Tips
-
-- **Idempotency**: Design playbooks to be idempotent – running them repeatedly should not change the system state after the first successful run.
-- **Use Variables**: For reusable code, use variables rather than hard-coding values.
-- **Task Naming**: Always name your tasks to understand what each task is doing.
-- **Version Control**: Keep your playbooks and roles in a version control system like Git.
-
-<br>
-
-## Conclusion
-
-Ansible is a versatile tool ideal for simplifying complex tasks. Through playbooks and roles, Ansible provides a clear, concise way to manage your IT infrastructure.
-
-<br>
-
-## Further Learning
-
-- **Official Documentation**: Visit [Ansible Documentation](https://docs.ansible.com) for more detailed information.
-- **Community Resources**: Engage with the Ansible community through forums and mailing lists for tips and best practices. -->
