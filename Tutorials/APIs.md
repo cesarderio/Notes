@@ -1,7 +1,3 @@
-Here is the reformatted **API Development and Management Tutorial** following the structured template:
-
----
-
 # API Development and Management Tutorial
 
 A comprehensive guide to understanding and building APIs, including tools like Postman and Swagger, and key security practices.
@@ -176,15 +172,15 @@ Contributions are welcome! Feel free to open issues, suggest enhancements, or su
 ---
 <!-- <br> -->
 
-## **Author**
+### **Author**
 
 - **Raphael Chookagian** | [GitHub Profile](https://github.com/cesar-group)
 
-## **Date of Latest Revision**
+### **Date of Latest Revision**
 
 - 12/10/2024
 
-## **License**
+### **License**
 
 - This script is provided as-is without any warranties. Users are advised to review and understand the script before executing it.
 
