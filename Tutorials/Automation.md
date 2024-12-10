@@ -82,7 +82,6 @@ Ansible is an open-source tool for automating software provisioning, configurati
           name: apache2
           state: started
   ```
-
 <br>
 
 **Advanced Topics**:
@@ -96,6 +95,7 @@ Ansible is an open-source tool for automating software provisioning, configurati
 - Ensure **idempotency** (running playbooks multiple times doesn’t cause unintended changes).
 - Maintain organized code for scalability.
 
+---
 <br>
 
 ### **Puppet**
@@ -138,6 +138,7 @@ Puppet is a configuration management tool that automates system configuration de
 - Store Puppet code in version control.
 - Use testing tools like `rspec-puppet` to validate changes.
 
+---
 <br>
 
 ### **Chef**
