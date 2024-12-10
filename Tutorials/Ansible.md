@@ -1,7 +1,3 @@
-Here’s the reformatted **Ansible for Beginners: A Comprehensive Guide** using the structured template:
-
----
-
 # Ansible for Beginners: A Comprehensive Guide
 
 Learn the basics of Ansible, an open-source automation platform for configuration management, application deployment, and orchestration.
@@ -190,9 +186,6 @@ Roles provide a way to organize and reuse Ansible tasks, templates, variables, a
 
 Cesar | [GitHub Profile](https://github.com/cesar-group)
 
----
-
-This version is structured, clean, and follows the requested template. Let me know if additional adjustments are needed!
 
 
 <!-- # Ansible for Beginners: A Comprehensive Guide
