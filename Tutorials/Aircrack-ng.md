@@ -4,7 +4,7 @@ Learn how to use Aircrack-ng, a powerful suite for WiFi security analysis, to un
 
 <br>
 
-## **Table of Contents**
+### **Table of Contents**
 
 - [Overview](#overview)
 - [Objectives](#objectives)
@@ -53,6 +53,8 @@ By the end of this tutorial, you will:
 
 ## **Steps**
 
+<br>
+
 ### **Installation**
 
 Follow these steps to install Aircrack-ng:
@@ -73,6 +75,8 @@ Follow these steps to install Aircrack-ng:
 <br>
 
 ### **Basic Concepts**
+
+<br>
 
 #### Understanding WiFi Security
 
