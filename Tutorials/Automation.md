@@ -50,24 +50,22 @@ By the end of this tutorial, you will:
 
 Ansible is an open-source tool for automating software provisioning, configuration management, and application deployment. It uses a simple YAML-based syntax called playbooks.
 
-#### **Installation**:
-
-Install Ansible using your package manager. For example, on Ubuntu:
+- Install Ansible using your package manager. For example, on Ubuntu:
 
   ```bash
   sudo apt install ansible
   ```
 
-#### **Key Concepts**:
+- **Key Concepts**:
 
-- **Playbooks**: Define the desired states of managed nodes.
-- **Inventory Files**: Specify hosts and groups of hosts.
-- **Modules**: Units of code for tasks (e.g., managing services).
-- **Roles**: Reusable collections of playbooks and related files.
+  - **Playbooks**: Define the desired states of managed nodes.
+  - **Inventory Files**: Specify hosts and groups of hosts.
+  - **Modules**: Units of code for tasks (e.g., managing services).
+  - **Roles**: Reusable collections of playbooks and related files.
 
-**Example Playbook**:
+<br>
 
-A simple playbook to install and start Apache:
+**Example Playbook** to install and start Apache:
 
   ```yaml
 
@@ -85,6 +83,8 @@ A simple playbook to install and start Apache:
           state: started
   ```
 
+<br>
+
 **Advanced Topics**:
 
 - Variables and facts for dynamic configurations.
@@ -100,22 +100,22 @@ A simple playbook to install and start Apache:
 
 ### **Puppet**
 
-#### **What is Puppet?**
-
 Puppet is a configuration management tool that automates system configuration declaratively.
 
-#### **Getting Started with Puppet**
+- Install Puppet using your package manager. For example, on Ubuntu:
 
-**Installation**:
-Follow the official Puppet documentation for your operating system.
+  ```bash
+  sudo apt install puppet
+  ```
 
-**Key Concepts**:
+- **Key Concepts**:
 
-- **Manifests**: Written in Puppet’s DSL to describe desired system states.
-- **Modules**: Collections of manifests, facts, and templates.
+  - **Manifests**: Written in Puppet’s DSL to describe desired system states.
+  - **Modules**: Collections of manifests, facts, and templates.
 
-**Example Manifest**:
-A manifest to ensure Apache is installed and running:
+<br>
+
+**Example Manifest**: to ensure Apache is installed and running:
 
   ```puppet
   package { 'apache2':
@@ -142,19 +142,14 @@ A manifest to ensure Apache is installed and running:
 
 ### **Chef**
 
-#### **What is Chef?**
-
 Chef is an automation platform that uses code to manage server configurations, making it scalable and flexible for cloud environments.
 
-#### **Getting Started with Chef**
+- Install Chef Workstation by following the [official Chef documentation](https://docs.chef.io).
 
-**Installation**:
-Install Chef Workstation by following the [official Chef documentation](https://docs.chef.io).
+- **Key Concepts**:
 
-**Key Concepts**:
-
-- **Recipes**: Describe how to configure parts of a server.
-- **Cookbooks**: Collections of recipes and related configuration files.
+  - **Recipes**: Describe how to configure parts of a server.
+  - **Cookbooks**: Collections of recipes and related configuration files.
 
 **Example Recipe**:
 A basic recipe to install Apache:
