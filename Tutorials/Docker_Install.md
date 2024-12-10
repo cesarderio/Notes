@@ -42,6 +42,8 @@ First, update the apt package index and ensure that you have the necessary packa
   sudo apt install apt-transport-https ca-certificates curl software-properties-common
   ```
 
+<br>
+
 ### **Step 2: Add Docker's GPG Key**
 
 Add Docker’s official GPG key to ensure the integrity of the software packages downloaded from the Docker repository:
@@ -49,6 +51,8 @@ Add Docker’s official GPG key to ensure the integrity of the software packages
   ```bash
   curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
   ```
+
+<br>
 
 ### **Step 3: Add Docker Repository**
 
@@ -58,6 +62,8 @@ Add the Docker repository to your system's software repository list:
   sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"
   ```
 
+<br>
+
 ### **Step 4: Update Package Index Again**
 
 Update the apt package index again:
@@ -65,6 +71,8 @@ Update the apt package index again:
   ```bash
   sudo apt update
   ```
+
+<br>
 
 ### **Step 5: Check Docker Version**
 
@@ -74,6 +82,8 @@ Ensure you are about to install Docker from the Docker repository instead of the
   apt-cache policy docker-ce
   ```
 
+<br>
+
 ### **Step 6: Install Docker**
 
 Install Docker:
@@ -82,6 +92,8 @@ Install Docker:
   sudo apt install docker-ce
   ```
 
+<br>
+
 ### **Step 7: Check Docker Service Status**
 
 Check the status of the Docker service:
@@ -89,6 +101,8 @@ Check the status of the Docker service:
   ```bash
   sudo systemctl status docker
   ```
+
+<br>
 
 ### **Step 8: Add User to Docker Group (Optional)**
 
@@ -103,6 +117,8 @@ To apply the new group membership, log out of your server and back in, or type t
   ```bash
   su - ${USER}
   ```
+
+<br>
 
 ### **Step 9: Verify Docker Installation**
 
