@@ -82,6 +82,7 @@ Ansible is an open-source tool for automating software provisioning, configurati
           name: apache2
           state: started
   ```
+
 <br>
 
 **Advanced Topics**:
@@ -128,6 +129,8 @@ Puppet is a configuration management tool that automates system configuration de
   }
   ```
 
+<br>
+
 **Advanced Topics**:
 
 - Use **Puppet Forge** to download community modules.
@@ -166,6 +169,8 @@ A basic recipe to install Apache:
     action [:enable, :start]
   end
   ```
+
+<br>
 
 **Advanced Topics**:
 
