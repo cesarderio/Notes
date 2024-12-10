@@ -4,7 +4,7 @@ Learn the basics of Ansible, an open-source automation platform for configuratio
 
 <br>
 
-## **Table of Contents**
+### **Table of Contents**
 
 - [Overview](#overview)
 - [Objectives](#objectives)
