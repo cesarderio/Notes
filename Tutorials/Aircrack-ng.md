@@ -72,14 +72,14 @@ Follow these steps to install Aircrack-ng:
 
 <br>
 
-### **Basic Concepts**
+## **Basic Concepts**
 
-#### Understanding WiFi Security
+### Understanding WiFi Security
 
 - WiFi networks use security protocols like WEP, WPA, and WPA2.
 - Aircrack-ng tests the robustness of these protocols by analyzing captured packets.
 
-#### Required Hardware
+### Required Hardware
 
 - Ensure your network adapter supports **packet injection** and **monitor mode**.
 
