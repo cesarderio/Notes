@@ -83,7 +83,7 @@ By the end of this tutorial, you will:
 
 #### **Postman**
 
-- Postman is a popular API testing tool that helps developers send requests, view responses, and develop APIs.
+Postman is a popular API testing tool that helps developers send requests, view responses, and develop APIs.
 
 - **Key Features**:
 
@@ -93,7 +93,7 @@ By the end of this tutorial, you will:
 
 #### **Swagger (OpenAPI)**
 
-- Swagger provides a suite of tools for designing, documenting, and building APIs.
+Swagger provides a suite of tools for designing, documenting, and building APIs.
 
 - **Key Features**:
 
