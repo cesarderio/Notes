@@ -2,7 +2,7 @@
 
 A comprehensive guide to understanding and building APIs, including tools like Postman and Swagger, and key security practices.
 
----
+<br>
 
 ## **Table of Contents**
 
@@ -18,13 +18,13 @@ A comprehensive guide to understanding and building APIs, including tools like P
 - [Resources](#resources)
 - [Contribution](#contribution)
 
----
+<br>
 
 ## **Overview**
 
 APIs (Application Programming Interfaces) are crucial in modern software development, enabling different applications to communicate with each other. This tutorial covers the fundamentals of API development, management, and security, and introduces tools like Postman and Swagger for efficient API development.
 
----
+<br>
 
 ## **Objectives**
 
@@ -35,7 +35,7 @@ By the end of this tutorial, you will:
 - Explore tools like Postman and Swagger for API testing and documentation.
 - Gain knowledge of key API security practices.
 
----
+<br>
 
 ## **Prerequisites**
 
@@ -43,7 +43,7 @@ By the end of this tutorial, you will:
 - Familiarity with HTTP methods (GET, POST, PUT, DELETE).
 - A back-end programming language (e.g., Node.js, Python, Java) installed.
 
----
+<br>
 
 ## **Steps**
 
@@ -59,7 +59,7 @@ An API is a set of protocols and tools for building software applications. It de
 2. **SOAP (Simple Object Access Protocol)**: A protocol for exchanging structured information, typically using XML.
 3. **GraphQL**: A flexible API that lets clients request exactly the data they need.
 
----
+<br>
 
 ### **API Development**
 
@@ -75,7 +75,7 @@ An API is a set of protocols and tools for building software applications. It de
 - Create endpoints for each resource.
 - Implement the business logic for handling requests and responses.
 
----
+<br>
 
 ### **API Management Tools**
 
@@ -99,7 +99,7 @@ Swagger provides a suite of tools for designing, documenting, and building APIs.
 - **Swagger UI**: Visualize and interact with API resources.
 - **Swagger Codegen**: Automatically generate client libraries, server stubs, and documentation.
 
----
+<br>
 
 ### **API Security**
 
@@ -120,7 +120,7 @@ Swagger provides a suite of tools for designing, documenting, and building APIs.
 
 - Configure CORS settings to allow secure access to your API from different domains.
 
----
+<br>
 
 ## **Best Practices**
 
@@ -128,16 +128,14 @@ Swagger provides a suite of tools for designing, documenting, and building APIs.
 - **Versioning**: Use versioning (e.g., `/v1/`, `/v2/`) to manage changes to your API over time.
 - **Monitoring**: Continuously monitor API usage and performance to ensure reliability and security.
 
----
+<br>
 
 ## **Resources**
 
 - **Official Documentation**: Learn more about [Postman](https://learning.postman.com/docs/getting-started/introduction/) and [Swagger](https://swagger.io/docs/).
 - **Online Courses**: Explore online platforms offering courses on API development and best practices.
 
----
-
-<!-- <br> -->
+<br>
 
 ## **Contribution**
 
@@ -169,8 +167,7 @@ Your contributions can make these scripts even better:
 
 Contributions are welcome! Feel free to open issues, suggest enhancements, or submit pull requests to improve the script.
 
----
-<!-- <br> -->
+<br>
 
 ### **Author**
 
