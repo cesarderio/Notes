@@ -81,9 +81,9 @@ By the end of this tutorial, you will:
 
 ### **API Management Tools**
 
-#### **Postman**
+#### ***Postman***:
 
-Postman is a popular API testing tool that helps developers send requests, view responses, and develop APIs.
+*Postman* is a popular API testing tool that helps developers send requests, view responses, and develop APIs.
 
 - **Key Features**:
 
@@ -91,9 +91,9 @@ Postman is a popular API testing tool that helps developers send requests, view 
   - Write and run tests to validate API functionality.
   - Organize APIs into collections.
 
-#### **Swagger (OpenAPI)**
+#### ***Swagger (OpenAPI)***:
 
-Swagger provides a suite of tools for designing, documenting, and building APIs.
+*Swagger* provides a suite of tools for designing, documenting, and building APIs.
 
 - **Key Features**:
 
