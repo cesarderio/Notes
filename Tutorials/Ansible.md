@@ -77,11 +77,14 @@ Install Ansible based on your operating system:
 
 - **Windows**: Use Windows Subsystem for Linux (WSL) to install Ansible.
 
+<br>
 
 ### **Ansible Configuration**
 
 - Default configurations are stored in `/etc/ansible/ansible.cfg`.
 - Beginners can use the default settings, but advanced users can modify them to suit specific requirements.
+
+<br>
 
 ### **Inventory File**
 
@@ -97,6 +100,8 @@ server2.example.com
 [dbservers]
 dbserver.example.com
 ```
+
+<br>
 
 ### **Basic Commands**
 
@@ -158,7 +163,6 @@ Modules are reusable, standalone scripts that perform specific tasks on the targ
 - **System Modules**: `user`, `service`
 - **Packaging Modules**: `apt`, `yum`
 
-
 <br>
 
 ## **Roles**
@@ -176,7 +180,6 @@ Roles provide a way to organize and reuse Ansible tasks, templates, variables, a
 2. Edit the `tasks/main.yml` file to define tasks.
 3. Add templates or files in the respective directories, if needed.
 
-
 <br>
 
 ## **Best Practices and Tips**
@@ -185,7 +188,6 @@ Roles provide a way to organize and reuse Ansible tasks, templates, variables, a
 - **Use Variables**: Avoid hard-coding values for flexibility and reusability.
 - **Task Naming**: Always provide descriptive names for tasks.
 - **Version Control**: Store playbooks and roles in a version control system like Git.
-
 
 <br>
 
@@ -242,7 +244,6 @@ Contributions are welcome! Feel free to open issues, suggest enhancements, or su
 - This script is provided as-is without any warranties. Users are advised to review and understand the script before executing it.
 
 - This project is licensed under the MIT License. See the LICENSE file for details.
-
 
 <!-- # Ansible for Beginners: A Comprehensive Guide
 
