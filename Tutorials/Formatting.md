@@ -43,4 +43,3 @@ This guide provides a step-by-step tutorial on how to format a 2.5" SSD with the
 ## Conclusion
 
 Your SSD is now formatted with the EXT4 file system and ready for use in your Ubuntu Linux system. Remember, this process erases all existing data on the SSD, so ensure you have backups of any important files before proceeding.
-
