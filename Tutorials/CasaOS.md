@@ -9,8 +9,6 @@ A guide to setting up CasaOS, a lightweight, Docker-based home cloud system that
 - [Overview](#overview)
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
-  - [Step 1: Install CasaOS](#install-casaos)
-  - [Step 2: Access CasaOS](#access-casaos)
 - [Initial Setup](#initial-setup)
   - [Configuring CasaOS](#configuring-casaos)
   - [Adding Applications](#adding-applications)
