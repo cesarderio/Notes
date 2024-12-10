@@ -49,31 +49,33 @@ By the end of this tutorial, you will:
 
 ### **Understanding APIs**
 
-#### **What is an API?**
+- **What is an API?**
 
-An API is a set of protocols and tools for building software applications. It defines how different software components interact and allows access to web-based services.
+  - An API is a set of protocols and tools for building software applications. It defines how different software components interact and allows access to web-based services.
 
-#### **Types of APIs**
+- **Types of APIs**
 
-1. **REST (Representational State Transfer)**: A lightweight API that uses HTTP requests to retrieve and manipulate data.
-2. **SOAP (Simple Object Access Protocol)**: A protocol for exchanging structured information, typically using XML.
-3. **GraphQL**: A flexible API that lets clients request exactly the data they need.
+  - **REST (Representational State Transfer)**: A lightweight API that uses HTTP requests to retrieve and manipulate data.
+
+  - **SOAP (Simple Object Access Protocol)**: A protocol for exchanging structured information, typically using XML.
+
+  - **GraphQL**: A flexible API that lets clients request exactly the data they need.
 
 <br>
 
 ### **API Development**
 
-#### **Designing an API**
+- **Designing an API**
 
-- **Define Resources**: Determine the data entities your API will manage.
-- **Endpoints**: Specify the URLs used to access resources.
-- **HTTP Methods**: Define the operations (GET, POST, PUT, DELETE) that can be performed on resources.
+  - **Define Resources**: Determine the data entities your API will manage.
+  - **Endpoints**: Specify the URLs used to access resources.
+  - **HTTP Methods**: Define the operations (GET, POST, PUT, DELETE) that can be performed on resources.
 
-#### **Implementing an API**
+- **Implementing an API**
 
-- Choose a back-end language (e.g., Node.js, Python, or Java).
-- Create endpoints for each resource.
-- Implement the business logic for handling requests and responses.
+  - Choose a back-end language (e.g., Node.js, Python, or Java).
+  - Create endpoints for each resource.
+  - Implement the business logic for handling requests and responses.
 
 <br>
 
@@ -81,44 +83,44 @@ An API is a set of protocols and tools for building software applications. It de
 
 #### **Postman**
 
-Postman is a popular API testing tool that helps developers send requests, view responses, and develop APIs.
+- Postman is a popular API testing tool that helps developers send requests, view responses, and develop APIs.
 
-**Key Features**:
+- **Key Features**:
 
-- Send requests and view responses.
-- Write and run tests to validate API functionality.
-- Organize APIs into collections.
+  - Send requests and view responses.
+  - Write and run tests to validate API functionality.
+  - Organize APIs into collections.
 
 #### **Swagger (OpenAPI)**
 
-Swagger provides a suite of tools for designing, documenting, and building APIs.
+- Swagger provides a suite of tools for designing, documenting, and building APIs.
 
-**Key Features**:
+- **Key Features**:
 
-- **Swagger Editor**: Write OpenAPI specifications.
-- **Swagger UI**: Visualize and interact with API resources.
-- **Swagger Codegen**: Automatically generate client libraries, server stubs, and documentation.
+  - **Swagger Editor**: Write OpenAPI specifications.
+  - **Swagger UI**: Visualize and interact with API resources.
+  - **Swagger Codegen**: Automatically generate client libraries, server stubs, and documentation.
 
 <br>
 
 ### **API Security**
 
-#### **Authentication & Authorization**
+- **Authentication & Authorization**
 
-- Use authentication mechanisms like **API keys** or **OAuth tokens**.
-- Implement authorization checks to ensure that users only access data they are authorized to use.
+  - Use authentication mechanisms like **API keys** or **OAuth tokens**.
+  - Implement authorization checks to ensure that users only access data they are authorized to use.
 
-#### **Validating Inputs**
+- **Validating Inputs**
 
-- Always validate API inputs to prevent common security issues like **SQL injection** and **cross-site scripting (XSS)**.
+  - Always validate API inputs to prevent common security issues like **SQL injection** and **cross-site scripting (XSS)**.
 
-#### **Rate Limiting**
+- **Rate Limiting**
 
-- Implement rate limiting to prevent abuse by limiting the number of requests a client can make in a given time period.
+  - Implement rate limiting to prevent abuse by limiting the number of requests a client can make in a given time period.
 
-#### **CORS (Cross-Origin Resource Sharing)**
+- **CORS (Cross-Origin Resource Sharing)**
 
-- Configure CORS settings to allow secure access to your API from different domains.
+  - Configure CORS settings to allow secure access to your API from different domains.
 
 <br>
 
