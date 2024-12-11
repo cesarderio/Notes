@@ -1,3 +1,5 @@
+<img src="../assets/ssh.png" alt="Alt Text" width="400">
+
 # Setting Up SSH Key for GitHub on Ubuntu
 
 In this guide, you'll learn how to generate an SSH key and add it to your GitHub account for secure authentication.

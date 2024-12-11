@@ -1,3 +1,5 @@
+<img src="../assets/automation.png" alt="Alt Text" width="400">
+
 # Automation Tools for Beginners: Ansible, Puppet, Chef
 
 A beginner-friendly guide to understanding and using automation tools to simplify IT operations.

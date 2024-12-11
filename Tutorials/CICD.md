@@ -1,3 +1,5 @@
+<img src="../assets/cicd.png" alt="Alt Text" width="400">
+
 # CI/CD Pipelines Tutorial
 
 An overview of Continuous Integration (CI) and Continuous Deployment (CD) practices, including how to implement them using popular tools like Jenkins, GitLab CI, and CircleCI.

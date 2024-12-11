@@ -1,3 +1,5 @@
+<img src="../assets/rpi_logo.png" alt="Alt Text" width="400">
+
 # Creating a Complete Backup Image of Your Raspberry Pi SD Card
 
 Learn how to create a full backup image of your Raspberry Pi's SD card for recovery or cloning purposes.

@@ -1,3 +1,5 @@
+<img src="../assets/puppet.png" alt="Alt Text" width="400">
+
 # Puppet for Beginners: A Complete Guide
 
 Puppet is a configuration management tool used for automation of various administrative tasks.

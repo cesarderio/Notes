@@ -1,3 +1,5 @@
+<img src="../assets/sysadmin.png" alt="Alt Text" width="400">
+
 # Programming Languages for System Administration Tutorial
 
 System administration often requires automation, scripting, and development of tools that aid in system and network management. Programming languages like Go, Rust, and Python are widely used for these purposes due to their efficiency and robustness. This tutorial explores these languages in the context of system administration.

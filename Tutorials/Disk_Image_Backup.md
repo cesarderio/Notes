@@ -1,3 +1,5 @@
+<img src="../assets/disk_backup.png" alt="Alt Text" width="400">
+
 # **Full Disk Image Backup and Restore for Ubuntu Linux**
 
 This tutorial provides a step-by-step guide on how to create a full disk image backup of your Ubuntu Linux system and how to restore it. This is particularly useful for creating a snapshot of your entire system for backup or migration purposes.

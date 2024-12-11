@@ -1,3 +1,6 @@
+<img src="../assets/kiss.png" alt="Alt Text" width="400">
+
+
 # Security Practices and Tools Tutorial
 
 Learn essential security practices and tools for protecting systems and conducting penetration testing effectively.

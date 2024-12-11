@@ -1,4 +1,7 @@
-# CSS Tutorial 
+<img src="../assets/css3.png" alt="Alt Text" width="400">
+
+
+# CSS Tutorial
 
 CSS (Cascading Style Sheets) is a stylesheet language used to control the presentation of HTML elements. It enables you to add styles like colors, fonts, layouts, and animations to your web pages.
 

@@ -1,3 +1,5 @@
+<img src="../assets/container.png" alt="Alt Text" width="400">
+
 # **Containerization and Virtualization**
 
 A beginner-friendly guide to understanding Docker and Kubernetes, two powerful tools for containerization and orchestration.

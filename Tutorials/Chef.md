@@ -1,3 +1,5 @@
+<img src="../assets/Chef_logo.svg.png" alt="Alt Text" width="400">
+
 # Chef for Beginners: A Comprehensive Tutorial
 
 Chef is a powerful automation platform used to manage and configure infrastructure. This tutorial covers the basics of getting started with Chef, including installation, core concepts, and best practices for using Chef to automate server management.

@@ -1,3 +1,5 @@
+<img src="../assets/dd_image.png" alt="Alt Text" width="400">
+
 # **Formatting an SSD with EXT4 File System in Ubuntu Linux**
 
 A step-by-step guide to formatting a 2.5" SSD with the EXT4 file system using the GNOME Disks utility in Ubuntu Linux.

@@ -1,3 +1,5 @@
+<img src="../assets/clouds.png" alt="Alt Text" width="400">
+
 # Cloud Platforms Tutorial: AWS, Azure, Google Cloud
 
 Cloud computing has revolutionized the way businesses manage and operate their IT resources. This guide provides an overview of the three major cloud service providers: AWS, Azure, and Google Cloud, highlighting their unique services, best practices, and tips for effective resource management.

@@ -1,6 +1,6 @@
-# Notes Repository
+# Tutorials
 
-Welcome to the "Notes" repository, a comprehensive collection of tutorials and guides covering a wide range of software and tools. This repository is designed to be a go-to resource for users ranging from beginners to advanced, providing clear and concise instructions for various applications and platforms.
+Welcome to the Tutorials directory, a comprehensive collection of tutorials and guides covering a wide range of software and tools. This directory is designed to be a go-to resource for users ranging from beginners to advanced, providing clear and concise instructions for various applications and platforms.
 
 <br>
 

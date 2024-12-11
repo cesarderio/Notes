@@ -1,3 +1,5 @@
+<img src="../assets/Samba_Logo.png" alt="Alt Text" width="400">
+
 # Setting up SambaShare Files and Directories
 
 Learn how to configure file sharing using Samba for Linux, Windows, and macOS systems. Samba allows seamless file sharing across different operating systems.

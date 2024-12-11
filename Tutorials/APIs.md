@@ -1,3 +1,5 @@
+<img src="../assets/api.png" alt="Alt Text" width="400">
+
 # API Development and Management Tutorial
 
 A comprehensive guide to understanding and building APIs, including tools like Postman and Swagger, and key security practices.

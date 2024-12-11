@@ -1,3 +1,5 @@
+<img src="../assets/rsynclogo.png" alt="Alt Text" width="400">
+
 # Set Up Your Raspberry Pi as a Network Server to Create and Store Full Backups
 
 Learn how to configure your Raspberry Pi as a network server to create and store full backups of Linux machines on your network.

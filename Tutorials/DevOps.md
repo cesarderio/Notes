@@ -1,3 +1,5 @@
+<img src="../assets/cicd.png" alt="Alt Text" width="400">
+
 # **DevOps Best Practices and Principles Tutorial**
 
 DevOps is a set of practices that combines software development (Dev) and IT operations (Ops), aiming to shorten the systems development life cycle and provide continuous delivery with high software quality. This tutorial explores the core principles and best practices of DevOps.

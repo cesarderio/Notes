@@ -1,4 +1,4 @@
-<!-- ![CasaOS](../assets/) -->
+<img src="../assets/casa.png" alt="Alt Text" width="400">
 
 # CasaOS Setup Tutorial
 
