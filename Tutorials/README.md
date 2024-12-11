@@ -116,6 +116,7 @@ Each tutorial in the repository is a standalone document. Simply open the `.md` 
 
 ### Virtualization
 
+- [ISO files](./ISOs.md): How to configure virtual machines with ISO files.
 - [Proxmox Tutorial](./Proxmox.md): Set up and manage virtualization environments with Proxmox.
 - [VirtualBox Tutorial](./VirtualBox.md): Learn how to use VirtualBox for virtual machine management.
 - [VirtualBox Troubleshooting Tutorial](./VirtualBox_Troubleshooting.md): Solve common issues encountered in VirtualBox environments.
@@ -129,6 +130,7 @@ Each tutorial in the repository is a standalone document. Simply open the `.md` 
 
 - [Networks Tutorial](./Networks.md): Understand key networking concepts and practices.
 - [RDP Tutorial](./RDP.md): Configure and use Remote Desktop Protocol for Linux systems.
+- [Windows CLi & SMB Tutorial](./WCLi.md): Explore essential Windows command line tools for system management and troubleshooting, and understand the role of SMB ports in network communication.
 - [Wireshark Tutorial](./Wireshark.md): Master network protocol analysis using Wireshark.
 
 ### Firewalls & Routing
@@ -196,6 +198,13 @@ Each tutorial in the repository is a standalone document. Simply open the `.md` 
 
 <br>
 
+## **Windows-Specific Tutorials**
+
+- [Windows CLI tools & SMB Tutorial](./Tutorials/WCLi.md): Explore essential Windows command line tools for system management and troubleshooting, and understand the role of SMB ports in network communication.
+- [Windows Defender Tutorial](./Tutorials/Windows_Security.md): Learn how to use Windows Defender Security Center and Event Viewer to secure and maintain your system.
+- [Windows Registry](./Tutorials/Windows_Registry.md): Master the intricacies of the Windows Registry and system log analysis to efficiently manage and troubleshoot Windows systems.
+
+<br>
 
 ### Others
 
@@ -203,10 +212,7 @@ Each tutorial in the repository is a standalone document. Simply open the `.md` 
 
 <br>
 
-
-
 </details>
-
 
 <br>
 
