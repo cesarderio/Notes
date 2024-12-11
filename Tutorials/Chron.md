@@ -1,4 +1,4 @@
-![Cronjob](../assets/cronjob.png)
+<!-- ![Cronjob](../assets/cronjob.png) -->
 
 # Cron Jobs
 
