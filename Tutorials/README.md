@@ -66,6 +66,55 @@ Each tutorial in the repository is a standalone document. Simply open the `.md` 
 
 <br>
 
+## Cloud & DevOps
+
+- [Cloud Networks Tutorial](./Clouds.md): Explore cloud computing fundamentals and learn about various cloud platforms and services.
+- [DevOps Tutorial](./DevOps.md): Delve into DevOps practices to enhance collaboration, automate workflows, and optimize software delivery.
+- [Grafana Tutorial](./Grafana.md): Set up Grafana for data visualization and monitoring.
+- [Medusa Tutorial](./Medusa.md): Automate media downloads and management with Medusa.
+- [NextCloud Tutorial](./NextCloud.md): Set up and use NextCloud for secure file storage and collaboration.
+
+<br>
+
+## Containers and Virtualization
+
+### Containers
+
+- [Containers Tutorial](./Dokube.md): Explore containerization with Docker and Kubernetes.
+- [Docker Tutorial](./Docker.md): Get started with Docker containers for application deployment.
+- [Docker Installation Tutorial](./Docker_Install.md): Learn how to install Docker on different platforms.
+- [Docker Backup Tutorial](./Docker_Backup.md): Learn to back up Docker containers and configurations.
+- [Docker Restore Tutorial](./Docker_Restore.md): Guide to restoring Docker images, volumes, and configurations.
+- [Kubernetes Tutorial](./Kubernetes.md): An introduction to managing containerized applications with Kubernetes.
+- [Portainer Tutorial](./Portainer.md): Manage Docker environments easily with Portainer.
+
+### Virtualization
+
+- [ISO files](./ISOs.md): How to configure virtual machines with ISO files.
+- [Proxmox Tutorial](./Proxmox.md): Set up and manage virtualization environments with Proxmox.
+- [VirtualBox Tutorial](./VirtualBox.md): Learn how to use VirtualBox for virtual machine management.
+- [VirtualBox Troubleshooting Tutorial](./VirtualBox_Troubleshooting.md): Solve common issues encountered in VirtualBox environments.
+- [OpenStack Tutorial](./OpenStack): Learn how to deploy, configure, and manage OpenStack for creating and managing private and public clouds.
+
+<br>
+
+## Database and File Management
+
+### Databases
+
+- [MySQL Tutorial](./MySQL.md): Learn to manage relational databases with MySQL.
+- [NoSQL Tutorial](./NoSQL.md): Dive into the world of NoSQL databases and their applications.
+- [PostgreSQL Tutorial](./PostgreSQL.md): Dive into advanced database management with PostgreSQL.
+
+### File Management
+
+- [Disk Image Backup Tutorial](./Disk_Image_Backup.md): Guide to creating and restoring disk images for backup.
+- [SambaShare Tutorial](./SambaShare.md): Set up shared directories using Samba on Linux systems.
+- [ZIP & Compression Files Tutorial](./Zipfiles.md): Learn to manage compressed files in various formats.
+- [rSync Tutorial](./rSync.md): Automate file backups and synchronization with rSync.
+
+<br>
+
 ## Development & Programming
 
 ### Programming Languages & Scripting
@@ -100,27 +149,6 @@ Each tutorial in the repository is a standalone document. Simply open the `.md` 
 - [Automation Tutorial](./Automation.md): Dive into automation techniques for IT and software development.
 - [CICD Tutorial](./CICD.md): Learn the principles and practices of Continuous Integration and Continuous Deployment (CI/CD) to streamline software development and delivery.
 
-<br>
-
-## Containers and Virtualization
-
-### Containers
-
-- [Containers Tutorial](./Dokube.md): Explore containerization with Docker and Kubernetes.
-- [Docker Tutorial](./Docker.md): Get started with Docker containers for application deployment.
-- [Docker Installation Tutorial](./Docker_Install.md): Learn how to install Docker on different platforms.
-- [Docker Backup Tutorial](./Docker_Backup.md): Learn to back up Docker containers and configurations.
-- [Docker Restore Tutorial](./Docker_Restore.md): Guide to restoring Docker images, volumes, and configurations.
-- [Kubernetes Tutorial](./Kubernetes.md): An introduction to managing containerized applications with Kubernetes.
-- [Portainer Tutorial](./Portainer.md): Manage Docker environments easily with Portainer.
-
-### Virtualization
-
-- [ISO files](./ISOs.md): How to configure virtual machines with ISO files.
-- [Proxmox Tutorial](./Proxmox.md): Set up and manage virtualization environments with Proxmox.
-- [VirtualBox Tutorial](./VirtualBox.md): Learn how to use VirtualBox for virtual machine management.
-- [VirtualBox Troubleshooting Tutorial](./VirtualBox_Troubleshooting.md): Solve common issues encountered in VirtualBox environments.
-- [OpenStack Tutorial](./OpenStack): Learn how to deploy, configure, and manage OpenStack for creating and managing private and public clouds.
 
 <br>
 
@@ -149,20 +177,13 @@ Each tutorial in the repository is a standalone document. Simply open the `.md` 
 
 <br>
 
-## Database and File Management
+## Resources and Utilities
 
-### Databases
-
-- [MySQL Tutorial](./MySQL.md): Learn to manage relational databases with MySQL.
-- [NoSQL Tutorial](./NoSQL.md): Dive into the world of NoSQL databases and their applications.
-- [PostgreSQL Tutorial](./PostgreSQL.md): Dive into advanced database management with PostgreSQL.
-
-### File Management
-
-- [Disk Image Backup Tutorial](./Disk_Image_Backup.md): Guide to creating and restoring disk images for backup.
-- [SambaShare Tutorial](./SambaShare.md): Set up shared directories using Samba on Linux systems.
-- [ZIP & Compression Files Tutorial](./Zipfiles.md): Learn to manage compressed files in various formats.
-- [rSync Tutorial](./rSync.md): Automate file backups and synchronization with rSync.
+- [CasaOS Tutorial](./CasaOS.md): Set up and use CasaOS for managing smart home devices and services seamlessly.
+- [Formatting Tutorial](./Formatting.md): Learn to format drives with different file systems.
+- [Gnome Tutorial](./Gnome.md): Customize and optimize the GNOME desktop environment for productivity.
+- [Kali Linux Tutorial](./Kali.md): Explore the tools and techniques for ethical hacking and penetration testing with Kali Linux.
+- [Raspberry Pi Backup Image Tutorial](./RPi_Backup_img.md): Guide to backing up Raspberry Pi SD cards.
 
 <br>
 
@@ -176,25 +197,6 @@ Each tutorial in the repository is a standalone document. Simply open the `.md` 
 - [System Administration Tutorial](./SysAd.md): Essential skills and practices for managing systems effectively.
 - [Terraform Tutorial](./Terraform.md): Manage infrastructure as code with Terraform.
 
-<br>
-
-## Cloud & DevOps
-
-- [Cloud Networks Tutorial](./Clouds.md): Explore cloud computing fundamentals and learn about various cloud platforms and services.
-- [DevOps Tutorial](./DevOps.md): Delve into DevOps practices to enhance collaboration, automate workflows, and optimize software delivery.
-- [Grafana Tutorial](./Grafana.md): Set up Grafana for data visualization and monitoring.
-- [Medusa Tutorial](./Medusa.md): Automate media downloads and management with Medusa.
-- [NextCloud Tutorial](./NextCloud.md): Set up and use NextCloud for secure file storage and collaboration.
-
-<br>
-
-## Resources and Utilities
-
-- [CasaOS Tutorial](./CasaOS.md): Set up and use CasaOS for managing smart home devices and services seamlessly.
-- [Formatting Tutorial](./Formatting.md): Learn to format drives with different file systems.
-- [Gnome Tutorial](./Gnome.md): Customize and optimize the GNOME desktop environment for productivity.
-- [Kali Linux Tutorial](./Kali.md): Explore the tools and techniques for ethical hacking and penetration testing with Kali Linux.
-- [Raspberry Pi Backup Image Tutorial](./RPi_Backup_img.md): Guide to backing up Raspberry Pi SD cards.
 
 <br>
 
