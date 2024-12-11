@@ -66,16 +66,38 @@ Each tutorial in the repository is a standalone document. Simply open the `.md` 
 
 <br>
 
-## Development and Programming
+## Development & Programming
 
-### Programming Languages
+### Programming Languages & Scripting
 
+- [Bash Tutorial](./Bash.md): Automate tasks and manage system operations efficiently with Bash scripting fundamentals.
+- [JavaScript Tutorial](./Javascript.md): Learn JavaScript basics and techniques for building interactive and dynamic web applications.
+- [PowerShell Tutorial](./Powershell.md): Streamline system management and scripting tasks with PowerShell's robust features.
+- [Python Programming Tutorial](./Python.md): Explore Python programming for web development, data analysis, automation, and more.
+
+### Style & Markup
+
+- [CSS Tutorial](./CSS.md): Master the art of web design with both basic and advanced CSS techniques for styling websites.
+- [HTML Tutorial](./HTML.md): Learn the essentials of HTML, the building block for creating structured web pages.
+- [Markdown Tutorial](./Markdown.md): A guide to writing documentation using Markdown.
+
+
+
+- [React JavaScript Tutorial](./React.md): Dive into React to create reusable components and build modern, responsive user interfaces.
+- [Regex Tutorial](./Regex.md): Unlock the power of regular expressions for pattern matching and text manipulation.
+- [Vim Tutorial](./Vim.md): Boost your productivity with this comprehensive guide to mastering the Vim text editor.
+
+
+<!-- - [Bash Tutorial](./Bash.md):
 - [CSS Tutorial](./CSS.md): Learn the basics and advanced features of CSS for web design.
 - [HTML Tutorial](./HTML.md): Dive into HTML fundamentals for building web pages.
+- [Javascript Tutorial](./Javascript.md):
 - [Python Programming Tutorial](./Python.md): Dive into Python programming for various applications.
 - [Powershell Tutorial](./Powershell.md): Learn to manage Windows systems effectively with PowerShell.
+- [React JavaScript Tutorial](./React.md):
 - [Regex Tutorial](./Regex.md): A comprehensive guide to understanding and using regular expressions.
-- [Vim Tutorial](./Vim.md): Master text editing with Vim for efficient coding.
+- [Vim Tutorial](./Vim.md): Master text editing with Vim for efficient coding. -->
+
 
 ### APIs and Automation
 
@@ -106,7 +128,7 @@ Each tutorial in the repository is a standalone document. Simply open the `.md` 
 
 - [Proxmox Tutorial](./Proxmox.md): Set up and manage virtualization environments with Proxmox.
 - [VirtualBox Tutorial](./VirtualBox.md): Learn how to use VirtualBox for virtual machine management.
-- [VirtualBox Troubleshooting Guide](./VirtualBox_Troubleshooting.md): Solve common issues encountered in VirtualBox environments.
+- [VirtualBox Troubleshooting Tutorial](./VirtualBox_Troubleshooting.md): Solve common issues encountered in VirtualBox environments.
 
 <br>
 
@@ -158,7 +180,6 @@ Each tutorial in the repository is a standalone document. Simply open the `.md` 
 
 - [Formatting Tutorial](./Formatting.md): Learn to format drives with different file systems.
 - [Grafana Tutorial](./Grafana.md): Set up Grafana for data visualization and monitoring.
-- [Markdown Tutorial](./Markdown.md): A guide to writing documentation using Markdown.
 - [Portainer Tutorial](./Portainer.md): Manage Docker environments easily with Portainer.
 - [Raspberry Pi Backup Image Tutorial](./RPi_Backup_img.md): Guide to backing up Raspberry Pi SD cards.
 
