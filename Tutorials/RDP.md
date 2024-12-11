@@ -1,4 +1,6 @@
-![RDP](../assets/rdp.png)
+<!-- ![RDP](../assets/rdp.png) -->
+<img src="../assets/rdp.png" alt="Alt Text" width="400">
+
 
 # Remote Desktop Protocol (RDP) Installation and Setup Tutorial
 
