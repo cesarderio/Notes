@@ -1,4 +1,4 @@
-<img src="../assets/react.png" alt="React" width="400">
+<!-- <img src="../assets/react.png" alt="React" width="400"> -->
 
 # Basic React Tutorial
 

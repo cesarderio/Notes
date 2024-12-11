@@ -1,4 +1,4 @@
-<img src="../assets/wclt.png" alt="Windows Command Line and SMB Ports" width="400">
+<!-- <img src="../assets/wclt.png" alt="Windows Command Line and SMB Ports" width="400"> -->
 
 # Navigating Windows Command Line Tools and Understanding SMB Ports
 

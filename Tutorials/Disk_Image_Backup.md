@@ -1,4 +1,4 @@
-<img src="../assets/disk_backup.png" alt="Alt Text" width="400">
+<!-- <img src="../assets/disk_backup.png" alt="Alt Text" width="400"> -->
 
 # **Full Disk Image Backup and Restore for Ubuntu Linux**
 
