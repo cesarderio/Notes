@@ -164,17 +164,13 @@ Each tutorial in the repository is a standalone document. Simply open the `.md` 
 
 <br>
 
-
 ### Others
 
 - More tutorials will be added periodically.
 
 <br>
 
-<!-- Add additional tutorial entries in the same format as above -->
-
 </details>
-
 
 <br>
 
@@ -216,11 +212,10 @@ Contributions are welcome! Feel free to open issues, suggest enhancements, or su
 
 ## **Date of Latest Revision**
 
-- 12/07/2024
+- 12/10/2024
 
 ## **License**
 
 - This script is provided as-is without any warranties. Users are advised to review and understand the script before executing it.
 
 - This project is licensed under the MIT License. See the LICENSE file for details.
-

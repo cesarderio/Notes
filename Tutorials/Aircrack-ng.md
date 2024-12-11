@@ -1,3 +1,5 @@
+![Logo](../assets/Aircrack-ng-new-logo.jpg)
+
 # Aircrack-ng Tutorial
 
 Learn how to use Aircrack-ng, a powerful suite for WiFi security analysis, to understand and test wireless network security protocols.
