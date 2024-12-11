@@ -74,6 +74,8 @@ Each tutorial in the repository is a standalone document. Simply open the `.md` 
 - [JavaScript Tutorial](./Javascript.md): Learn JavaScript basics and techniques for building interactive and dynamic web applications.
 - [PowerShell Tutorial](./Powershell.md): Streamline system management and scripting tasks with PowerShell's robust features.
 - [Python Programming Tutorial](./Python.md): Explore Python programming for web development, data analysis, automation, and more.
+- [Regex Tutorial](./Regex.md): Unlock the power of regular expressions for pattern matching and text manipulation.
+- [Vim Tutorial](./Vim.md): Boost your productivity with this comprehensive guide to mastering the Vim text editor.
 
 ### Style & Markup
 
@@ -81,28 +83,9 @@ Each tutorial in the repository is a standalone document. Simply open the `.md` 
 - [HTML Tutorial](./HTML.md): Learn the essentials of HTML, the building block for creating structured web pages.
 - [Markdown Tutorial](./Markdown.md): A guide to writing documentation using Markdown.
 
-
+### Frameworks & Libraries
 
 - [React JavaScript Tutorial](./React.md): Dive into React to create reusable components and build modern, responsive user interfaces.
-- [Regex Tutorial](./Regex.md): Unlock the power of regular expressions for pattern matching and text manipulation.
-- [Vim Tutorial](./Vim.md): Boost your productivity with this comprehensive guide to mastering the Vim text editor.
-
-
-<!-- - [Bash Tutorial](./Bash.md):
-- [CSS Tutorial](./CSS.md): Learn the basics and advanced features of CSS for web design.
-- [HTML Tutorial](./HTML.md): Dive into HTML fundamentals for building web pages.
-- [Javascript Tutorial](./Javascript.md):
-- [Python Programming Tutorial](./Python.md): Dive into Python programming for various applications.
-- [Powershell Tutorial](./Powershell.md): Learn to manage Windows systems effectively with PowerShell.
-- [React JavaScript Tutorial](./React.md):
-- [Regex Tutorial](./Regex.md): A comprehensive guide to understanding and using regular expressions.
-- [Vim Tutorial](./Vim.md): Master text editing with Vim for efficient coding. -->
-
-
-### APIs and Automation
-
-- [API Development Tutorial](./APIs.md): Learn the basics of creating and managing APIs.
-- [Automation Tutorial](./Automation.md): Dive into automation techniques for IT and software development.
 
 ### Version Control
 
@@ -110,6 +93,12 @@ Each tutorial in the repository is a standalone document. Simply open the `.md` 
 - [GitHub Tutorial](./Github.md): Learn to manage projects and collaborate using GitHub.
 - [GitHub Authentication Tutorial](./Github_Auth.md): A detailed guide to managing GitHub authentication with SSH keys and tokens.
 - [SSH Key Generation Tutorial](./SSH_KeyGen.md): A guide to generating SSH keys and integrating with GitHub.
+
+### APIs and Automation
+
+- [API Development Tutorial](./APIs.md): Learn the basics of creating and managing APIs.
+- [Automation Tutorial](./Automation.md): Dive into automation techniques for IT and software development.
+- [CICD Tutorial](./CICD.md): Learn the principles and practices of Continuous Integration and Continuous Deployment (CI/CD) to streamline software development and delivery.
 
 <br>
 
@@ -123,12 +112,14 @@ Each tutorial in the repository is a standalone document. Simply open the `.md` 
 - [Docker Backup Tutorial](./Docker_Backup.md): Learn to back up Docker containers and configurations.
 - [Docker Restore Tutorial](./Docker_Restore.md): Guide to restoring Docker images, volumes, and configurations.
 - [Kubernetes Tutorial](./Kubernetes.md): An introduction to managing containerized applications with Kubernetes.
+- [Portainer Tutorial](./Portainer.md): Manage Docker environments easily with Portainer.
 
 ### Virtualization
 
 - [Proxmox Tutorial](./Proxmox.md): Set up and manage virtualization environments with Proxmox.
 - [VirtualBox Tutorial](./VirtualBox.md): Learn how to use VirtualBox for virtual machine management.
 - [VirtualBox Troubleshooting Tutorial](./VirtualBox_Troubleshooting.md): Solve common issues encountered in VirtualBox environments.
+- [OpenStack Tutorial](./OpenStack): Learn how to deploy, configure, and manage OpenStack for creating and managing private and public clouds.
 
 <br>
 
@@ -139,6 +130,12 @@ Each tutorial in the repository is a standalone document. Simply open the `.md` 
 - [Networks Tutorial](./Networks.md): Understand key networking concepts and practices.
 - [RDP Tutorial](./RDP.md): Configure and use Remote Desktop Protocol for Linux systems.
 - [Wireshark Tutorial](./Wireshark.md): Master network protocol analysis using Wireshark.
+
+### Firewalls & Routing
+
+- [pfSense Tutorial](./pfSense.md): Deploy pfSense as a firewall or router for network security.
+- [OPNsense Tutorial](./OPNsense.md): Deploy and manage firewalls and network security with OPNsense.
+- [openWRT Tutorial](./openWRT.md): Set up and configure openWRT for advanced router management.
 
 ### Security Tools
 
@@ -163,12 +160,15 @@ Each tutorial in the repository is a standalone document. Simply open the `.md` 
 - [Disk Image Backup Tutorial](./Disk_Image_Backup.md): Guide to creating and restoring disk images for backup.
 - [SambaShare Tutorial](./SambaShare.md): Set up shared directories using Samba on Linux systems.
 - [ZIP & Compression Files Tutorial](./Zipfiles.md): Learn to manage compressed files in various formats.
+- [rSync Tutorial](./rSync.md): Automate file backups and synchronization with rSync.
 
 <br>
 
 ## System Administration
 
 - [Ansible Tutorial](./Ansible.md): Learn how to automate IT tasks using Ansible.
+- [Chef Tutorial](./Chef.md): Manage system configuration and automate deployments with Chef’s infrastructure as code framework.
+- [Chron jobs Tutorial](./Chron.md): Schedule and automate tasks effectively using Cron jobs in Linux.
 - [Clonezilla Tutorial](./Clonezilla.md): Learn to clone and back up disks using Clonezilla.
 - [Puppet Tutorial](./Puppet.md): Understand configuration management with Puppet.
 - [System Administration Tutorial](./SysAd.md): Essential skills and practices for managing systems effectively.
@@ -176,11 +176,22 @@ Each tutorial in the repository is a standalone document. Simply open the `.md` 
 
 <br>
 
+## Cloud & DevOps
+
+- [Cloud Networks Tutorial](./Clouds.md): Explore cloud computing fundamentals and learn about various cloud platforms and services.
+- [DevOps Tutorial](./DevOps.md): Delve into DevOps practices to enhance collaboration, automate workflows, and optimize software delivery.
+- [Grafana Tutorial](./Grafana.md): Set up Grafana for data visualization and monitoring.
+- [Medusa Tutorial](./Medusa.md): Automate media downloads and management with Medusa.
+- [NextCloud Tutorial](./NextCloud.md): Set up and use NextCloud for secure file storage and collaboration.
+
+<br>
+
 ## Resources and Utilities
 
+- [CasaOS Tutorial](./CasaOS.md): Set up and use CasaOS for managing smart home devices and services seamlessly.
 - [Formatting Tutorial](./Formatting.md): Learn to format drives with different file systems.
-- [Grafana Tutorial](./Grafana.md): Set up Grafana for data visualization and monitoring.
-- [Portainer Tutorial](./Portainer.md): Manage Docker environments easily with Portainer.
+- [Gnome Tutorial](./Gnome.md): Customize and optimize the GNOME desktop environment for productivity.
+- [Kali Linux Tutorial](./Kali.md): Explore the tools and techniques for ethical hacking and penetration testing with Kali Linux.
 - [Raspberry Pi Backup Image Tutorial](./RPi_Backup_img.md): Guide to backing up Raspberry Pi SD cards.
 
 <br>

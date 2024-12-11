@@ -2,6 +2,7 @@ APIs.md
 Aircrack-ng.md
 Ansible.md
 Automation.md
+Bash.md
 Burpsuite.md
 CICD.md
 CSS.md
@@ -10,13 +11,13 @@ Chef.md
 Chron.md
 Clonezilla.md
 Clouds.md
+Containers.md
 DevOps.md
 Disk_Image_Backup.md
 Docker.md
 Docker_Backup.md
 Docker_Install.md
 Docker_Restore.md
-Dokube.md
 Formatting.md
 Git.md
 Github.md
@@ -24,6 +25,7 @@ Github_Auth.md
 Gnome.md
 Grafana.md
 HTML.md
+JavaScript.md
 Kali.md
 Kubernetes.md
 Linux_Cmds.md
@@ -44,7 +46,9 @@ Proxmox.md
 Puppet.md
 Python.md
 RDP.md
+README.md
 RPi_Backup_img.md
+React.md
 Regex.md
 SSH_KeyGen.md
 SambaShare.md
