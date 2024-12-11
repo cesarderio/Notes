@@ -64,21 +64,36 @@ Each tutorial in the repository is a standalone document. Simply open the `.md` 
 
 <summary>Click to expand the list of tutorials</summary>
 
+
+
 <br>
 
-## Cloud & DevOps
+## Cloud Computing
 
+- [AWS Cloud Services Tutorial](./AWS.md): Tutorial covering AWS Cloud Services.
 - [Cloud Networks Tutorial](./Clouds.md): Explore cloud computing fundamentals and learn about various cloud platforms and services.
+- [Cloud Security Tutorial](./Cloud_Security): Discover essential cloud security principles and frameworks.
+- [NextCloud Tutorial](./NextCloud.md): Set up and use NextCloud for secure file storage and collaboration.
+- [OpenStack Tutorial](./OpenStack): Learn how to deploy, configure, and manage OpenStack for creating and managing private and public clouds.
+- [VPC Tutorial](./VPC.md): Understand Virtual Private Clouds and their applications in modern networking.
+
+<br>
+
+## DevOps & Automation
+
+- [Ansible Tutorial](./Ansible.md): Learn how to automate IT tasks using Ansible.
+- [API Development Tutorial](./APIs.md): Learn the basics of creating and managing APIs.
+- [Automation Tutorial](./Automation.md): Dive into automation techniques for IT and software development.
+- [CICD Tutorial](./CICD.md): Learn the principles and practices of Continuous Integration and Continuous Deployment (CI/CD) to streamline software development and delivery.
+- [Chef Tutorial](./Chef.md): Manage system configuration and automate deployments with Chef’s infrastructure as code framework.
 - [DevOps Tutorial](./DevOps.md): Delve into DevOps practices to enhance collaboration, automate workflows, and optimize software delivery.
 - [Grafana Tutorial](./Grafana.md): Set up Grafana for data visualization and monitoring.
-- [Medusa Tutorial](./Medusa.md): Automate media downloads and management with Medusa.
-- [NextCloud Tutorial](./NextCloud.md): Set up and use NextCloud for secure file storage and collaboration.
+- [Puppet Tutorial](./Puppet.md): Understand configuration management with Puppet.
+- [Terraform Tutorial](./Terraform.md): Manage infrastructure as code with Terraform.
 
 <br>
 
-## Containers and Virtualization
-
-### Containers
+## Containers
 
 - [Containers Tutorial](./Dokube.md): Explore containerization with Docker and Kubernetes.
 - [Docker Tutorial](./Docker.md): Get started with Docker containers for application deployment.
@@ -88,13 +103,14 @@ Each tutorial in the repository is a standalone document. Simply open the `.md` 
 - [Kubernetes Tutorial](./Kubernetes.md): An introduction to managing containerized applications with Kubernetes.
 - [Portainer Tutorial](./Portainer.md): Manage Docker environments easily with Portainer.
 
-### Virtualization
+<br>
+
+## Virtualization
 
 - [ISO files](./ISOs.md): How to configure virtual machines with ISO files.
 - [Proxmox Tutorial](./Proxmox.md): Set up and manage virtualization environments with Proxmox.
 - [VirtualBox Tutorial](./VirtualBox.md): Learn how to use VirtualBox for virtual machine management.
 - [VirtualBox Troubleshooting Tutorial](./VirtualBox_Troubleshooting.md): Solve common issues encountered in VirtualBox environments.
-- [OpenStack Tutorial](./OpenStack): Learn how to deploy, configure, and manage OpenStack for creating and managing private and public clouds.
 
 <br>
 
@@ -112,6 +128,44 @@ Each tutorial in the repository is a standalone document. Simply open the `.md` 
 - [SambaShare Tutorial](./SambaShare.md): Set up shared directories using Samba on Linux systems.
 - [ZIP & Compression Files Tutorial](./Zipfiles.md): Learn to manage compressed files in various formats.
 - [rSync Tutorial](./rSync.md): Automate file backups and synchronization with rSync.
+- [Veeam Tutorial](./Veeam.md): Master system imaging, backup, and recovery with Veeam.
+
+<br>
+
+## Networks
+
+### Networking
+
+- [CIDR](./CIDR.md): Classless Inter-Domain Routing is a method for allocating IP addresses that improves the efficiency of data routing on the internet.
+- [Networks Tutorial](./Networks.md): Understand key networking concepts and practices.
+- [Network Routing](./Network_Routing.md):
+- [RDP Tutorial](./RDP.md): Configure and use Remote Desktop Protocol for Linux systems.
+- [Traffic Mirroring Tutorial](./Traffic_Mirroring.md): Learn about SPAN and TAP for real-time traffic monitoring.
+
+### Firewalls & Routing
+
+- [pfSense Tutorial](./pfSense.md): Deploy pfSense as a firewall or router for network security.
+- [OPNsense Tutorial](./OPNsense.md): Deploy and manage firewalls and network security with OPNsense.
+- [openWRT Tutorial](./openWRT.md): Set up and configure openWRT for advanced router management.
+- [NAT Networking Tutorial](./NAT_Networking.md): Demystify NAT and its role in networking.
+
+<br>
+
+## Security
+
+### Tools & Techniques
+
+- [Aircrack-ng Tutorial](./Aircrack-ng.md): Use Aircrack-ng for Wi-Fi security testing and assessment.
+- [Burpsuite Tutorial](./Burpsuite.md): Learn to test web application security with Burpsuite.
+- [Medusa Tutorial](./Medusa.md): Automate brute force testing and penetration tasks with Medusa.
+- [Metasploit Tutorial](./Metasploit.md): Explore the capabilities of the Metasploit framework for penetration testing.
+- [Nmap Tutorial](./Nmap.md): Learn how to discover networks and audit security using Nmap.
+- [Radius Tutorial](./Radius.md): Centralized security with RADIUS authentication.
+
+### Monitoring & Analysis
+
+- [Security Tools Tutorial](./Sec_Tools.md): A guide to essential cybersecurity tools and best practices.
+- [Wireshark Tutorial](./Wireshark.md): Master network protocol analysis using Wireshark.
 
 <br>
 
@@ -135,6 +189,7 @@ Each tutorial in the repository is a standalone document. Simply open the `.md` 
 ### Frameworks & Libraries
 
 - [React JavaScript Tutorial](./React.md): Dive into React to create reusable components and build modern, responsive user interfaces.
+- [nginx Tutorial](./nginx.md): Set up and manage high-performance web servers using NGINX.
 
 ### Version Control
 
@@ -142,40 +197,6 @@ Each tutorial in the repository is a standalone document. Simply open the `.md` 
 - [GitHub Tutorial](./Github.md): Learn to manage projects and collaborate using GitHub.
 - [GitHub Authentication Tutorial](./Github_Auth.md): A detailed guide to managing GitHub authentication with SSH keys and tokens.
 - [SSH Key Generation Tutorial](./SSH_KeyGen.md): A guide to generating SSH keys and integrating with GitHub.
-
-### APIs and Automation
-
-- [API Development Tutorial](./APIs.md): Learn the basics of creating and managing APIs.
-- [Automation Tutorial](./Automation.md): Dive into automation techniques for IT and software development.
-- [CICD Tutorial](./CICD.md): Learn the principles and practices of Continuous Integration and Continuous Deployment (CI/CD) to streamline software development and delivery.
-
-
-<br>
-
-## Networking and Security
-
-### Networking
-
-- [CIDR](./CIDR.md): Classless Inter-Domain Routing is a method for allocating IP addresses that improves the efficiency of data routing on the internet.
-- [Networks Tutorial](./Networks.md): Understand key networking concepts and practices.
-- [Network Routing](./Network_Routing.md):
-- [RDP Tutorial](./RDP.md): Configure and use Remote Desktop Protocol for Linux systems.
-- [Windows CLi & SMB Tutorial](./WCLi.md): Explore essential Windows command line tools for system management and troubleshooting, and understand the role of SMB ports in network communication.
-- [Wireshark Tutorial](./Wireshark.md): Master network protocol analysis using Wireshark.
-
-### Firewalls & Routing
-
-- [pfSense Tutorial](./pfSense.md): Deploy pfSense as a firewall or router for network security.
-- [OPNsense Tutorial](./OPNsense.md): Deploy and manage firewalls and network security with OPNsense.
-- [openWRT Tutorial](./openWRT.md): Set up and configure openWRT for advanced router management.
-
-### Security Tools
-
-- [Aircrack-ng Tutorial](./Aircrack-ng.md): Use Aircrack-ng for Wi-Fi security testing and assessment.
-- [Burpsuite Tutorial](./Burpsuite.md): Learn to test web application security with Burpsuite.
-- [Metasploit Tutorial](./Metasploit.md): Explore the capabilities of the Metasploit framework for penetration testing.
-- [Nmap Tutorial](./Nmap.md): Learn how to discover networks and audit security using Nmap.
-- [Security Tools Tutorial](./Sec_Tools.md): A guide to essential cybersecurity tools and best practices.
 
 <br>
 
@@ -191,23 +212,20 @@ Each tutorial in the repository is a standalone document. Simply open the `.md` 
 
 ## System Administration
 
-- [Ansible Tutorial](./Ansible.md): Learn how to automate IT tasks using Ansible.
-- [Chef Tutorial](./Chef.md): Manage system configuration and automate deployments with Chef’s infrastructure as code framework.
 - [Chron jobs Tutorial](./Chron.md): Schedule and automate tasks effectively using Cron jobs in Linux.
 - [Clonezilla Tutorial](./Clonezilla.md): Learn to clone and back up disks using Clonezilla.
-- [Puppet Tutorial](./Puppet.md): Understand configuration management with Puppet.
 - [System Administration Tutorial](./SysAd.md): Essential skills and practices for managing systems effectively.
-- [Terraform Tutorial](./Terraform.md): Manage infrastructure as code with Terraform.
-
+- [Group Policy Tutorial](./Group_Policy.md): Centralized management with Group Policies in Active Directory.
 
 <br>
 
 ## **Windows-Specific Tutorials**
 
-- [Windows CLI tools & SMB Tutorial](./Tutorials/WCLi.md): Explore essential Windows command line tools for system management and troubleshooting, and understand the role of SMB ports in network communication.
+- [Windows CLi & SMB Tutorial](./WCLi.md): Explore essential Windows command line tools for system management and troubleshooting, and understand the role of SMB ports in network communication.
 - [Windows Defender Tutorial](./Tutorials/Windows_Security.md): Learn how to use Windows Defender Security Center and Event Viewer to secure and maintain your system.
 - [Windows Malware Remediation Tutorial](./Tutorials/Windows_MalwareRm.md): Steps and tools to remove malware from a Windows PC.
 - [Windows Registry](./Tutorials/Windows_Registry.md): Master the intricacies of the Windows Registry and system log analysis to efficiently manage and troubleshoot Windows systems.
+- [Windows Server Tutorial](./Windows_Server.md): Understand the differences between Windows Server and consumer versions.
 
 <br>
 
