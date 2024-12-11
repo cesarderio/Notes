@@ -1,4 +1,6 @@
-![Kali](../assets/Kali.png)
+<!-- ![Kali](../assets/Kali.png) -->
+<img src="../assets/Kali.png" alt="Alt Text" width="400">
+
 
 # **Basic Navigation and Commands in Kali Linux**
 

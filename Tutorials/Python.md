@@ -1,4 +1,6 @@
-![Python](../assets/python.png)
+<!-- ![Python](../assets/python.png) -->
+<img src="../assets/python.png" alt="Alt Text" width="400">
+
 
 # Python Basics Tutorial for Beginners
 

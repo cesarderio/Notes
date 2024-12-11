@@ -1,4 +1,6 @@
-![Wireshark](../assets/wireshark.png)
+<!-- ![Wireshark](../assets/wireshark.png) -->
+<img src="../assets/wireshark.png" alt="Alt Text" width="400">
+
 
 # Wireshark Tutorial for Beginners
 

@@ -1,4 +1,7 @@
-![Clonezilla](../assets/clonezilla.png)
+<!-- ![Clonezilla](../assets/clonezilla.png) -->
+<img src="../assets/clonezilla.png" alt="Alt Text" width="400">
+
+
 
 # Clonezilla
 

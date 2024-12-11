@@ -1,4 +1,6 @@
-![PowerShell](../assets/Powershell.jpeg)
+<!-- ![PowerShell](../assets/Powershell.jpeg) -->
+<img src="../assets/Powershell.jpeg" alt="Alt Text" width="400">
+
 
 # PowerShell Tutorial
 

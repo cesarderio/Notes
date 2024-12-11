@@ -1,4 +1,5 @@
-![MySQL](../assets/MySQL.png)
+<!-- ![MySQL](../assets/MySQL.png) -->
+<img src="../assets/MySQL.png" alt="Alt Text" width="400">
 
 # MySQL Tutorial for Beginners
 

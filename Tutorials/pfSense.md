@@ -1,4 +1,6 @@
-![Pfsense](../assets/PfSense_logo.png)
+<!-- ![Pfsense](../assets/PfSense_logo.png) -->
+<img src="../assets/PfSense_logo.png" alt="Alt Text" width="400">
+
 
 # Setting Up pfSense Router in VirtualBox
 

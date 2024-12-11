@@ -1,4 +1,6 @@
-![Kubernetes](../assets/kubernetes.png)
+<!-- ![Kubernetes](../assets/kubernetes.png) -->
+<img src="../assets/kubernetes.png" alt="Alt Text" width="400">
+
 
 # **Introduction to Kubernetes**
 

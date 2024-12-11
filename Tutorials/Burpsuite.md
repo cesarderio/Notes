@@ -1,4 +1,5 @@
-![Burpsuite](../assets/Burpsuite.png)
+<!-- ![Burpsuite](../assets/Burpsuite.png) -->
+<img src="../assets/Burpsuite.png" alt="Alt Text" width="400">
 
 # Burp Suite Tutorial for Beginners
 

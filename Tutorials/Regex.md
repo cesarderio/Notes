@@ -1,4 +1,6 @@
-![Regex](../assets/regex.png)
+<!-- ![Regex](../assets/regex.png) -->
+<img src="../assets/regex.png" alt="Alt Text" width="400">
+
 
 # Regex Tutorial
 

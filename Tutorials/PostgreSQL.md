@@ -1,4 +1,5 @@
-![PostgreSQL](../assets/PostgreSQL.png)
+<!-- ![PostgreSQL](../assets/PostgreSQL.png) -->
+<img src="../assets/PostgreSQL.png" alt="Alt Text" width="400">
 
 # PostgreSQL Tutorial for Beginners
 

@@ -1,4 +1,6 @@
-![Linux](../assets/Tux.png)
+<!-- ![Linux](../assets/Tux.png) -->
+<img src="../assets/Tux.png" alt="Alt Text" width="400">
+
 
 # **Linux Commands Cheat Sheet**
 

@@ -1,4 +1,6 @@
-![Docker](../assets/docker.png)
+<!-- ![Docker](../assets/docker.png) -->
+<img src="../assets/docker.png" alt="Alt Text" width="400">
+
 
 # **Introduction to Docker**
 

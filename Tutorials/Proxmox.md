@@ -1,4 +1,6 @@
-![Proxmox](../assets/proxmox.png)
+<!-- ![Proxmox](../assets/proxmox.png) -->
+<img src="../assets/proxmox.png" alt="Alt Text" width="400">
+
 
 # Proxmox VE Tutorial for Beginners
 

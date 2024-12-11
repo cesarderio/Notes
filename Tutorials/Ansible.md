@@ -1,4 +1,5 @@
-![Ansible](../assets/Ansible_Logo.png)
+<!-- ![Ansible](../assets/Ansible_Logo.png) -->
+<img src="../assets/Ansible_Logo.png/" alt="Alt Text" width="400">
 
 # Ansible for Beginners: A Comprehensive Guide
 

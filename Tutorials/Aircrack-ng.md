@@ -1,4 +1,7 @@
-![Logo](../assets/Aircrack-ng-new-logo.jpg)
+<!-- ![Logo](../assets/Aircrack-ng-new-logo.jpg) -->
+<img src="../assets/Aircrack-ng-new-logo.jpg" alt="Alt Text" width="400">
+
+
 
 # Aircrack-ng Tutorial
 
