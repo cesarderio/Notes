@@ -156,7 +156,9 @@ Each tutorial in the repository is a standalone document. Simply open the `.md` 
 
 ### Networking
 
+- [CIDR](./CIDR.md): Classless Inter-Domain Routing is a method for allocating IP addresses that improves the efficiency of data routing on the internet.
 - [Networks Tutorial](./Networks.md): Understand key networking concepts and practices.
+- [Network Routing](./Network_Routing.md):
 - [RDP Tutorial](./RDP.md): Configure and use Remote Desktop Protocol for Linux systems.
 - [Windows CLi & SMB Tutorial](./WCLi.md): Explore essential Windows command line tools for system management and troubleshooting, and understand the role of SMB ports in network communication.
 - [Wireshark Tutorial](./Wireshark.md): Master network protocol analysis using Wireshark.
@@ -204,6 +206,7 @@ Each tutorial in the repository is a standalone document. Simply open the `.md` 
 
 - [Windows CLI tools & SMB Tutorial](./Tutorials/WCLi.md): Explore essential Windows command line tools for system management and troubleshooting, and understand the role of SMB ports in network communication.
 - [Windows Defender Tutorial](./Tutorials/Windows_Security.md): Learn how to use Windows Defender Security Center and Event Viewer to secure and maintain your system.
+- [Windows Malware Remediation Tutorial](./Tutorials/Windows_MalwareRm.md): Steps and tools to remove malware from a Windows PC.
 - [Windows Registry](./Tutorials/Windows_Registry.md): Master the intricacies of the Windows Registry and system log analysis to efficiently manage and troubleshoot Windows systems.
 
 <br>

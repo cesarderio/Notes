@@ -166,14 +166,16 @@ Enhance this guide by following these steps:
 
 <br>
 
+## **Author**
+
+- **Raphael Chookagian** | [GitHub Profile](https://github.com/cesar-group)
+
 ## **Date of Latest Revision**
 
-- 12/10/2024
-
-<br>
+- 12/11/2024
 
 ## **License**
 
-- This guide is offered as-is for educational purposes. Ensure you adhere to legal and ethical standards in its application.
+- This script is provided as-is without any warranties. Users are advised to review and understand the script before executing it.
 
-- Licensed under the MIT License. See the LICENSE file for more information.
+- This project is licensed under the MIT License. See the LICENSE file for details.

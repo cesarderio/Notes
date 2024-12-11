@@ -143,7 +143,7 @@ Your contributions can make this guide even better:
   git push origin my-awesome-feature
   ```
 
-- Create a new Pull Request targeting the `Notes` directory.
+- Create a new Pull Request targeting the Notes repository.
 
 Contributions are welcome! Feel free to open issues, suggest enhancements, or submit pull requests to improve the script.
 

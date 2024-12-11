@@ -1,4 +1,4 @@
-<!-- <img src="../assets/react.png" alt="React" width="400"> -->
+<img src="../assets/react.png" alt="React" width="400">
 
 # Basic React Tutorial
 
@@ -200,7 +200,7 @@ Your contributions can make this tutorial even better:
   git push origin add-react-tutorial
   ```
 
-- Create a Pull Request targeting the Notes directory.
+- Create a Pull Request targeting the Notes repository.
 
 Contributions are welcome! Feel free to open issues or suggest enhancements.
 
@@ -212,7 +212,7 @@ Contributions are welcome! Feel free to open issues or suggest enhancements.
 
 ## **Date of Latest Revision**
 
-- 12/09/2024
+- 12/11/2024
 
 ## **License**
 
