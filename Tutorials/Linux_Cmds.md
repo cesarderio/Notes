@@ -1,3 +1,5 @@
+![Linux](../assets/Tux.png)
+
 # **Linux Commands Cheat Sheet**
 
 This cheat sheet provides a comprehensive guide for Linux commands, tailored for DevOps professionals and enthusiasts. It includes quick references, practical examples, and best practices for efficient Linux system management.

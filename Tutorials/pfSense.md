@@ -1,3 +1,5 @@
+![Pfsense](../assets/PfSense_logo.png)
+
 # Setting Up pfSense Router in VirtualBox
 
 Learn how to set up a pfSense router in a VirtualBox virtual machine step by step.

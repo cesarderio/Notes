@@ -1,4 +1,4 @@
-# Portainer Tutorial
+![Portainer](../assets/Portainer.png# Portainer Tutorial
 
 This tutorial covers the installation and basic usage of Portainer, an open-source tool designed to help manage Docker environments. Portainer provides a user-friendly web interface to manage Docker containers, images, networks, and volumes.
 

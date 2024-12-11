@@ -1,3 +1,5 @@
+![Regex](../assets/regex.png)
+
 # Regex Tutorial
 
 Regular expressions (Regex) are powerful tools for pattern matching and text processing. They are widely used in programming, text editing, and data validation.

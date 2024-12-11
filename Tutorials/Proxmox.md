@@ -1,3 +1,5 @@
+![Proxmox](../assets/proxmox.png)
+
 # Proxmox VE Tutorial for Beginners
 
 Proxmox VE (Virtual Environment) is an open-source platform for enterprise virtualization. It integrates KVM (Kernel-based Virtual Machine) and LXC (Linux Containers), software-defined storage, and networking functionality on a single platform. This tutorial covers the basics of setting up and managing Proxmox VE.

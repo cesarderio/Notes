@@ -1,3 +1,5 @@
+![Cronjob](../assets/cronjob.png)
+
 # Cron Jobs
 
 A beginner-friendly guide to scheduling and automating tasks with cron in Linux.

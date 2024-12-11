@@ -1,3 +1,5 @@
+![RDP](../assets/rdp.png)
+
 # Remote Desktop Protocol (RDP) Installation and Setup Tutorial
 
 This tutorial provides detailed instructions for installing and setting up Remote Desktop Protocol (RDP) on a Linux server. RDP allows you to access and control your Linux server remotely from a Windows or macOS computer using the Remote Desktop client.

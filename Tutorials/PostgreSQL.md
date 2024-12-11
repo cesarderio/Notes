@@ -1,3 +1,5 @@
+![PostgreSQL](../assets/PostgreSQL.png)
+
 # PostgreSQL Tutorial for Beginners
 
 This tutorial covers the basics of PostgreSQL, including installation, basic operations, and some advanced features. PostgreSQL, often simply Postgres, is an open-source relational database management system emphasizing extensibility and SQL compliance.

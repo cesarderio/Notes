@@ -1,3 +1,5 @@
+![Clonezilla](../assets/clonezilla.png)
+
 # Clonezilla
 
 Clonezilla is a free, open-source disk imaging and cloning tool. It can be used to create a complete snapshot of your entire hard drive, including the operating system, installed programs, settings, and files.

@@ -1,3 +1,5 @@
+![Ansible](../assets/Ansible_Logo.png)
+
 # Ansible for Beginners: A Comprehensive Guide
 
 Learn the basics of Ansible, an open-source automation platform for configuration management, application deployment, and orchestration.

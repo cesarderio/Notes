@@ -1,3 +1,5 @@
+![Python](../assets/python.png)
+
 # Python Basics Tutorial for Beginners
 
 Python is a high-level, interpreted, and general-purpose programming language. It's known for its readability and efficiency, making it a popular choice for beginners and experts alike. This tutorial covers the basics of Python, including installation, syntax, data types, control structures, and functions.

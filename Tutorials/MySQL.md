@@ -1,3 +1,5 @@
+![MySQL](../assets/MySQL.png)
+
 # MySQL Tutorial for Beginners
 
 Master the fundamentals of MySQL, one of the most popular relational database management systems, widely used for web and enterprise applications.

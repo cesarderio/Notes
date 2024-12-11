@@ -1,3 +1,5 @@
+![Kubernetes](../assets/kubernetes.png)
+
 # **Introduction to Kubernetes**
 
 Kubernetes, often abbreviated as K8s, is a powerful open-source platform that automates the deployment, scaling, and management of containerized applications. Originally developed by Google and now maintained by the Cloud Native Computing Foundation (CNCF), Kubernetes is widely used for orchestrating containerized applications in large-scale environments.

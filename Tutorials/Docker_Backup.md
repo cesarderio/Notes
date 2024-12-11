@@ -1,3 +1,5 @@
+![Docker](../assets/docker.png)
+
 # **Backing Up Docker Containers, Images, and Volumes**
 
 Backing up Docker containers is crucial for ensuring that your applications and data are safe in case of hardware failures, accidental deletions, or other unforeseen events. This tutorial covers the steps to backup Docker images, volumes, and container configurations.

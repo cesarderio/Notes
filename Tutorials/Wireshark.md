@@ -1,3 +1,5 @@
+![Wireshark](../assets/wireshark.png)
+
 # Wireshark Tutorial for Beginners
 
 Wireshark is a free and open-source packet analyzer. It's used for network troubleshooting, analysis, software and protocol development, and education. This tutorial will guide you through the basics of using Wireshark effectively.

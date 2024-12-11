@@ -1,3 +1,5 @@
+![PowerShell](../assets/Powershell.jpeg)
+
 # PowerShell Tutorial
 
 PowerShell is a cross-platform task automation solution made up of a command-line shell, a scripting language, and a configuration management framework. This guide will provide you with the fundamentals of PowerShell to help you get started.

@@ -1,3 +1,5 @@
+![Docker](../assets/docker.png)
+
 # **Introduction to Docker**
 
 Docker is a powerful platform for developers and sysadmins to develop, deploy, and run applications using containers. Containers provide a lightweight and efficient way to package applications and their dependencies, making it easier to deploy and manage software across different environments. Docker has become a fundamental tool in modern software development and infrastructure management.

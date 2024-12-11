@@ -1,3 +1,5 @@
+![Docker](../assets/docker.png)
+
 # **Restoring and Redeploying Docker Containers from Backups**
 
 This tutorial will cover creating and restoring Docker containers.

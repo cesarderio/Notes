@@ -1,3 +1,5 @@
+<!-- ![CasaOS](../assets/) -->
+
 # CasaOS Setup Tutorial
 
 A guide to setting up CasaOS, a lightweight, Docker-based home cloud system that provides an intuitive interface for managing Docker applications and personal data at home.

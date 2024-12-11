@@ -1,3 +1,5 @@
+![Kali](../assets/Kali.png)
+
 # **Basic Navigation and Commands in Kali Linux**
 
 Kali Linux is a powerful Linux distribution used for penetration testing, ethical hacking, and network security assessments. This tutorial provides a foundational understanding of how to navigate Kali Linux and use its most common applications.

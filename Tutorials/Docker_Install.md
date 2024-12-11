@@ -1,3 +1,5 @@
+![Docker](../assets/docker.png)
+
 # **How to Install Docker on Ubuntu**
 
 This tutorial will go through the steps to install Docker on Ubuntu OS. This tutorial can be used for most Linux distributions. Please see links and resources for more information.
