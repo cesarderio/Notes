@@ -1,3 +1,5 @@
+<img src="../assets/medusa.png" alt="Alt Text" width="400">
+
 # Medusa Password Cracker: A Comprehensive Guide
 
 Learn how to install and use Medusa, a command-line tool for brute-force password cracking, on Kali Linux. Medusa supports numerous protocols and services, making it a versatile tool for security assessments.

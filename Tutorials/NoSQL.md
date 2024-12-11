@@ -1,3 +1,5 @@
+<img src="../assets/nosql.png" alt="Alt Text" width="400">
+
 # NoSQL Databases Tutorial for Beginners
 
 Learn the fundamentals of NoSQL databases, their types, and how to interact with them effectively.

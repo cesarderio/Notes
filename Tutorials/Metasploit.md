@@ -1,3 +1,5 @@
+<img src="../assets/metsploit.png" alt="Alt Text" width="400">
+
 # Metasploit Tutorial for Beginners
 
 Learn the basics of Metasploit, one of the most widely used tools for penetration testing, offering a large collection of exploit modules, payload options, and other powerful features for security professionals.

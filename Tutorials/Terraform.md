@@ -1,3 +1,5 @@
+<img src="../assets/HashiCorp Terraform.png" alt="Alt Text" width="400">
+
 # Terraform Beginner's Guide
 
 Terraform by HashiCorp is an Infrastructure as Code tool that allows you to build, change, and version infrastructure safely and efficiently. It supports various cloud providers like AWS, Azure, Google Cloud, and more.

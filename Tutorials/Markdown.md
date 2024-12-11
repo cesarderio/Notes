@@ -1,3 +1,5 @@
+<img src="../assets/markdown.png" alt="Alt Text" width="400">
+
 # Markdown Tutorial
 
 Markdown is a lightweight markup language that allows you to format plain text for the web. It’s commonly used for documentation, blogging, and readme files due to its simplicity and readability.

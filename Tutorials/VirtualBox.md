@@ -1,3 +1,5 @@
+<img src="../assets/Virtualbox_logo.png" alt="Alt Text" width="400">
+
 # VirtualBox Management & Commands
 
 VBoxManage commands are used for managing VirtualBox VMs via the command line. These commands cover a wide range of functionalities, from creating and controlling VMs to adjusting network settings and managing disk images. This guide provides an overview of the most commonly used VBoxManage commands.

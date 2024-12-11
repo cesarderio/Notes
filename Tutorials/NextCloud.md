@@ -1,3 +1,5 @@
+<img src="../assets/nextcloud.png" alt="Alt Text" width="400">
+
 # Nextcloud Installation Tutorial
 
 Learn how to install and set up Nextcloud, a self-hosted file sync and sharing server, on a Linux server. Maintain full control over your data while storing and sharing files, contacts, calendars, and more.

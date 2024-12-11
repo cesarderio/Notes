@@ -1,3 +1,5 @@
+<img src="../assets/github-logo.png" alt="Alt Text" width="400">
+
 # GitHub Authentication Methods
 
 Learn how to authenticate to GitHub using different methods such as Personal Access Tokens and SSH keys for secure and efficient interactions with your GitHub repositories.

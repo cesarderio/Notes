@@ -1,3 +1,5 @@
+<img src="../assets/Virtualbox_logo.png" alt="Alt Text" width="400">
+
 # VirtualBox Troubleshooting Guide
 
 VirtualBox is a powerful x86 and AMD64/Intel64 virtualization product for enterprise as well as home use. This guide will help you troubleshoot connectivity issues with VirtualBox, focusing on network adapters and common VMs.

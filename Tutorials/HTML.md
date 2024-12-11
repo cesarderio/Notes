@@ -1,3 +1,5 @@
+<img src="../assets/html.png" alt="Alt Text" width="400">
+
 # HTML Tutorial
 
 HTML (HyperText Markup Language) is the standard language for creating web pages. It provides the structure of a webpage, allowing you to format text, embed media, and create links.

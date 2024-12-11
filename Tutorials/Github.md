@@ -1,6 +1,4 @@
-Here is the updated and reformatted version of your GitHub tutorial following the template:
-
----
+<img src="../assets/github-logo.png" alt="Alt Text" width="400">
 
 # GitHub Comprehensive Tutorial
 

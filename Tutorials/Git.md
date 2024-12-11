@@ -1,3 +1,5 @@
+<img src="../assets/git.png" alt="Alt Text" width="400">
+
 # Basic Git Commands
 
 Learn the fundamentals of Git, a powerful version control system used for tracking changes, collaborating with others, and managing code repositories effectively.

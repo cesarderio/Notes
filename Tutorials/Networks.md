@@ -1,3 +1,5 @@
+<img src="../assets/network.png" alt="Alt Text" width="400">
+
 # Networking Concepts and Tools for Beginners
 
 Explore the basics of networking, delve into advanced topics like VPNs and firewalls, and learn to use essential tools such as Wireshark and nmap.

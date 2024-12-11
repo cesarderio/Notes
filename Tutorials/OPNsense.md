@@ -1,3 +1,5 @@
+<img src="../assets/opnsense.png" alt="Alt Text" width="400">
+
 # Setting Up an OPNsense Router in VirtualBox
 
 Learn how to set up an OPNsense router in a VirtualBox virtual machine step by step.

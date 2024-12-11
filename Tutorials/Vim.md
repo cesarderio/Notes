@@ -1,3 +1,5 @@
+<img src="../assets/vim-icon.png" alt="Alt Text" width="400">
+
 # Vim Tutorial
 
 Vim (Vi IMproved) is a powerful text editor widely used for programming, system administration, and general text editing. Known for its efficiency, Vim can significantly speed up your workflow once mastered.

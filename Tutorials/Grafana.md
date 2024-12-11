@@ -1,3 +1,5 @@
+<img src="../assets/Grafana.png" alt="Alt Text" width="400">
+
 # Grafana Tutorial for Beginners
 
 Grafana is an open-source platform for monitoring and observability, enabling you to query, visualize, alert on, and understand your metrics regardless of where they're stored. This tutorial will guide you through the basics of Grafana, including installation, dashboard creation, and using various data sources.

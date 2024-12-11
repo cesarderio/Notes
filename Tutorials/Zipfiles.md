@@ -1,3 +1,6 @@
+<img src="../assets/zip-file-format.png" alt="Alt Text" width="400">
+
+
 # Comprehensive Guide to Managing Compressed Files
 
 Compressed files are widely used for archiving, storing, and sharing data more efficiently. Different file formats offer various levels of compression and features. This guide will help you understand how to handle these files in Linux and Windows environments.

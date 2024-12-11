@@ -1,3 +1,5 @@
+<img src="../assets/GNOME.png" alt="Alt Text" width="400">
+
 # Guide to GNOME: Customization, Management, and Usage
 
 GNOME is a free and open-source desktop environment for Unix-like operating systems, known for its simplicity and ease of use. This guide helps users navigate through the installation, customization, and effective usage of GNOME.

@@ -1,3 +1,5 @@
+<img src="../assets/OpenStack-Logo.wine.png" alt="Alt Text" width="400">
+
 # OpenStack: Comprehensive Guide and Tutorial
 
 Learn the fundamentals of OpenStack, its components, setup, and management effectively.

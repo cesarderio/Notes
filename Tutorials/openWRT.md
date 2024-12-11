@@ -1,3 +1,5 @@
+<img src="../assets/Openwrt_logo_square.png" alt="Alt Text" width="400">
+
 # Install OpenWRT in VirtualBox VM
 
 Learn how to install OpenWRT in a VirtualBox virtual machine step by step.
