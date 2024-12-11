@@ -1,34 +1,71 @@
 # Python Basics Tutorial for Beginners
 
-## Introduction
+Python is a high-level, interpreted, and general-purpose programming language. It's known for its readability and efficiency, making it a popular choice for beginners and experts alike. This tutorial covers the basics of Python, including installation, syntax, data types, control structures, and functions.
+
+<br>
+
+### **Table of Contents**
+
+- [Overview](#overview)
+- [Getting Started with Python](#getting-started-with-python)
+  - [What is Python?](#what-is-python)
+  - [Installation](#installation)
+  - [Running Python](#running-python)
+- [Python Basics](#python-basics)
+  - [Syntax and Indentation](#syntax-and-indentation)
+  - [Variables and Data Types](#variables-and-data-types)
+  - [Control Structures](#control-structures)
+    - [If Statements](#if-statements)
+    - [Loops](#loops)
+  - [Functions](#functions)
+  - [Lists and Dictionaries](#lists-and-dictionaries)
+- [Advanced Python Concepts (Optional)](#advanced-python-concepts-optional)
+- [Best Practices](#best-practices)
+- [Conclusion](#conclusion)
+- [Further Learning](#further-learning)
+- [Contribution](#contribution)
+
+<br>
+
+## **Overview**
 
 Python is a high-level, interpreted, and general-purpose programming language. It's known for its readability and efficiency, making it a popular choice for beginners and experts alike. This tutorial covers the basics of Python, including installation, syntax, data types, control structures, and functions.
 
-## Getting Started with Python
+<br>
 
-### What is Python?
+## **Getting Started with Python**
+
+### **What is Python?**
 
 Python is a versatile language used for various applications, from web development to data science and artificial intelligence.
 
-### Installation
+### **Installation**
 
-- **Windows**: Download Python from the [official Python website](https://www.python.org/downloads/) and run the installer.
-- **Linux**: Python usually comes pre-installed. If not, install it using your package manager.
-- **macOS**: Python comes pre-installed, or you can use Homebrew: `brew install python`.
+| Platform  | Installation Method                                                                                   |
+|-----------|-------------------------------------------------------------------------------------------------------|
+| Windows   | Download Python from the [official Python website](https://www.python.org/downloads/) and run the installer. |
+| Linux     | Python usually comes pre-installed. If not, install it using your package manager.                   |
+| macOS     | Use Homebrew: `brew install python`.                                                                 |
 
-### Running Python
+### **Running Python**
 
-- **Interactive Shell**: Type `python` or `python3` in your terminal or command prompt.
-- **Python Scripts**: Write Python code in a file with a `.py` extension and run it using `python filename.py`.
+| Method                   | Description                                                                 |
+|--------------------------|-----------------------------------------------------------------------------|
+| Interactive Shell        | Type `python` or `python3` in your terminal or command prompt.             |
+| Python Scripts           | Write Python code in a file with a `.py` extension and run it using `python filename.py`. |
 
-## Python Basics
+<br>
 
-### Syntax and Indentation
+## **Python Basics**
+
+### **Syntax and Indentation**
 
 - Python uses indentation to define code blocks.
 - No need for semicolons at the end of statements.
 
-### Variables and Data Types
+<br>
+
+### **Variables and Data Types**
 
 - Variables are used to store data values.
 - Python has various data types: strings, integers, floats, booleans, lists, tuples, sets, and dictionaries.
@@ -40,9 +77,11 @@ my_float = 20.5
 my_bool = True
 ```
 
-### Control Structures
+<br>
 
-#### If Statements
+### **Control Structures**
+
+#### **If Statements**
 
 ```python
 if my_int > 5:
@@ -53,7 +92,7 @@ else:
     print("Less than 5")
 ```
 
-#### Loops
+#### **Loops**
 
 - **For Loop**:
 
@@ -70,7 +109,9 @@ else:
       my_int += 1
   ```
 
-### Functions
+<br>
+
+### **Functions**
 
 - Functions are defined using the `def` keyword.
 - Functions can have parameters and return values.
@@ -82,7 +123,9 @@ def greet(name):
 print(greet("Alice"))
 ```
 
-### Lists and Dictionaries
+<br>
+
+### **Lists and Dictionaries**
 
 - **Lists**: Ordered and changeable collections.
 
@@ -96,23 +139,77 @@ print(greet("Alice"))
   my_dict = {"name": "Alice", "age": 25}
   ```
 
-## Advanced Python Concepts (Optional)
+<br>
+
+## **Advanced Python Concepts (Optional)**
 
 - **List Comprehensions**: Concise way to create lists.
 - **Lambda Functions**: Small anonymous functions.
 - **Modules and Packages**: Organizing larger Python projects.
 
-## Best Practices
+<br>
+
+## **Best Practices**
 
 - **Code Readability**: Write clear and readable code.
 - **Consistent Naming Conventions**: Use meaningful and consistent naming.
 - **Commenting and Documentation**: Regularly comment and document your code.
 
-## Conclusion
+<br>
+
+## **Conclusion**
 
 Python's simplicity and power make it ideal for a wide range of applications. Understanding its basics lays the foundation for advanced programming and specialized fields like web development and data science.
 
-## Further Learning
+<br>
 
-- **Official Python Documentation**: Explore detailed documentation at [docs.python.org](https://docs.python.org/3/).
-- **Online Courses**: Platforms like Coursera, Udemy, and Codecademy offer Python courses.
+## **Further Learning**
+
+- [Official Python Documentation](https://docs.python.org/3/)
+- [Online Courses](https://www.coursera.org/, https://www.udemy.com/, https://www.codecademy.com/)
+
+<br>
+
+## **Contribution**
+
+Your contributions are highly encouraged to enhance this guide:
+
+- Fork the repository.
+- Create a new branch:
+
+    ```bash
+    git checkout -b my-awesome-feature
+    ```
+
+- Make your valuable changes.
+- Commit your changes:
+
+    ```bash
+    git commit -am 'Added some amazing features'
+    ```
+
+- Push to the branch:
+
+    ```bash
+    git push origin my-awesome-feature
+    ```
+
+- Create a new Pull Request targeting the `Notes` directory.
+
+Contributions are welcome! Feel free to open issues, suggest enhancements, or submit pull requests to improve this guide.
+
+<br>
+
+## **Author**
+
+- **Raphael Chookagian** | [GitHub Profile](https://github.com/cesar-group)
+
+## **Date of Latest Revision**
+
+- 12/10/2024
+
+## **License**
+
+- This guide is provided as-is without any warranties. Users are advised to review and understand the guide before executing any commands.
+
+- This project is licensed under the MIT License. See the LICENSE file for details.

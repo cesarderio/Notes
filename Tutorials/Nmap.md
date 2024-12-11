@@ -2,7 +2,7 @@
 
 ## Table of Contents
 
-- [Introduction](#introduction)
+- [Overview](#overview)
 - [What is Nmap?](#what-is-nmap)
   - [Overview](#overview)
 - [Getting Started with Nmap](#getting-started-with-nmap)

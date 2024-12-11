@@ -18,7 +18,7 @@ Learn the fundamentals of Git, a powerful version control system used for tracki
 - [Examples](#examples)
 - [Notes](#notes)
 - [Resources](#resources)
-- [Author](#author)
+- [Contribution](#contribution)
 
 <br>
 

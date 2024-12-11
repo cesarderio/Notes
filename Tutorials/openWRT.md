@@ -1,123 +1,166 @@
 # Install OpenWRT in VirtualBox VM
 
-## Step 1: Download and Prepare the OpenWRT Image
+Learn how to install OpenWRT in a VirtualBox virtual machine step by step.
 
-1. **Download OpenWRT x86 Image**:
-   - Go to the [OpenWRT downloads page](https://downloads.openwrt.org/releases/) and download the appropriate x86/64 image (e.g., `openwrt-19.07.6-x86-64-combined-ext4.img`).
+<br>
 
-2. **Convert the OpenWRT Image to VDI Format**:
-   - Open a command prompt or terminal.
-   - Navigate to your VirtualBox installation directory:
+### **Table of Contents**
 
-     ```bash
-     cd "%programfiles%/Oracle/Virtualbox"
-     ```
+- [Overview](#overview)
+- [Objectives](#objectives)
+- [Prerequisites](#prerequisites)
+- [Steps](#steps)
+  - [Download and Prepare the OpenWRT Image](#download-and-prepare-the-openwrt-image)
+  - [Create a New Virtual Machine in VirtualBox](#create-a-new-virtual-machine-in-virtualbox)
+  - [Configure the VM](#configure-the-vm)
+  - [Start the VM and Configure OpenWRT](#start-the-vm-and-configure-openwrt)
+  - [Access the Web Interface](#access-the-web-interface)
+- [Additional Tips](#additional-tips)
+- [Notes](#notes)
+- [Resources](#resources)
+- [Contribution](#contribution)
 
-   - Convert the downloaded image to VDI format:
+<br>
 
-     ```bash
-     vboxmanage.exe convertdd "%userprofile%\downloads\openwrt-19.07.6-x86-64-combined-ext4.img" "%userprofile%\downloads\openwrt.vdi"
-     ```
+## **Overview**
 
-3. **Resize the VDI File**:
-   - Resize the VDI file to increase its size (e.g., 512 MB):
+This tutorial provides a comprehensive guide to installing OpenWRT in a VirtualBox virtual machine, configuring it, and accessing its web interface.
 
-     ```bash
-     vboxmanage.exe modifyhd --resize 512 "%userprofile%\downloads\openwrt.vdi"
-     ```
+<br>
 
-## Step 2: Create a New Virtual Machine in VirtualBox
+## **Objectives**
 
-1. **Launch VirtualBox**:
-   - Open Oracle VM VirtualBox.
+By the end of this tutorial, you will:
 
-2. **Create a New VM**:
-   - Select "Machine" > "New".
-   - Fill in the details:
-     - Name: OpenWRT
-     - Machine Folder: `C:\VMs`
-     - Type: Linux
-     - Version: 2.6 / 3.x / 4.x (64-bit)
-     - Memory Size: 128 MB
-   - Select "Do not add a virtual hard disk".
-   - Click "Create".
+- Learn how to download and prepare the OpenWRT image.
+- Be able to set up a VirtualBox virtual machine for OpenWRT.
+- Understand how to configure and access OpenWRT's features.
 
-3. **Move the VDI File**:
-   - Move `openwrt.vdi` from the downloads folder to `C:\VMs\OpenWRT`.
+<br>
 
-## Step 3: Configure the VM
+## **Prerequisites**
 
-1. **Select the VM and Access Settings**:
-   - Select the newly created OpenWRT VM.
-   - Click on "Settings".
+To follow this tutorial, you should:
 
-2. **Set Up Storage**:
-   - Go to "Storage".
-   - Click on "Add Storage Attachment" > "Add Hard Disk" > "Choose existing disk".
-   - Browse to `C:\VMs\OpenWRT\openwrt.vdi` and select the file.
-   - Click "OK".
+- Have VirtualBox installed on your system.
+- Be familiar with basic command-line operations.
+- Have sufficient system resources to create and run a virtual machine.
 
-3. **Configure Network Adapters**:
-   - Go to "Network".
-   - **Adapter 1**: Set "Attached to" as "Bridged".
-   - **Adapter 2**: Enable the adapter and set "Attached to" as "Bridged".
-   - Click "OK".
+<br>
 
-## Step 4: Start the VM and Configure OpenWRT
+## **Steps**
 
-1. **Start the VM**:
-   - Ensure the OpenWRT VM is selected.
-   - Click "Start" > "Normal".
+### **Download and Prepare the OpenWRT Image**
 
-2. **Initial Setup in OpenWRT**:
-   - Wait for the text to stop scrolling in the VM console and press Enter.
-   - Set the root password:
+| Step                                | Description                                                                 | Command/Example                          |
+|-------------------------------------|-----------------------------------------------------------------------------|------------------------------------------|
+| Download OpenWRT image              | Visit the [OpenWRT downloads page](https://downloads.openwrt.org/releases/) and download the x86/64 image. | `openwrt-19.07.6-x86-64-combined-ext4.img` |
+| Convert image to VDI format         | Use `vboxmanage` to convert the image to VDI format.                       | `vboxmanage.exe convertdd <input> <output>` |
+| Resize the VDI file                 | Resize the VDI file for more storage space (e.g., 512 MB).                 | `vboxmanage.exe modifyhd --resize 512 <file>` |
 
-     ```bash
-     passwd
-     ```
+<br>
 
-   - Enter a new root password twice as prompted.
+### **Create a New Virtual Machine in VirtualBox**
 
-3. **Configure Network and Install Luci**:
-   - Set the LAN IP address:
+| Step                                | Description                                                                 | Example                                  |
+|-------------------------------------|-----------------------------------------------------------------------------|------------------------------------------|
+| Launch VirtualBox                   | Open Oracle VM VirtualBox.                                                 | N/A                                      |
+| Create a new VM                     | Fill in the details: name, type, version, and memory size.                 | `Name: OpenWRT, Memory: 128 MB`         |
+| Move the VDI file                   | Move the `openwrt.vdi` file to the VM folder.                              | `C:\VMs\OpenWRT`                       |
 
-     ```bash
-     uci set network.lan.ipaddr='192.168.0.251'
-     ```
+<br>
 
-   - Restart network services:
+### **Configure the VM**
 
-     ```bash
-     service network restart
-     ```
+| Step                                | Description                                                                 | Example                                  |
+|-------------------------------------|-----------------------------------------------------------------------------|------------------------------------------|
+| Add storage attachment              | Add the `openwrt.vdi` file to the VM's storage settings.                   | Use VirtualBox UI                        |
+| Configure network adapters          | Set network adapters for bridged mode.                                     | Adapter 1: Bridged, Adapter 2: Bridged   |
 
-   - Update OpenWRT packages:
+<br>
 
-     ```bash
-     opkg update
-     ```
+### **Start the VM and Configure OpenWRT**
 
-   - Install the Luci web UI:
+| Step                                | Description                                                                 | Command/Example                          |
+|-------------------------------------|-----------------------------------------------------------------------------|------------------------------------------|
+| Start the VM                        | Start the virtual machine in VirtualBox.                                   | Use VirtualBox UI                        |
+| Set root password                   | Set a password for the root user.                                          | `passwd`                                 |
+| Configure network and install Luci  | Set LAN IP, restart network, update packages, and install Luci.            | `uci set network.lan.ipaddr='192.168.0.251'` <br> `service network restart` <br> `opkg update` <br> `opkg install luci` |
 
-     ```bash
-     opkg install luci
-     ```
+<br>
 
-## Step 5: Access the Web Interface
+### **Access the Web Interface**
 
-1. **Open a Web Browser**:
-   - Navigate to the OpenWRT VM's IP address (e.g., `http://192.168.0.251`).
+| Step                                | Description                                                                 | Example                                  |
+|-------------------------------------|-----------------------------------------------------------------------------|------------------------------------------|
+| Open a browser                      | Access OpenWRT's web interface using its LAN IP address.                   | `http://192.168.0.251`                   |
+| Log in                              | Use the root username and the password set earlier.                        | Username: `root`, Password: `<your_pass>`|
 
-2. **Log in to OpenWRT**:
-   - At the login screen, enter the username `root` and the password you set earlier.
-   - Click the "Login" button.
+<br>
 
-3. **Enjoy OpenWRT**:
-   - You now have OpenWRT running in VirtualBox. Configure it as needed for your network setup.
-
-## Additional Tips
+## **Additional Tips**
 
 - **VirtualBox Version**: Ensure your VirtualBox is up to date for compatibility.
-- **Backup**: Regularly backup your VM.
-- **Documentation**: For more details or troubleshooting, refer to OpenWRT and VirtualBox documentation.
+- **Backup**: Regularly backup your VM to prevent data loss.
+- **Documentation**: Refer to OpenWRT and VirtualBox documentation for detailed configurations.
+
+<br>
+
+## **Notes**
+
+- **Pro Tip**: Allocate sufficient memory and storage to ensure smooth operation.
+- **Warning**: Misconfigured network settings can lead to connectivity issues.
+
+<br>
+
+## **Resources**
+
+- [OpenWRT Downloads Page](https://downloads.openwrt.org/releases/)
+- [VirtualBox Documentation](https://www.virtualbox.org/manual/)
+- [OpenWRT Official Documentation](https://openwrt.org/docs/start)
+
+<br>
+
+## **Contribution**
+
+Your contributions are highly encouraged to enhance this guide:
+
+- Fork the repository.
+- Create a new branch:
+
+    ```bash
+    git checkout -b my-awesome-feature
+    ```
+
+- Make your valuable changes.
+- Commit your changes:
+
+    ```bash
+    git commit -am 'Added some amazing features'
+    ```
+
+- Push to the branch:
+
+    ```bash
+    git push origin my-awesome-feature
+    ```
+
+- Create a new Pull Request targeting the `Notes` directory.
+
+Contributions are welcome! Feel free to open issues, suggest enhancements, or submit pull requests to improve this guide.
+
+<br>
+
+## **Author**
+
+- **Raphael Chookagian** | [GitHub Profile](https://github.com/cesar-group)
+
+## **Date of Latest Revision**
+
+- 12/10/2024
+
+## **License**
+
+- This guide is provided as-is without any warranties. Users are advised to review and understand the guide before executing any commands.
+
+- This project is licensed under the MIT License. See the LICENSE file for details.

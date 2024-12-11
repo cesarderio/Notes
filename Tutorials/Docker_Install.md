@@ -1,6 +1,6 @@
 # **How to Install Docker on Ubuntu**
 
-Docker is a platform for developing, shipping, and running applications inside containers. This guide will walk you through the steps to install Docker on Ubuntu.
+This tutorial will go through the steps to install Docker on Ubuntu OS. This tutorial can be used for most Linux distributions. Please see links and resources for more information.
 
 <br>
 
@@ -19,6 +19,12 @@ Docker is a platform for developing, shipping, and running applications inside c
   - [Step 9: Verify Docker Installation](#step-9-verify-docker-installation)
 - [Conclusion](#conclusion)
 - [Contribution](#contribution)
+
+<br>
+
+## **Overview**
+
+Docker is a platform for developing, shipping, and running applications inside containers. This guide will walk you through the steps to install Docker on Ubuntu.
 
 <br>
 

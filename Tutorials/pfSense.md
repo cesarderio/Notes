@@ -1,81 +1,184 @@
 # Setting Up pfSense Router in VirtualBox
 
-### Step 1: Download pfSense
+Learn how to set up a pfSense router in a VirtualBox virtual machine step by step.
 
-1. **Download the pfSense ISO**:
-   - Visit the [pfSense download page](https://www.pfsense.org/download/).
-   - Select the appropriate version (most likely the latest stable release).
-   - Choose the architecture (AMD64 for most users) and the installer type (CD Image (ISO) installer).
-   - Download the ISO file to your system.
+<br>
 
-### Step 2: Prepare VirtualBox
+### **Table of Contents**
 
-1. **Open VirtualBox**:
-   - Ensure you have Oracle VM VirtualBox installed on your system. If not, download and install it from the [VirtualBox website](https://www.virtualbox.org/).
+- [Overview](#overview)
+- [Objectives](#objectives)
+- [Prerequisites](#prerequisites)
+- [Steps](#steps)
+  - [Download pfSense](#download-pfsense)
+  - [Prepare VirtualBox](#prepare-virtualbox)
+  - [Configure Network Adapters](#configure-network-adapters)
+  - [Mount pfSense ISO](#mount-pfsense-iso)
+  - [Install pfSense](#install-pfsense)
+  - [Initial Setup of pfSense](#initial-setup-of-pfsense)
+  - [Access pfSense Web Interface](#access-pfsense-web-interface)
+- [Additional Tips](#additional-tips)
+- [Notes](#notes)
+- [Resources](#resources)
+- [Contribution](#contribution)
 
-2. **Create a New Virtual Machine**:
-   - Click on "New" to create a new VM.
-   - Name your VM (e.g., "pfSense Router").
-   - For the type, select "BSD"; for the version, select "FreeBSD (64-bit)".
+<br>
 
-3. **Allocate Memory**:
-   - Allocate an appropriate amount of RAM. 512 MB should be sufficient for basic pfSense setup.
+## **Overview**
 
-4. **Create a Virtual Hard Disk**:
-   - Choose to create a virtual hard disk now.
-   - Select VDI (VirtualBox Disk Image) as the hard disk file type.
-   - Choose dynamically allocated or fixed size as per your preference.
-   - Allocate disk space (8 GB should be enough for basic use).
+This tutorial provides a comprehensive guide to setting up a pfSense router in a VirtualBox virtual machine, configuring it, and accessing its web interface for advanced network management.
 
-### Step 3: Configure Network Adapters
+<br>
 
-1. **Configure First Network Adapter (NAT Network)**:
-   - With your pfSense VM selected, go to "Settings" -> "Network".
-   - In the "Adapter 1" tab, ensure it's enabled and attached to "NAT".
+## **Objectives**
 
-2. **Configure Second Network Adapter (Internal Network/Host-Only)**:
-   - Go to the "Adapter 2" tab.
-   - Enable the adapter.
-   - Set "Attached to" to "Internal Network" or "Host-Only Adapter" depending on your needs.
-   - For "Internal Network", you may leave the name as "intnet" or choose/create another internal network name.
+By the end of this tutorial, you will:
 
-### Step 4: Mount pfSense ISO
+- Learn how to download and prepare the pfSense ISO.
+- Be able to set up a VirtualBox virtual machine for pfSense.
+- Understand how to configure and access pfSense's features.
 
-1. **Attach pfSense ISO to VM**:
-   - Go to "Settings" -> "Storage".
-   - Next to "Controller: IDE", click on the CD icon to add an optical drive.
-   - Select the pfSense ISO file you downloaded earlier.
+<br>
 
-### Step 5: Install pfSense
+## **Prerequisites**
 
-1. **Start the VM and Install pfSense**:
-   - Click "Start" to boot up your VM.
-   - The pfSense installer should load.
-   - Follow the on-screen instructions to install pfSense.
-   - When prompted, accept the default settings unless you have specific custom configurations in mind.
-   - Once installation is complete, pfSense may ask to reboot.
+To follow this tutorial, you should:
 
-### Step 6: Initial Setup of pfSense
+- Have VirtualBox installed on your system.
+- Be familiar with basic command-line operations.
+- Have sufficient system resources to create and run a virtual machine.
 
-1. **Complete Initial Setup**:
-   - After rebooting, pfSense will ask you to assign interfaces.
-   - The WAN interface will typically be `em0` (first adapter, NAT), and the LAN interface will be `em1` (second adapter, Internal Network/Host-Only).
-   - Proceed with the initial setup, configuring interfaces as necessary.
-   - Once completed, pfSense will display the LAN interface's IP address.
+<br>
 
-### Step 7: Access pfSense Web Interface
+## **Steps**
 
-1. **Access the Web Interface**:
-   - From a host machine or a VM within the same internal network/host-only network, open a web browser.
-   - Navigate to the IP address displayed by pfSense on the LAN interface.
-   - The default username is `admin` and the password is `pfsense`.
+### **Download pfSense**
 
-2. **Final Configuration**:
-   - Use the web interface to complete the setup wizard.
-   - Configure your firewall rules, DHCP server settings, NAT, and other necessary settings.
+| Step                          | Description                                                                 | Example                                  |
+|-------------------------------|-----------------------------------------------------------------------------|------------------------------------------|
+| Download pfSense ISO          | Visit the [pfSense download page](https://www.pfsense.org/download/) and download the latest stable release ISO. | `pfSense-CE-2.5.2-RELEASE-amd64.iso` |
 
-## Additional Tips
+<br>
 
-- **Backup**: Always backup your VM before making significant changes.
-- **Documentation**: Refer to the pfSense and VirtualBox documentation for additional details or troubleshooting.
-- **Testing**: Use this setup in a controlled environment for testing and learning purposes.
+### **Prepare VirtualBox**
+
+| Step                          | Description                                                                 | Example                                  |
+|-------------------------------|-----------------------------------------------------------------------------|------------------------------------------|
+| Launch VirtualBox             | Open Oracle VM VirtualBox.                                                 | N/A                                      |
+| Create a new VM               | Fill in the details: name, type, version, and memory size.                 | `Name: pfSense Router, Type: BSD, Version: FreeBSD (64-bit)` |
+| Allocate memory               | Allocate RAM for the VM.                                                   | `512 MB`                                 |
+| Create a virtual hard disk    | Select VDI as the disk type and allocate 8 GB of space.                    | Use VirtualBox UI                        |
+
+<br>
+
+### **Configure Network Adapters**
+
+| Step                          | Description                                                                 | Example                                  |
+|-------------------------------|-----------------------------------------------------------------------------|------------------------------------------|
+| Configure Adapter 1           | Attach to NAT network.                                                     | Adapter 1: NAT                          |
+| Configure Adapter 2           | Attach to Internal Network or Host-Only.                                   | Adapter 2: Internal Network (e.g., intnet) |
+
+<br>
+
+### **Mount pfSense ISO**
+
+| Step                          | Description                                                                 | Example                                  |
+|-------------------------------|-----------------------------------------------------------------------------|------------------------------------------|
+| Attach pfSense ISO            | Add the pfSense ISO file to the VM's storage settings.                     | Use VirtualBox UI                        |
+
+<br>
+
+### **Install pfSense**
+
+| Step                          | Description                                                                 | Example                                  |
+|-------------------------------|-----------------------------------------------------------------------------|------------------------------------------|
+| Start the VM                  | Boot the VM and launch the pfSense installer.                              | Use VirtualBox UI                        |
+| Follow installation steps     | Use the defaults or customize as needed during installation.               | Follow on-screen instructions            |
+| Reboot the VM                 | Reboot after installation completes.                                       | Use VirtualBox UI                        |
+
+<br>
+
+### **Initial Setup of pfSense**
+
+| Step                          | Description                                                                 | Example                                  |
+|-------------------------------|-----------------------------------------------------------------------------|------------------------------------------|
+| Assign interfaces             | Configure WAN (`em0`, NAT) and LAN (`em1`, Internal).                       | Follow on-screen instructions            |
+| Note LAN IP address           | Record the LAN interface's IP address displayed by pfSense.                | `192.168.1.1`                            |
+
+<br>
+
+### **Access pfSense Web Interface**
+
+| Step                          | Description                                                                 | Example                                  |
+|-------------------------------|-----------------------------------------------------------------------------|------------------------------------------|
+| Open a browser                | Navigate to the LAN IP address displayed by pfSense.                       | `http://192.168.1.1`                     |
+| Log in                        | Use the default credentials to log in.                                     | Username: `admin`, Password: `pfsense`   |
+| Complete setup wizard         | Configure firewall rules, NAT, and other settings as needed.               | Use pfSense Web Interface                |
+
+<br>
+
+## **Additional Tips**
+
+- **Backup**: Regularly backup your VM to prevent data loss.
+- **Documentation**: Refer to pfSense and VirtualBox documentation for detailed configurations.
+
+<br>
+
+## **Notes**
+
+- **Pro Tip**: Allocate sufficient memory and storage to ensure smooth operation.
+- **Warning**: Misconfigured network settings can lead to connectivity issues.
+
+<br>
+
+## **Resources**
+
+- [pfSense Downloads Page](https://www.pfsense.org/download/)
+- [VirtualBox Documentation](https://www.virtualbox.org/manual/)
+- [pfSense Official Documentation](https://docs.netgate.com/pfsense/en/latest/)
+
+<br>
+
+## **Contribution**
+
+Your contributions are highly encouraged to enhance this guide:
+
+- Fork the repository.
+- Create a new branch:
+
+    ```bash
+    git checkout -b my-awesome-feature
+    ```
+
+- Make your valuable changes.
+- Commit your changes:
+
+    ```bash
+    git commit -am 'Added some amazing features'
+    ```
+
+- Push to the branch:
+
+    ```bash
+    git push origin my-awesome-feature
+    ```
+
+- Create a new Pull Request targeting the `Notes` directory.
+
+Contributions are welcome! Feel free to open issues, suggest enhancements, or submit pull requests to improve this guide.
+
+<br>
+
+## **Author**
+
+- **Raphael Chookagian** | [GitHub Profile](https://github.com/cesar-group)
+
+## **Date of Latest Revision**
+
+- 12/10/2024
+
+## **License**
+
+- This guide is provided as-is without any warranties. Users are advised to review and understand the guide before executing any commands.
+
+- This project is licensed under the MIT License. See the LICENSE file for details.

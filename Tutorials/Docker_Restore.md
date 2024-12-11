@@ -1,15 +1,12 @@
 # **Restoring and Redeploying Docker Containers from Backups**
 
-<br>
-
-## **Introduction**
-
-Restoring Docker containers from backups is essential for quickly recovering from data loss or replicating your Docker environment on another system. This tutorial will guide you through restoring Docker images, volumes, and redeploying containers using `docker-compose`.
+This tutorial will cover creating and restoring Docker containers.
 
 <br>
 
 ### **Table of Contents**
 
+- [Overview](#overview)
 - [Prerequisites](#prerequisites)
 - [Step-by-Step Guide](#step-by-step-guide)
   - [Step 1: Restore Docker Images](#step-1-restore-docker-images)
@@ -17,6 +14,12 @@ Restoring Docker containers from backups is essential for quickly recovering fro
   - [Step 3: Redeploy Containers](#step-3-redeploy-containers)
 - [Conclusion](#conclusion)
 - [Contribution](#contribution)
+
+<br>
+
+## **Overview**
+
+Restoring Docker containers from backups is essential for quickly recovering from data loss or replicating your Docker environment on another system. This tutorial will guide you through restoring Docker images, volumes, and redeploying containers using `docker-compose`.
 
 <br>
 

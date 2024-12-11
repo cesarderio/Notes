@@ -2,7 +2,34 @@
 
 Compressed files are widely used for archiving, storing, and sharing data more efficiently. Different file formats offer various levels of compression and features. This guide will help you understand how to handle these files in Linux and Windows environments.
 
-## Common Compressed File Types
+<br>
+
+### **Table of Contents**
+
+- [Overview](#overview)
+- [Common Compressed File Types](#common-compressed-file-types)
+- [Managing Compressed Files in Linux](#managing-compressed-files-in-linux)
+  - [.zip Files](#zip-files)
+  - [.7z Files](#7z-files)
+  - [.tar.gz Files](#targz-files)
+  - [.tar.bz2 Files](#tarbz2-files)
+  - [.gz Files](#gz-files)
+  - [.bz2 Files](#bz2-files)
+- [Managing Compressed Files in Windows](#managing-compressed-files-in-windows)
+  - [7-Zip for Various Formats](#7-zip-for-various-formats)
+- [Additional Tips](#additional-tips)
+- [Resources](#resources)
+- [Contribution](#contribution)
+
+<br>
+
+## **Overview**
+
+Compressed files reduce storage space and make data transfer more efficient. This guide covers common file formats, their usage, and methods for managing them on Linux and Windows systems.
+
+<br>
+
+## **Common Compressed File Types**
 
 1. **.zip**: Widely used format, supported natively by many operating systems.
 2. **.7z (7-Zip)**: Known for high compression ratio, uses LZMA and LZMA2 compression.
@@ -13,9 +40,11 @@ Compressed files are widely used for archiving, storing, and sharing data more e
 7. **.gz**: Compressed with gzip, usually single files.
 8. **.bz2**: Compressed with bzip2, usually single files.
 
-## Managing Compressed Files in Linux
+<br>
 
-### 1. .zip Files
+## **Managing Compressed Files in Linux**
+
+### **.zip Files**
 
 - **To Extract**:
 
@@ -29,7 +58,9 @@ Compressed files are widely used for archiving, storing, and sharing data more e
   zip -r archive_name.zip folder_or_file_to_compress
   ```
 
-### 2. .7z Files
+<br>
+
+### **.7z Files**
 
 - Requires `p7zip` package.
 - **To Extract**:
@@ -44,7 +75,9 @@ Compressed files are widely used for archiving, storing, and sharing data more e
   7z a archive_name.7z folder_or_file_to_compress
   ```
 
-### 3. .tar.gz Files
+<br>
+
+### **.tar.gz Files**
 
 - **To Extract**:
 
@@ -58,7 +91,9 @@ Compressed files are widely used for archiving, storing, and sharing data more e
   tar -czvf archive_name.tar.gz folder_or_file_to_compress
   ```
 
-### 4. .tar.bz2 Files
+<br>
+
+### **.tar.bz2 Files**
 
 - **To Extract**:
 
@@ -72,7 +107,9 @@ Compressed files are widely used for archiving, storing, and sharing data more e
   tar -cjvf archive_name.tar.bz2 folder_or_file_to_compress
   ```
 
-### 5. .gz Files
+<br>
+
+### **.gz Files**
 
 - **To Extract**:
 
@@ -86,7 +123,9 @@ Compressed files are widely used for archiving, storing, and sharing data more e
   gzip filename
   ```
 
-### 6. .bz2 Files
+<br>
+
+### **.bz2 Files**
 
 - **To Extract**:
 
@@ -100,18 +139,86 @@ Compressed files are widely used for archiving, storing, and sharing data more e
   bzip2 filename
   ```
 
-## Managing Compressed Files in Windows
+<br>
 
-Windows natively supports `.zip` files, but for other formats, third-party tools like 7-Zip are recommended.
+## **Managing Compressed Files in Windows**
 
-### 7-Zip for Various Formats
+### **7-Zip for Various Formats**
 
-- **7-Zip Installation**: Download and install from [7-Zip's official website](https://www.7-zip.org/).
-- **To Extract (General)**: Right-click the file → 7-Zip → Extract Here.
-- **To Create (General)**: Right-click the folder/file → 7-Zip → Add to archive.
+- **7-Zip Installation**:
+  Download and install from [7-Zip's official website](https://www.7-zip.org/).
 
-## Additional Tips
+- **To Extract (General)**:
+  Right-click the file → 7-Zip → Extract Here.
 
-- **Choosing Format**: Consider the level of compression needed and the software available to your audience. `.zip` is universal but may not offer the best compression.
-- **Secure Compression**: Some formats like `.7z` support password encryption for added security.
-- **Large Files**: For very large archives, consider using a format that supports multi-part archives, like `.7z` or `.rar`.
+- **To Create (General)**:
+  Right-click the folder/file → 7-Zip → Add to archive.
+
+<br>
+
+## **Additional Tips**
+
+- **Choosing Format**:
+  Consider the level of compression needed and the software available to your audience. `.zip` is universal but may not offer the best compression.
+
+- **Secure Compression**:
+  Some formats like `.7z` support password encryption for added security.
+
+- **Large Files**:
+  For very large archives, consider using a format that supports multi-part archives, like `.7z` or `.rar`.
+
+<br>
+
+## **Resources**
+
+- [7-Zip Official Website](https://www.7-zip.org/)
+- [GNU tar Documentation](https://www.gnu.org/software/tar/)
+- [gzip Manual](https://www.gnu.org/software/gzip/manual/gzip.html)
+
+<br>
+
+## **Contribution**
+
+Your contributions can make these scripts even better:
+
+- Fork the repository.
+
+- Create a new branch:
+
+  ```bash
+  git checkout -b my-awesome-feature
+  ```
+
+- Make your invaluable changes.
+
+- Commit your changes:
+
+  ```bash
+  git commit -am 'Added some amazing features'
+  ```
+
+- Push to the branch:
+
+  ```bash
+  git push origin my-awesome-feature
+  ```
+
+- Create a new Pull Request targeting the Notes directory.
+
+Contributions are welcome! Feel free to open issues, suggest enhancements, or submit pull requests to improve the script.
+
+<br>
+
+## **Author**
+
+- **Raphael Chookagian** | [GitHub Profile](https://github.com/cesar-group)
+
+## **Date of Latest Revision**
+
+- 12/09/2024
+
+## **License**
+
+- This script is provided as-is without any warranties. Users are advised to review and understand the script before executing it.
+
+- This project is licensed under the MIT License. See the LICENSE file for details.
