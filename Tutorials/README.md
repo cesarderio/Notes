@@ -64,8 +64,6 @@ Each tutorial in the repository is a standalone document. Simply open the `.md` 
 
 <summary>Click to expand the list of tutorials</summary>
 
-
-
 <br>
 
 ## Cloud Computing
@@ -73,7 +71,6 @@ Each tutorial in the repository is a standalone document. Simply open the `.md` 
 - [AWS Cloud Services Tutorial](./AWS.md): Tutorial covering AWS Cloud Services.
 - [Cloud Networks Tutorial](./Clouds.md): Explore cloud computing fundamentals and learn about various cloud platforms and services.
 - [Cloud Security Tutorial](./Cloud_Security): Discover essential cloud security principles and frameworks.
-- [NextCloud Tutorial](./NextCloud.md): Set up and use NextCloud for secure file storage and collaboration.
 - [OpenStack Tutorial](./OpenStack): Learn how to deploy, configure, and manage OpenStack for creating and managing private and public clouds.
 - [VPC Tutorial](./VPC.md): Understand Virtual Private Clouds and their applications in modern networking.
 
@@ -95,12 +92,14 @@ Each tutorial in the repository is a standalone document. Simply open the `.md` 
 
 ## Containers
 
+- [CasaOS Tutorial](./CasaOS.md): Set up and use CasaOS for managing smart home devices and services seamlessly.
 - [Containers Tutorial](./Dokube.md): Explore containerization with Docker and Kubernetes.
 - [Docker Tutorial](./Docker.md): Get started with Docker containers for application deployment.
 - [Docker Installation Tutorial](./Docker_Install.md): Learn how to install Docker on different platforms.
 - [Docker Backup Tutorial](./Docker_Backup.md): Learn to back up Docker containers and configurations.
 - [Docker Restore Tutorial](./Docker_Restore.md): Guide to restoring Docker images, volumes, and configurations.
 - [Kubernetes Tutorial](./Kubernetes.md): An introduction to managing containerized applications with Kubernetes.
+- [NextCloud Tutorial](./NextCloud.md): Set up and use NextCloud for secure file storage and collaboration.
 - [Portainer Tutorial](./Portainer.md): Manage Docker environments easily with Portainer.
 
 <br>
@@ -132,43 +131,6 @@ Each tutorial in the repository is a standalone document. Simply open the `.md` 
 
 <br>
 
-## Networks
-
-### Networking
-
-- [CIDR](./CIDR.md): Classless Inter-Domain Routing is a method for allocating IP addresses that improves the efficiency of data routing on the internet.
-- [Networks Tutorial](./Networks.md): Understand key networking concepts and practices.
-- [Network Routing](./Network_Routing.md):
-- [RDP Tutorial](./RDP.md): Configure and use Remote Desktop Protocol for Linux systems.
-- [Traffic Mirroring Tutorial](./Traffic_Mirroring.md): Learn about SPAN and TAP for real-time traffic monitoring.
-
-### Firewalls & Routing
-
-- [pfSense Tutorial](./pfSense.md): Deploy pfSense as a firewall or router for network security.
-- [OPNsense Tutorial](./OPNsense.md): Deploy and manage firewalls and network security with OPNsense.
-- [openWRT Tutorial](./openWRT.md): Set up and configure openWRT for advanced router management.
-- [NAT Networking Tutorial](./NAT_Networking.md): Demystify NAT and its role in networking.
-
-<br>
-
-## Security
-
-### Tools & Techniques
-
-- [Aircrack-ng Tutorial](./Aircrack-ng.md): Use Aircrack-ng for Wi-Fi security testing and assessment.
-- [Burpsuite Tutorial](./Burpsuite.md): Learn to test web application security with Burpsuite.
-- [Medusa Tutorial](./Medusa.md): Automate brute force testing and penetration tasks with Medusa.
-- [Metasploit Tutorial](./Metasploit.md): Explore the capabilities of the Metasploit framework for penetration testing.
-- [Nmap Tutorial](./Nmap.md): Learn how to discover networks and audit security using Nmap.
-- [Radius Tutorial](./Radius.md): Centralized security with RADIUS authentication.
-
-### Monitoring & Analysis
-
-- [Security Tools Tutorial](./Sec_Tools.md): A guide to essential cybersecurity tools and best practices.
-- [Wireshark Tutorial](./Wireshark.md): Master network protocol analysis using Wireshark.
-
-<br>
-
 ## Development & Programming
 
 ### Programming Languages & Scripting
@@ -189,7 +151,6 @@ Each tutorial in the repository is a standalone document. Simply open the `.md` 
 ### Frameworks & Libraries
 
 - [React JavaScript Tutorial](./React.md): Dive into React to create reusable components and build modern, responsive user interfaces.
-- [nginx Tutorial](./nginx.md): Set up and manage high-performance web servers using NGINX.
 
 ### Version Control
 
@@ -200,13 +161,50 @@ Each tutorial in the repository is a standalone document. Simply open the `.md` 
 
 <br>
 
+## Network
+
+### Networking
+
+- [CIDR](./CIDR.md): Classless Inter-Domain Routing is a method for allocating IP addresses that improves the efficiency of data routing on the internet.
+- [Networks Tutorial](./Networks.md): Understand key networking concepts and practices.
+- [Network Routing](./Network_Routing.md):
+- [RDP Tutorial](./RDP.md): Configure and use Remote Desktop Protocol for Linux systems.
+- [Traffic Mirroring Tutorial](./Traffic_Mirroring.md): Learn about SPAN and TAP for real-time traffic monitoring.
+- [VPN Tutorial](./VPN.md): Enhance secure connectivity with VPN tunnels.
+
+### Firewalls & Routing
+
+- [pfSense Tutorial](./pfSense.md): Deploy pfSense as a firewall or router for network security.
+- [OPNsense Tutorial](./OPNsense.md): Deploy and manage firewalls and network security with OPNsense.
+- [openWRT Tutorial](./openWRT.md): Set up and configure openWRT for advanced router management.
+- [NAT Networking Tutorial](./NAT_Networking.md): Demystify NAT and its role in networking.
+
+<br>
+
 ## Resources and Utilities
 
-- [CasaOS Tutorial](./CasaOS.md): Set up and use CasaOS for managing smart home devices and services seamlessly.
-- [Formatting Tutorial](./Formatting.md): Learn to format drives with different file systems.
-- [Gnome Tutorial](./Gnome.md): Customize and optimize the GNOME desktop environment for productivity.
 - [Kali Linux Tutorial](./Kali.md): Explore the tools and techniques for ethical hacking and penetration testing with Kali Linux.
+- [Linux Commands Tutorial](./Linux_Cmds.md): References, practical examples, and best practices for efficient Linux system management.
 - [Raspberry Pi Backup Image Tutorial](./RPi_Backup_img.md): Guide to backing up Raspberry Pi SD cards.
+
+<br>
+
+## Security
+
+### Tools & Techniques
+
+- [Aircrack-ng Tutorial](./Aircrack-ng.md): Use Aircrack-ng for Wi-Fi security testing and assessment.
+- [Burpsuite Tutorial](./Burpsuite.md): Learn to test web application security with Burpsuite.
+- [Medusa Tutorial](./Medusa.md): Automate brute force testing and penetration tasks with Medusa.
+- [Metasploit Tutorial](./Metasploit.md): Explore the capabilities of the Metasploit framework for penetration testing.
+- [Nmap Tutorial](./Nmap.md): Learn how to discover networks and audit security using Nmap.
+- [Radius Tutorial](./Radius.md): Centralized security with RADIUS authentication.
+- [SOC2 Tutorial](./SOC2.md): SOC 2 compliance is a critical cybersecurity framework focusing on managing data security and privacy.
+
+### Monitoring & Analysis
+
+- [Security Tools Tutorial](./Sec_Tools.md): A guide to essential cybersecurity tools and best practices.
+- [Wireshark Tutorial](./Wireshark.md): Master network protocol analysis using Wireshark.
 
 <br>
 
@@ -214,13 +212,23 @@ Each tutorial in the repository is a standalone document. Simply open the `.md` 
 
 - [Chron jobs Tutorial](./Chron.md): Schedule and automate tasks effectively using Cron jobs in Linux.
 - [Clonezilla Tutorial](./Clonezilla.md): Learn to clone and back up disks using Clonezilla.
+- [Formatting Tutorial](./Formatting.md): Learn to format drives with different file systems.
+- [Gnome Tutorial](./Gnome.md): Customize and optimize the GNOME desktop environment for productivity.
 - [System Administration Tutorial](./SysAd.md): Essential skills and practices for managing systems effectively.
-- [Group Policy Tutorial](./Group_Policy.md): Centralized management with Group Policies in Active Directory.
+
+<br>
+
+## Web Servers
+
+- [nginx Tutorial](./nginx.md): Set up and manage high-performance web servers using NGINX.
 
 <br>
 
 ## **Windows-Specific Tutorials**
 
+- [Domain Controller Tutorial](./Domain_Controller.md): Manage centralized authentication and policies with domain controllers.
+- [Group Policy Tutorial](./Group_Policy.md): Centralized management with Group Policies in Active Directory.
+- [Windows Active Directory Tutorial](./Windows_Active_Dir.md): Explore Active Directory for advanced network management.
 - [Windows CLi & SMB Tutorial](./WCLi.md): Explore essential Windows command line tools for system management and troubleshooting, and understand the role of SMB ports in network communication.
 - [Windows Defender Tutorial](./Tutorials/Windows_Security.md): Learn how to use Windows Defender Security Center and Event Viewer to secure and maintain your system.
 - [Windows Malware Remediation Tutorial](./Tutorials/Windows_MalwareRm.md): Steps and tools to remove malware from a Windows PC.
