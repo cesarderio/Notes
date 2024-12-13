@@ -232,7 +232,7 @@ Each tutorial in the repository is a standalone document. Simply open the `.md` 
 
 ## Web Servers
 
-- [nginx Tutorial](./nginx.md): Set up and manage high-performance web servers using NGINX.
+- [Nginx Tutorial](./Nginx.md): Set up and manage high-performance web servers using Nginx.
 
 <br>
 
