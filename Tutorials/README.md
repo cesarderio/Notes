@@ -69,6 +69,8 @@ Each tutorial in the repository is a standalone document. Simply open the `.md` 
 ## Cloud Computing
 
 - [AWS Cloud Services Tutorial](./AWS.md): Tutorial covering AWS Cloud Services.
+- [AWS CloudWatchers Tutorial](./AWS_Cloudwatch.md): Tutorial covering AWS CloudWatch.
+- [AWS GaurdDuty Tutorial](./AWS_GaurdDuty.md): Tutorial covering AWS GaurdDuty.
 - [Cloud Networks Tutorial](./Clouds.md): Explore cloud computing fundamentals and learn about various cloud platforms and services.
 - [Cloud Security Tutorial](./Cloud_Security): Discover essential cloud security principles and frameworks.
 - [OpenStack Tutorial](./OpenStack): Learn how to deploy, configure, and manage OpenStack for creating and managing private and public clouds.
@@ -117,6 +119,7 @@ Each tutorial in the repository is a standalone document. Simply open the `.md` 
 
 ### Databases
 
+- [MongoDB Tutorial](./MongoDB.md): Tutorial for MongoDB management.
 - [MySQL Tutorial](./MySQL.md): Learn to manage relational databases with MySQL.
 - [NoSQL Tutorial](./NoSQL.md): Dive into the world of NoSQL databases and their applications.
 - [PostgreSQL Tutorial](./PostgreSQL.md): Dive into advanced database management with PostgreSQL.
@@ -135,6 +138,7 @@ Each tutorial in the repository is a standalone document. Simply open the `.md` 
 
 ### Programming Languages & Scripting
 
+- [Arduino Tutorial](./Arduino.md): Learn to code with Arduino.
 - [Bash Tutorial](./Bash.md): Automate tasks and manage system operations efficiently with Bash scripting fundamentals.
 - [JavaScript Tutorial](./Javascript.md): Learn JavaScript basics and techniques for building interactive and dynamic web applications.
 - [PowerShell Tutorial](./Powershell.md): Streamline system management and scripting tasks with PowerShell's robust features.
@@ -183,6 +187,8 @@ Each tutorial in the repository is a standalone document. Simply open the `.md` 
 
 ## Resources and Utilities
 
+- [Figma Tutorial](./Figma.md): A cloud-based design tool used for creating user interfaces, prototypes, and collaborative design projects.
+- [FileZilla](./FileZilla.md): A free and open-source FTP client used for transferring files between a local computer and a remote server.
 - [Kali Linux Tutorial](./Kali.md): Explore the tools and techniques for ethical hacking and penetration testing with Kali Linux.
 - [Linux Commands Tutorial](./Linux_Cmds.md): References, practical examples, and best practices for efficient Linux system management.
 - [Raspberry Pi Backup Image Tutorial](./RPi_Backup_img.md): Guide to backing up Raspberry Pi SD cards.
@@ -195,14 +201,20 @@ Each tutorial in the repository is a standalone document. Simply open the `.md` 
 
 - [Aircrack-ng Tutorial](./Aircrack-ng.md): Use Aircrack-ng for Wi-Fi security testing and assessment.
 - [Burpsuite Tutorial](./Burpsuite.md): Learn to test web application security with Burpsuite.
+- [IDS & IPS Tutorial](./IDS_IPS.md):
 - [Medusa Tutorial](./Medusa.md): Automate brute force testing and penetration tasks with Medusa.
 - [Metasploit Tutorial](./Metasploit.md): Explore the capabilities of the Metasploit framework for penetration testing.
 - [Nmap Tutorial](./Nmap.md): Learn how to discover networks and audit security using Nmap.
+- [PKI Tutorial](./PKI.md): Learn how to
 - [Radius Tutorial](./Radius.md): Centralized security with RADIUS authentication.
+- [Remote Code Execution Tutorial](./Remote_Code_Execution.md): Remote code execution (RCE) and cybersecurity.
 - [SOC2 Tutorial](./SOC2.md): SOC 2 compliance is a critical cybersecurity framework focusing on managing data security and privacy.
+- [Threat Modeling Tutorial](./Threat_Model.md): Exploring threat modeling and its part in CyberSecurity.
 
 ### Monitoring & Analysis
 
+- [Splunk CAR](./SPLUNK_CAR.md): Cloud Attack Reconstruction with Splunk.
+- [SIEM & SOAR](./SIEM_SOAR.md): Splunk's Security Information and Event Management (SIEM) with Security Orchestration, Automation, and Response (SOAR).
 - [Security Tools Tutorial](./Sec_Tools.md): A guide to essential cybersecurity tools and best practices.
 - [Wireshark Tutorial](./Wireshark.md): Master network protocol analysis using Wireshark.
 
